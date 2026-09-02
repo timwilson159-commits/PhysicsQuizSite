@@ -57,10 +57,13 @@ Opens at `http://localhost:5173`.
 
 ## Deploying
 
-New Netlify site: `npm run build` → deploy `dist/`, SPA fallback
-(`/* → /index.html`, already in `netlify.toml`). Set the two `VITE_SUPABASE_*`
-environment variables in Netlify. A push to `main` deploys to production
-immediately — there is no staging environment and no draft gate on content.
+New Netlify site connected to the GitHub repo: `npm run build` → deploy `dist/`,
+SPA fallback (`/* → /index.html`, in `netlify.toml`). Set the two `VITE_SUPABASE_*`
+variables in Netlify → Site configuration → Environment variables (all scopes),
+then trigger a fresh deploy — Vite bakes them in at build time, so simply adding
+them without rebuilding leaves the app on a white screen ("supabaseUrl is
+required"). A push to `main` deploys to production immediately — there is no
+staging environment and no draft gate on content.
 
 ## Teacher view
 
