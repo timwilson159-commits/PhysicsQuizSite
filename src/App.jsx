@@ -932,14 +932,6 @@ function useLeaderboard(scope) {
   return { rows, loading, reload };
 }
 
-async function submitAttempt({ userCode, scopeType, scopeId, questionSnapshot, answers, correct, total }) {
-  const { error } = await supabase.from("attempts").insert({
-    user_code: userCode, scope_type: scopeType, scope_id: scopeId,
-    question_snapshot: questionSnapshot, answers, correct, total
-  });
-  if (error) console.error("Submit attempt error:", error);
-}
-
 function useFlags() {
   const [flags, setFlags] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -1527,6 +1519,53 @@ function PracticeSession({ scopeType, scopeId, scopeLabel, color, pool, count, u
   const [finalScore, setFinalScore] = useState(null);
   const [seed] = useState(() => Math.random().toString(36).slice(2));
 
+  // Autosave: a student who answers a few questions then gets distracted or
+  // runs out of time (never hitting Submit) previously left nothing recorded
+  // at all. Instead of one insert at the end, every checked/revealed question
+  // saves progress into the same attempt row (created on the first one),
+  // so an abandoned session is still captured -- just with a smaller total
+  // than the student originally chose. `finishSession` does one final save
+  // of the same row rather than a separate insert.
+  const attemptRowId = useRef(null);
+  const savingRef = useRef(false);
+  const saveAgainRef = useRef(false);
+  const latestRef = useRef(null);
+  latestRef.current = { questions, answers, revealedIds };
+
+  const persistProgress = async () => {
+    if (savingRef.current) { saveAgainRef.current = true; return; }
+    savingRef.current = true;
+    try {
+      do {
+        saveAgainRef.current = false;
+        const { questions: qs, answers: ans, revealedIds: rev } = latestRef.current;
+        const completedQuestions = qs.filter(qq => rev[qq.id]);
+        if (completedQuestions.length === 0) break; // nothing checked yet -- nothing worth saving
+        const score = calcScore(completedQuestions, ans) || { correct: 0, total: 0 };
+        if (!attemptRowId.current) {
+          const { data, error } = await supabase.from("attempts").insert({
+            user_code: user.code, scope_type: scopeType, scope_id: scopeId,
+            question_snapshot: qs, answers: ans, correct: score.correct, total: score.total,
+          }).select("id").single();
+          if (error) { console.error("Save progress error:", error); break; }
+          attemptRowId.current = data.id;
+        } else {
+          const { error } = await supabase.from("attempts").update({
+            answers: ans, correct: score.correct, total: score.total, submitted_at: new Date().toISOString(),
+          }).eq("id", attemptRowId.current);
+          if (error) console.error("Save progress error:", error);
+        }
+      } while (saveAgainRef.current);
+    } finally {
+      savingRef.current = false;
+    }
+  };
+
+  useEffect(() => {
+    if (Object.keys(revealedIds).length > 0) persistProgress();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [revealedIds]);
+
   if (!questions.length) {
     return (
       <div style={S.cont}>
@@ -1594,10 +1633,7 @@ function PracticeSession({ scopeType, scopeId, scopeLabel, color, pool, count, u
     const score = calcScore(completedQuestions, answers) || { correct: 0, total: 0, pct: null };
     setFinalScore(score);
     setFinished(true);
-    await submitAttempt({
-      userCode: user.code, scopeType, scopeId, questionSnapshot: questions,
-      answers, correct: score.correct, total: score.total
-    });
+    await persistProgress(); // final save of the same row -- not a second insert
   };
 
   const submitSession = () => {
