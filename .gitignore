@@ -17,3 +17,4 @@ tools/*_skipped.json
 tools/__pycache__/
 tools/pending_insert/*.json
 tools/pending_insert/source_notes/
+tools/_extract/

@@ -161,6 +161,9 @@ const FORMAT_GUIDE = `[
 ]
 
 Notes:
+- Every question may include a "hint" string. It is shown to the student as a
+  "Tip" ONLY when they answer that question incorrectly. Keep it to one sentence
+  that points at the idea (the relevant formula or principle), not the answer.
 - Wrap maths in $...$ (inline) or $$...$$ (display) LaTeX anywhere in prompt,
   options, bank, items, unit or hint. Plain Unicode (v², ω, Δt, ×) also renders.
   A unit written as bare LaTeX (m s^{-1}) is auto-detected, but $...$ is clearer.
@@ -1672,6 +1675,17 @@ function PracticeSession({ scopeType, scopeId, scopeLabel, color, pool, count, u
             {calcQuestionCorrect(q, answers[q.id]) ? "✓ Correct!" : <>Correct answer: {renderRich(formatCorrectAnswer(q))}</>}
           </div>
         )}
+
+        {/* Tip: shown only after the question is checked AND the student got it wrong. */}
+        {isRevealed && q.hint && hasAnswer(q, answers[q.id]) && !calcQuestionCorrect(q, answers[q.id]) && (
+          <div className="bqc-rise" style={{
+            marginTop: 12, padding: "12px 15px", borderRadius: 12,
+            background: C.warnBg, color: "#92400E", fontSize: 13.5, lineHeight: 1.55,
+            border: `1px solid ${C.warn}55`,
+          }}>
+            <strong style={{ fontWeight: 800 }}>💡 Tip: </strong>{renderRich(q.hint)}
+          </div>
+        )}
       </div>
 
       <div style={{ display: "flex", justifyContent: "space-between", gap: 9, flexWrap: "wrap", alignItems: "center" }}>
@@ -2641,6 +2655,13 @@ function QuestionEditor({ question, onSave, onCancel }) {
       <div>
         <label style={S.label}>Image URL (optional)</label>
         <input value={q.image || ""} onChange={e => updateField("image", e.target.value)} style={S.input} placeholder="https://example.com/image.png" />
+      </div>
+
+      <div>
+        <label style={S.label}>Tip (shown only if the student answers incorrectly)</label>
+        <textarea value={q.hint || ""} onChange={e => updateField("hint", e.target.value)}
+          style={{ ...S.input, minHeight: 56, resize: "vertical", fontFamily: FONT }}
+          placeholder="One sentence pointing the student towards the idea, e.g. the relevant formula or principle." />
       </div>
 
       {q.type === "multiple-choice" && (
