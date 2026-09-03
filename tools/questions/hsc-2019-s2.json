@@ -1,0 +1,200 @@
+[
+  {
+    "qsrc": "Q21",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "Which statement best outlines de Broglie's contribution to quantum mechanics?",
+    "options": [
+      "He proposed that any particle of momentum $p$ has an associated wavelength $\\lambda = \\dfrac{h}{p}$, giving matter a wave nature",
+      "He showed that light is emitted in discrete quanta of energy $E = hf$",
+      "He derived an equation for the probability of finding an electron in a region of space",
+      "He measured the charge on a single electron using oil drops"
+    ],
+    "answer": "He proposed that any particle of momentum $p$ has an associated wavelength $\\lambda = \\dfrac{h}{p}$, giving matter a wave nature",
+    "hint": "His idea explained why electrons in a Bohr atom form standing waves, and it was confirmed by electron diffraction."
+  },
+  {
+    "qsrc": "Q22",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Besides chemical composition and surface temperature, which additional feature of a star can be found from its spectrum?",
+    "options": [
+      "Its rotational speed, from the broadening of its spectral lines caused by one edge approaching and the other receding",
+      "Its exact age in years, read directly off the spectrum",
+      "Its distance from Earth, from the total brightness of the spectrum",
+      "The number of planets orbiting it, from the number of dark lines"
+    ],
+    "answer": "Its rotational speed, from the broadening of its spectral lines caused by one edge approaching and the other receding",
+    "hint": "A rotating star has one limb blueshifted and the other redshifted, which smears each line out; an overall shift of all lines instead gives the star's radial velocity."
+  },
+  {
+    "qsrc": "Q23",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "In a photoelectric experiment the maximum kinetic energy of the photoelectrons was measured at several light frequencies:\n\nFrequency ($\\times 10^{14}$ Hz): 11.2, 13.5, 15.2, 18.6, 20.0\nMax kinetic energy (eV): 0.6, 1.3, 2.3, 3.3, 4.2\n\nDetermine the work function of the metal in electronvolts (the magnitude of the intercept on the energy axis of the line of best fit).",
+    "answer": 4.0,
+    "unit": "eV",
+    "tolerance": 8,
+    "tolerance_mode": "relative",
+    "hint": "$K_{max} = hf - \\phi$. The gradient is $h$ (in eV s) and the line, extended back to $f = 0$, cuts the energy axis at $-\\phi$."
+  },
+  {
+    "qsrc": "Q24a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A transformer is supplied with 500 J s$^{-1}$ of electrical energy. Its secondary delivers 50 V at 9 A. Calculate the efficiency of the transformer as a percentage.",
+    "answer": 90,
+    "unit": "%",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Output power = $V_s I_s = 50 \\times 9$; efficiency = $\\dfrac{\\text{output power}}{\\text{input power}} \\times 100$."
+  },
+  {
+    "qsrc": "Q24b",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "Which modification would improve the efficiency of a real transformer?",
+    "options": [
+      "Building the iron core from thin, insulated laminations to reduce energy lost to eddy currents",
+      "Using thinner copper wire in the coils",
+      "Winding the two coils on separate, unconnected cores",
+      "Running the transformer on direct current instead of alternating current"
+    ],
+    "answer": "Building the iron core from thin, insulated laminations to reduce energy lost to eddy currents",
+    "hint": "Laminating the core, using thicker (lower-resistance) wire, and improving flux linkage all cut losses."
+  },
+  {
+    "qsrc": "Q25",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "The diagram model shows an accelerating charge producing perpendicular oscillating electric and magnetic fields that propagate outward. Which prediction did Maxwell make from this kind of model?",
+    "options": [
+      "Electromagnetic waves travel through a vacuum at a fixed speed equal to the measured speed of light, so light is an electromagnetic wave",
+      "Electromagnetic waves need a medium (the aether) and cannot travel through a vacuum",
+      "Only visible light can be produced by an oscillating charge",
+      "The electric and magnetic fields oscillate parallel to each other"
+    ],
+    "answer": "Electromagnetic waves travel through a vacuum at a fixed speed equal to the measured speed of light, so light is an electromagnetic wave",
+    "hint": "Maxwell calculated the wave speed from $\\varepsilon_0$ and $\\mu_0$ and also predicted a whole spectrum beyond visible light."
+  },
+  {
+    "qsrc": "Q26",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A student applies a 400 N force to a spanner at 25 cm from the bolt, at various angles, and finds the torque is closely proportional to the angle ($\\tau = k\\theta$) up to about 25 degrees, then the model becomes less accurate. Why?",
+    "options": [
+      "The true torque is $\\tau = rF\\sin\\theta$; for small angles $\\sin\\theta \\approx \\theta$ (in radians), but as the angle grows the sine curve flattens and rises more slowly than a straight line",
+      "The force gets weaker as the angle increases",
+      "The spanner bends at larger angles, shortening the lever arm",
+      "Friction at the bolt increases with angle"
+    ],
+    "answer": "The true torque is $\\tau = rF\\sin\\theta$; for small angles $\\sin\\theta \\approx \\theta$ (in radians), but as the angle grows the sine curve flattens and rises more slowly than a straight line",
+    "hint": "Compare a straight line through the origin with the graph of $\\sin\\theta$: they agree near zero and diverge as $\\theta$ approaches 90 degrees."
+  },
+  {
+    "qsrc": "Q27",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Which observation provides experimental evidence that validates time dilation?",
+    "options": [
+      "Muons created high in the atmosphere are detected at ground level in far greater numbers than their short rest lifetime would allow",
+      "Light from distant galaxies is redshifted in proportion to distance",
+      "A photoelectric current stops below a threshold frequency",
+      "Electrons form a diffraction pattern after passing through a crystal"
+    ],
+    "answer": "Muons created high in the atmosphere are detected at ground level in far greater numbers than their short rest lifetime would allow",
+    "hint": "From the ground frame the fast muons' internal clocks run slow, so they survive long enough to reach the surface."
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A particle of mass $m$ and charge $q$ is accelerated from rest through a potential difference $V$. The result $v = \\sqrt{\\dfrac{2qV}{m}}$ is obtained by:",
+    "options": [
+      "Setting the electrical work done on the particle, $qV$, equal to its gain in kinetic energy, $\\tfrac{1}{2}mv^2$",
+      "Setting the electric force $qE$ equal to the magnetic force $qvB$",
+      "Equating the particle's momentum before and after acceleration",
+      "Using $v = u + at$ with $u = 0$ and $a = g$"
+    ],
+    "answer": "Setting the electrical work done on the particle, $qV$, equal to its gain in kinetic energy, $\\tfrac{1}{2}mv^2$",
+    "hint": "Work-energy theorem: all the work done by the field becomes kinetic energy."
+  },
+  {
+    "qsrc": "Q30a",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A ball starts from rest at P and slides down a frictionless track, leaving the track at Q with a speed of 1.5 m s$^{-1}$. Calculate the height of P above Q. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 0.11,
+    "unit": "m",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Energy conservation on the frictionless track: $mg\\Delta h = \\tfrac{1}{2}mv^2$, so $\\Delta h = \\dfrac{v^2}{2g}$."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "The ball leaves the track at Q with a velocity of 1.5 m s$^{-1}$ directed 50 degrees above the horizontal, and reaches the floor 0.5 s later. Calculate the height of Q above the floor. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 0.65,
+    "unit": "m",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Take up as positive: $u_y = 1.5\\sin50^\\circ$. The vertical displacement is $u_y t - \\tfrac{1}{2}gt^2$ (a negative number); the height of Q is its magnitude."
+  },
+  {
+    "qsrc": "Q31",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "An electric ceiling fan hangs from a spring balance. When the fan is switched on and speeds up, the reading on the spring balance decreases, because the fan pushes air downward and, by Newton's third law, the air pushes upward on the fan.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The upward reaction force from the moving air supports part of the fan's weight, so the balance reads less."
+  },
+  {
+    "qsrc": "Q33",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A proton and an alpha particle are fired into a uniform magnetic field with the same speed, perpendicular to the field. Which statement correctly compares their paths?",
+    "options": [
+      "Both follow circular arcs, but the alpha particle's radius is larger because its mass-to-charge ratio is about twice the proton's",
+      "Both follow circular arcs of exactly the same radius",
+      "The proton travels in a straight line while the alpha particle curves",
+      "The alpha particle's radius is smaller because it is more massive"
+    ],
+    "answer": "Both follow circular arcs, but the alpha particle's radius is larger because its mass-to-charge ratio is about twice the proton's",
+    "hint": "$r = \\dfrac{mv}{qB}$; for the alpha particle $m$ is about 4 times and $q$ is 2 times the proton's, so $\\dfrac{m}{q}$ doubles."
+  },
+  {
+    "qsrc": "Q34a",
+    "inquiry_id": "8.1",
+    "type": "numeric-entry",
+    "prompt": "The intensity of the Sun's radiation at Earth's distance ($1.5 \\times 10^{11}$ m) is 1360 W m$^{-2}$. Calculate the total power output of the Sun. (Surface area of a sphere $= 4\\pi r^2$.)",
+    "answer": 3.85e26,
+    "unit": "W",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "All that power passes through a sphere of radius $1.5 \\times 10^{11}$ m centred on the Sun: $P = I \\times 4\\pi r^2$."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "The Sun's blackbody radiation curve peaks at a wavelength of about 500 nm. Calculate the Sun's surface temperature. Use Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K.",
+    "answer": 5800,
+    "unit": "K",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$T = \\dfrac{b}{\\lambda_{max}}$ with $\\lambda_{max} = 5.0 \\times 10^{-7}$ m."
+  },
+  {
+    "qsrc": "Q36",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A stationary radon-198 atom (197.999 u) undergoes alpha decay to polonium-194 (193.988 u) plus a helium-4 nucleus (4.00260 u). The polonium atom is produced with 2.55 x 10^-14 J of kinetic energy. Using the mass defect, calculate the kinetic energy carried away by the alpha particle. Use 1 u = 1.661 x 10^-27 kg and c = 3.0 x 10^8 m s^-1.",
+    "answer": 1.23e-12,
+    "unit": "J",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "Mass defect = 197.999 - 193.988 - 4.00260 u; energy released = (mass defect) x c^2. The alpha particle gets what is left after the polonium's kinetic energy."
+  }
+]

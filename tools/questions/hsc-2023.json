@@ -1,0 +1,455 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "The gravitational field strength acting on a spacecraft decreases as its altitude increases. This is because $g = \\dfrac{GM}{r^2}$ depends on ___.",
+    "bank": [
+      "the distance of the spacecraft from Earth's centre",
+      "the mass of the spacecraft",
+      "the density of the atmosphere",
+      "the speed of the spacecraft"
+    ],
+    "answer": [
+      "the distance of the spacecraft from Earth's centre"
+    ],
+    "hint": "Neither Earth's mass nor the spacecraft's mass changes as it climbs; only $r$ does."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "6.4",
+    "type": "ordering",
+    "prompt": "Put the stages of transmitting electrical energy from a power station to houses in the correct order.",
+    "items": [
+      "The power station generates electricity",
+      "A step-up transformer raises the voltage",
+      "Energy is transmitted along the lines at high voltage and low current",
+      "A step-down transformer lowers the voltage",
+      "Electricity is delivered to houses"
+    ],
+    "answer": [
+      "The power station generates electricity",
+      "A step-up transformer raises the voltage",
+      "Energy is transmitted along the lines at high voltage and low current",
+      "A step-down transformer lowers the voltage",
+      "Electricity is delivered to houses"
+    ],
+    "hint": "High voltage and low current during transmission keeps the $I^2 R$ heating losses in the lines small."
+  },
+  {
+    "qsrc": "Q2b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "Electrical energy is transmitted along power lines at high voltage and low current to reduce the energy lost as heat in the transmission lines.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Power loss in the lines is $I^2 R$, so a lower current means much smaller losses."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Monochromatic light passes through two narrow, closely spaced slits and falls on a screen. Which best describes the pattern of light seen on the screen?",
+    "options": [
+      "A series of evenly spaced bright and dark fringes",
+      "A single bright spot in the centre with nothing else",
+      "Two bright bands, one directly behind each slit",
+      "A smooth, continuous band of light with no structure"
+    ],
+    "answer": "A series of evenly spaced bright and dark fringes",
+    "hint": "Light from the two slits overlaps and interferes: constructive where path lengths differ by a whole number of wavelengths, destructive in between."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "Caesium-137 has a half-life of 30 years. Calculate the mass remaining after 90 years, starting from an initial mass of 120 g.",
+    "answer": 15,
+    "unit": "g",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "90 years is 3 half-lives: 120 -> 60 -> 30 -> 15."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "Caesium-137 has a half-life of 30 years. Calculate the mass remaining after 60 years, starting from 120 g.",
+    "answer": 30,
+    "unit": "g",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "60 years is 2 half-lives."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "An exoplanet moves in the elliptical orbit shown, in the direction of the arrows. The star is near the left-hand focus, and the arc lengths P-Q, Q-R, R-S and S-P are equal. The exoplanet takes the longest time to travel between points ___ and ___.",
+    "image_filename": "2023-q5-exoplanet-orbit.png",
+    "answer": [
+      "S",
+      "P"
+    ],
+    "hint": "By Kepler's second law the planet sweeps equal areas in equal times, so it moves slowest (and takes longest for a given arc) when it is farthest from the star.",
+    "bank": [
+      "S",
+      "P",
+      "Q",
+      "R"
+    ]
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "7.1",
+    "type": "word-bank",
+    "prompt": "An electron produces (radiates) an electromagnetic wave only when it is ___. For example, an electron moving at constant speed around a circular path radiates, but an electron moving in a straight line at constant velocity does not.",
+    "bank": [
+      "accelerating",
+      "stationary",
+      "moving slowly",
+      "positively charged"
+    ],
+    "answer": [
+      "accelerating"
+    ],
+    "hint": "Circular motion involves a continuous change in the direction of the velocity, which is an acceleration."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "A proton and a neutron travel at the same speed. Which statement correctly explains the difference in their de Broglie wavelengths?",
+    "options": [
+      "The neutron has the shorter wavelength, because its mass is slightly greater",
+      "The proton has the shorter wavelength, because its mass is smaller",
+      "The proton has the longer wavelength, because its mass is greater",
+      "The neutron has the longer wavelength, because its mass is smaller"
+    ],
+    "answer": "The neutron has the shorter wavelength, because its mass is slightly greater",
+    "hint": "$\\lambda = \\dfrac{h}{mv}$: at the same speed, the more massive particle has the shorter wavelength."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "The de Broglie wavelength of a particle is ___ proportional to its momentum.",
+    "bank": [
+      "inversely",
+      "directly",
+      "exponentially",
+      "not"
+    ],
+    "answer": [
+      "inversely"
+    ],
+    "hint": "$\\lambda = \\dfrac{h}{p}$."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A ball is launched horizontally from a platform of height h with speed u and lands on the ground, overshooting the point B (B is on the ground, closer to the platform than where the ball lands). Which single change could make the ball land at B instead?",
+    "image_filename": "2023-q8-ball-platform.png",
+    "options": [
+      "Increasing the launch angle above the horizontal",
+      "Increasing the launch speed u",
+      "Increasing the mass of the ball",
+      "Increasing the height h of the platform"
+    ],
+    "answer": "Increasing the launch angle above the horizontal",
+    "hint": "Increasing u or h both make the ball land farther away; the ball's mass has no effect. A steep enough upward launch angle puts more of the speed into the vertical direction and reduces the horizontal range."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "Compared with a black body at 4500 K, the radiation curve of the same black body at 4000 K has a ___ intensity at every wavelength, and its peak shifts to a ___ wavelength.",
+    "answer": [
+      "lower",
+      "longer"
+    ],
+    "hint": "A cooler black body radiates less power in total (so less at every wavelength) and its peak shifts to a longer wavelength.",
+    "bank": [
+      "lower",
+      "higher",
+      "shorter",
+      "longer"
+    ]
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "Lowering the temperature of a black body reduces the total power it radiates and shifts the wavelength of its peak emission to a longer value.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Stefan-Boltzmann law (total power) and Wien's law (peak wavelength)."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A current-carrying rectangular loop sits in a uniform magnetic field. In Figure I the plane of the loop is parallel to the field. The loop is then rotated to Figure II, where its plane is at a large angle to the field (closer to perpendicular). Side XY stays perpendicular to the field throughout. How do the force on side XY and the torque on the loop compare between the two figures?",
+    "image_filename": "2023-q10-loop-rotation.png",
+    "options": [
+      "Force: I = II; Torque: I > II",
+      "Force: I > II; Torque: I = II",
+      "Force: I > II; Torque: I > II",
+      "Force: I = II; Torque: I = II"
+    ],
+    "answer": "Force: I = II; Torque: I > II",
+    "hint": "The force on XY is $BIL$ as long as XY is perpendicular to the field, so it does not change. The torque is greatest when the loop's plane is parallel to the field (Figure I) and falls as the loop rotates."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "As a current-carrying loop rotates in a uniform magnetic field, the torque on it is greatest when the plane of the loop is parallel to the field, and zero when the plane of the loop is perpendicular to the field.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Torque = force times perpendicular lever arm; the lever arm is largest when the loop's plane lies along the field."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "8.4",
+    "type": "drag-drop",
+    "prompt": "The chart shows part of the uranium decay series: U-238 (Z = 92) becomes X, which becomes Y, which becomes U-234 (Z = 92). Match X and Y to the correct nuclide and the decay that produced it.",
+    "image_filename": "2023-q11-decay-chart.png",
+    "pairs": [
+      {
+        "item": "X (from U-238)",
+        "match": "$^{234}_{90}$Th, produced by alpha decay"
+      },
+      {
+        "item": "Y (from X)",
+        "match": "$^{234}_{91}$Pa, produced by beta-minus decay"
+      }
+    ],
+    "answer": {
+      "X (from U-238)": "$^{234}_{90}$Th, produced by alpha decay",
+      "Y (from X)": "$^{234}_{91}$Pa, produced by beta-minus decay"
+    },
+    "hint": "U-238 to X: Z drops by 2 and mass number by 4 (alpha). X to Y: Z rises by 1, mass number unchanged (beta-minus)."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "In an alpha decay, the atomic number of the nucleus decreases by 2 and its mass number decreases by 4.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "An alpha particle is 2 protons and 2 neutrons."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "6.1",
+    "type": "word-bank",
+    "prompt": "A positive charge accelerates from rest between two parallel plates (1000 V, separation d), travelling a distance d and gaining kinetic energy W. The plate separation is then doubled to 2d with the same 1000 V, and the charge again accelerates from rest over the same distance d. Its kinetic energy gain is now ___.",
+    "answer": [
+      "$\\dfrac{W}{2}$"
+    ],
+    "hint": "The field is $E = \\dfrac{V}{\\text{separation}}$, so doubling the separation halves the field and halves the work done over the same distance d.",
+    "bank": [
+      "$\\dfrac{W}{2}$",
+      "$W$",
+      "$2W$",
+      "$\\dfrac{W}{4}$"
+    ]
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "6.1",
+    "type": "word-bank",
+    "prompt": "The uniform electric field between two parallel plates is equal to the potential difference between them divided by their ___.",
+    "bank": [
+      "separation",
+      "area",
+      "charge",
+      "capacitance"
+    ],
+    "answer": [
+      "separation"
+    ],
+    "hint": "$E = \\dfrac{V}{d}$."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Nucleus X has a greater total binding energy than nucleus Y. What can be deduced about X and Y?",
+    "options": [
+      "X has a greater mass defect than Y",
+      "X is more stable than Y",
+      "Y is more stable than X",
+      "Y has a greater mass defect than X"
+    ],
+    "answer": "X has a greater mass defect than Y",
+    "hint": "Total binding energy equals mass defect times $c^2$. Stability is judged by binding energy per nucleon, not total binding energy, so nothing can be concluded about which is more stable."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "A nucleus's total binding energy is equal to its mass defect multiplied by $c^2$.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The mass defect is the mass that was converted to energy when the nucleus formed from its separate nucleons."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Planet X has a mass 4 times that of Earth and a radius 3 times that of Earth. The escape velocity at Earth's surface is 11.2 km s$^{-1}$. Calculate the escape velocity at the surface of planet X.",
+    "answer": 12.9,
+    "unit": "km s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$v_{esc} = \\sqrt{\\dfrac{2GM}{r}}$, so the escape velocity scales by $\\sqrt{\\dfrac{4}{3}}$."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "The escape velocity from a planet's surface depends on the planet's mass and radius, but not on the mass of the object that is escaping.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "$v_{esc} = \\sqrt{2GM/r}$ has no term for the escaping object's mass."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Which result from photoelectric-effect experiments is consistent with Einstein's photon model of light?",
+    "options": [
+      "Photoelectrons were ejected from a metal only if the light's wavelength was shorter than a specific value",
+      "Increasing the intensity of the light increased the maximum kinetic energy of the photoelectrons",
+      "The maximum kinetic energy of the photoelectrons was the same for every metal, provided the light could eject them at all",
+      "The chance of a photoelectron being emitted increased the longer the metal was exposed to the light"
+    ],
+    "answer": "Photoelectrons were ejected from a metal only if the light's wavelength was shorter than a specific value",
+    "hint": "A threshold wavelength (threshold frequency) means each photon must carry a minimum energy $hf$; the other three options describe things that did NOT happen and would be expected from a wave model."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "In the photoelectric effect, increasing the intensity of light that is above the threshold frequency increases the number of photoelectrons emitted per second, but not their maximum kinetic energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "More intensity means more photons per second (more electrons), but each photon still has the same energy $hf$."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "Two identical parallel aluminium rods X and Y carry equal currents. Rod X rests on a table; rod Y floats stationary directly above X, held up by the magnetic interaction. The connecting wires have negligible mass. Which statement must be correct?",
+    "options": [
+      "The force the table exerts on X is equal and opposite to the combined weight of X and Y",
+      "The magnetic force acting on X is directed upward",
+      "The currents in X and Y are in the same direction",
+      "The force the table exerts on X is equal and opposite to the weight of Y alone"
+    ],
+    "answer": "The force the table exerts on X is equal and opposite to the combined weight of X and Y",
+    "hint": "The magnetic force holds Y up against its own weight; by Newton's third law an equal downward magnetic force acts on X, so the table must support the weight of both rods."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "For rod Y to float above rod X, the currents in the two rods must flow in opposite directions, so that the wires repel each other.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Parallel currents attract; anti-parallel currents repel."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A mass on a lightweight rigid arm hangs from a pivot at O and swings freely between extreme positions X and Z, passing through the lowest point Y. Which statement best describes the gravitational torque on the arm as it swings?",
+    "options": [
+      "It is zero at Y and a maximum at X and Z",
+      "It is constant in magnitude and direction",
+      "It is zero at X and Z and a maximum at Y",
+      "It is constant in magnitude but reverses direction"
+    ],
+    "answer": "It is zero at Y and a maximum at X and Z",
+    "hint": "The torque due to gravity is $mgL\\sin\\theta$, where $\\theta$ is the angle from the vertical: zero at the bottom, largest at the extremes."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "Two particles with the same mass and charge are given the same initial velocity: one enters a uniform gravitational field (Figure I), the other a uniform electric field (Figure II). If the mass of each particle is then increased by the same amount (same initial velocity), what happens to their trajectories?",
+    "options": [
+      "The path in the gravitational field is unchanged; the path in the electric field is deflected less",
+      "Both paths are unchanged",
+      "Both paths are deflected less",
+      "The path in the gravitational field is deflected less; the path in the electric field is unchanged"
+    ],
+    "answer": "The path in the gravitational field is unchanged; the path in the electric field is deflected less",
+    "hint": "In a gravitational field the acceleration is g regardless of mass. In an electric field the acceleration is $\\dfrac{qE}{m}$, so a heavier particle accelerates and deflects less."
+  },
+  {
+    "qsrc": "Q18b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "The trajectory of a projectile in a uniform gravitational field does not depend on its mass, but the trajectory of a charged particle in a uniform electric field does depend on its mass.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Gravitational acceleration is mass-independent; electric acceleration $qE/m$ is not."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Observations of very distant galaxies in 1995 showed that the expansion of the universe is accelerating. Compared with Hubble's straight-line relationship between recession velocity and distance, how does the actual graph behave at very large distances?",
+    "options": [
+      "It curves below the straight line: the most distant galaxies recede more slowly than the linear law predicts",
+      "It curves above the straight line: the most distant galaxies recede faster than the linear law predicts",
+      "It stays a straight line but with a steeper gradient",
+      "It becomes horizontal at large distances"
+    ],
+    "answer": "It curves below the straight line: the most distant galaxies recede more slowly than the linear law predicts",
+    "hint": "Light from the most distant galaxies left when the expansion was slower, so their measured recession velocities are lower than a simple linear extrapolation of nearby data."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "Light we receive now from a very distant galaxy was emitted long ago, so it carries information about how fast the universe was expanding in the distant past rather than today.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The greater the distance, the longer the light has been travelling, and the further back in cosmic history we are seeing."
+  }
+]

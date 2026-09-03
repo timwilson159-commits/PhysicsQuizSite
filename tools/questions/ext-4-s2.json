@@ -1,0 +1,215 @@
+[
+  {
+    "qsrc": "Q21",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Low Earth orbit (LEO) satellites suffer significant orbital decay, have short lifespans and are hard to service. Despite this, they are still used extensively. What is the main advantage that keeps them in use?",
+    "options": [
+      "Their short orbital period means they pass over a given point on Earth many times a day, which is ideal for imaging and monitoring the surface",
+      "They never need any station-keeping fuel",
+      "They stay fixed above one point on the equator",
+      "They are beyond the reach of Earth's gravity, so they need no launch energy"
+    ],
+    "answer": "Their short orbital period means they pass over a given point on Earth many times a day, which is ideal for imaging and monitoring the surface",
+    "hint": "A low orbit is a fast orbit, so the satellite comes back over the same ground quickly and repeatedly."
+  },
+  {
+    "qsrc": "Q22b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "A car on a frictionless banked track is travelling at exactly the design speed. If it now goes faster than the design speed, it will slide up and off the track, because the horizontal component of the normal force is no longer large enough to provide the centripetal force needed.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "At the design speed the horizontal part of the normal force exactly supplies the centripetal force; a higher speed needs more, and with no friction there is nothing to make up the difference."
+  },
+  {
+    "qsrc": "Q23",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "The work done on an object moving in uniform circular motion on a horizontal plane is zero, because the centripetal force is always perpendicular to the object's velocity and its kinetic energy stays constant.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Work is force times displacement in the direction of the force; here the force has no component along the motion."
+  },
+  {
+    "qsrc": "Q24",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "The escape velocity from a planet does not depend on the mass of the escaping object, because that mass cancels when kinetic energy is set equal to the magnitude of gravitational potential energy.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$\\tfrac{1}{2}mv^2 = \\dfrac{GMm}{r}$; the $m$ of the escaping object appears on both sides and cancels."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A plane flies horizontally at 300.0 m s$^{-1}$ at an altitude of 200.0 m. A rocket launched from it accelerates at 25.0 m s$^{-2}$ in a straight horizontal line for 10.0 s until its fuel runs out. Calculate the distance the rocket travels while the fuel is burning.",
+    "answer": 4250,
+    "unit": "m",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$s = ut + \\tfrac{1}{2}at^2$ with $u = 300$ m s$^{-1}$, $a = 25$ m s$^{-2}$, $t = 10$ s."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "After the 10.0 s fuel burn (starting at 300.0 m s$^{-1}$, accelerating at 25.0 m s$^{-2}$), the rocket is at 200.0 m altitude and then follows projectile motion to the ground. Calculate the total horizontal distance from the launch point to the target it should hit. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 7760,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Burn phase: 4250 m and final speed $300 + 25 \\times 10 = 550$ m s$^{-1}$. Fall time from 200 m: $t = \\sqrt{2h/g}$. Add $550t$ to the 4250 m."
+  },
+  {
+    "qsrc": "Q26",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Earth orbits the Sun at 1.00 AU with a period of 1.00 year. Saturn orbits at 9.00 AU. Calculate Saturn's orbital period in Earth years.",
+    "answer": 27,
+    "unit": "years",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Kepler's third law: $T^2 \\propto r^3$, so $T_{Saturn} = 9^{3/2}$ years."
+  },
+  {
+    "qsrc": "Q27",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "Lenz's law states that an induced current flows in the direction that opposes the change in flux producing it. If it instead reinforced that change, the growing flux would drive an ever-larger current, creating energy from nothing and violating conservation of energy.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The opposing direction is what forces you to do work to keep generating electricity."
+  },
+  {
+    "qsrc": "Q29a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A power plant supplies 150 MW to a town 20 km away. The transmission wires have a resistance of 0.01 ohm per km, and the voltage drop along the line is 50 V. Calculate the power lost in the transmission line.",
+    "answer": 12500,
+    "unit": "W",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Line resistance $R = 20 \\times 0.01 = 0.2$ ohm; power lost $= \\dfrac{V_{drop}^2}{R}$."
+  },
+  {
+    "qsrc": "Q29b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "For the same 150 MW transmission (line resistance 0.2 ohm, line loss 12 500 W), calculate the voltage at which the power is transmitted from the plant.",
+    "answer": 6.0e5,
+    "unit": "V",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "From $P_{loss} = I^2 R$, find the line current $I$; then $V = \\dfrac{P}{I}$ with $P = 150 \\times 10^{6}$ W."
+  },
+  {
+    "qsrc": "Q31a",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "Two parallel plates are 0.010 m apart with a potential difference of 200 V across them. An electron is released from rest between the plates. Calculate the magnitude of the net force on the electron. Use electron charge $1.6 \\times 10^{-19}$ C.",
+    "answer": 3.2e-15,
+    "unit": "N",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$E = \\dfrac{V}{d}$, then the electric force is $qE$; the electron's weight is utterly negligible by comparison."
+  },
+  {
+    "qsrc": "Q31b",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "The electron (net force about $3.2 \\times 10^{-15}$ N, mass $9.1 \\times 10^{-31}$ kg) is released midway between the plates, 0.0050 m from each. Calculate the time it takes to reach a plate.",
+    "answer": 1.7e-9,
+    "unit": "s",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "$a = \\dfrac{F}{m}$, then $s = \\tfrac{1}{2}at^2$ with $s = 0.0050$ m, so $t = \\sqrt{\\dfrac{2s}{a}}$."
+  },
+  {
+    "qsrc": "Q34a",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A pilot measures a time of 2.00 s for their spaceship to pass through a spaceport. An observer in the spaceport measures 4.39 s for the same event. Calculate the ship's speed as a percentage of the speed of light.",
+    "answer": 89,
+    "unit": "%",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$, so $\\sqrt{1 - v^2/c^2} = \\dfrac{2.00}{4.39}$; solve for $v/c$."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Which observation provides direct experimental evidence for time dilation?",
+    "options": [
+      "Muons created high in the atmosphere reach the ground in far greater numbers than their short rest lifetime would allow",
+      "Light from distant galaxies is redshifted",
+      "Electrons diffract when passed through a crystal",
+      "A photoelectric current stops below a threshold frequency"
+    ],
+    "answer": "Muons created high in the atmosphere reach the ground in far greater numbers than their short rest lifetime would allow",
+    "hint": "At relativistic speed the muons' internal clocks run slow (as seen from the ground), extending their observed lifetime enough to complete the trip."
+  },
+  {
+    "qsrc": "Q36",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "What was Hubble's main evidence that the Universe is expanding?",
+    "options": [
+      "The light from distant galaxies is redshifted, and the redshift increases with the galaxy's distance",
+      "All galaxies have the same chemical composition",
+      "Galaxies are spread evenly across the sky",
+      "The night sky is dark"
+    ],
+    "answer": "The light from distant galaxies is redshifted, and the redshift increases with the galaxy's distance",
+    "hint": "A redshift that grows with distance means every galaxy is receding, faster the further away it is."
+  },
+  {
+    "qsrc": "Q37",
+    "inquiry_id": "8.1",
+    "type": "drag-drop",
+    "prompt": "Stars X and Y are marked on the Hertzsprung-Russell diagram shown: X is on the main sequence, Y is a red giant. Match each star to the nucleosynthesis reaction that dominates in its core.",
+    "image_filename": "ext4s2-q37-hr-diagram.png",
+    "pairs": [
+      { "item": "Star X (main sequence)", "match": "Fusion of hydrogen into helium (the proton-proton chain)" },
+      { "item": "Star Y (red giant)", "match": "Fusion of helium into carbon (the triple-alpha process)" }
+    ],
+    "answer": {
+      "Star X (main sequence)": "Fusion of hydrogen into helium (the proton-proton chain)",
+      "Star Y (red giant)": "Fusion of helium into carbon (the triple-alpha process)"
+    },
+    "hint": "Main-sequence stars are still burning hydrogen in the core; a red giant has exhausted core hydrogen and is now fusing helium."
+  },
+  {
+    "qsrc": "Q38b",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the second-longest wavelength of the Balmer series of hydrogen (the transition from n = 4 to n = 2). Use the Rydberg constant $R = 1.097 \\times 10^{7}$ m$^{-1}$.",
+    "answer": 486,
+    "unit": "nm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{2^2} - \\dfrac{1}{4^2}\\right)$; convert the result to nanometres."
+  },
+  {
+    "qsrc": "Q39b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A sample of iodine-131 (half-life 8.0 days) initially contains $1.2 \\times 10^{13}$ nuclei. Calculate how many iodine-131 nuclei remain after 76 days.",
+    "answer": 1.6e10,
+    "unit": "nuclei",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "76 days is 9.5 half-lives; $N = N_0 \\left(\\tfrac{1}{2}\\right)^{9.5}$, or use $N = N_0 e^{-\\lambda t}$ with $\\lambda = \\dfrac{\\ln 2}{8}$."
+  },
+  {
+    "qsrc": "Q40",
+    "inquiry_id": "8.5",
+    "type": "word-bank",
+    "prompt": "A proton is made of two ___ quarks and one ___ quark, giving it a charge of +1. A neutron is made of one up quark and two ___ quarks, giving it a charge of 0.",
+    "bank": ["up", "down", "charm", "strange", "top", "bottom"],
+    "answer": ["up", "down", "down"],
+    "hint": "The up quark has charge +2/3 and the down quark has charge -1/3; check that each combination adds to the right total."
+  }
+]

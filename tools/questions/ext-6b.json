@@ -1,0 +1,134 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows a straight conductor carrying a current from left to right (from the + terminal to the - terminal). The dots represent a magnetic field directed out of the page. In which direction is the force on the conductor?",
+    "image_filename": "ext6-q1-wire-in-field.png",
+    "options": ["Down the page", "Up the page", "Into the page", "Out of the page"],
+    "answer": "Down the page",
+    "hint": "Use the right-hand rule with the current to the right and the field out of the page; $F = I\\vec{L} \\times \\vec{B}$ is perpendicular to both."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A student plunges a bar magnet into a coil. Which of the four situations shown induces the greatest emf in the coil?",
+    "image_filename": "ext6-q6-magnet-plunge.png",
+    "options": [
+      "Situation D: the most turns on the coil and the fastest, strongest plunge",
+      "Situation A: only a few turns, magnet moving slowly",
+      "Situation B: the magnet held stationary just above the coil",
+      "Situation C: a north pole moving slowly into a coil with few turns"
+    ],
+    "answer": "Situation D: the most turns on the coil and the fastest, strongest plunge",
+    "hint": "$\\varepsilon = -N\\dfrac{\\Delta \\Phi}{\\Delta t}$: more turns and a faster, larger change of flux both increase the emf."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "The diagram shows four identical satellites O, P, Q and R on the same elliptical orbit around Earth. Satellite P, the one closest to Earth, has the greatest kinetic energy of the four.",
+    "image_filename": "ext6-q7-elliptical-orbit.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Total mechanical energy is conserved, so kinetic energy is greatest where gravitational potential energy is lowest, which is closest to Earth."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Four stars A, B, C and D are marked on the Hertzsprung-Russell diagram shown. Which star generates most of its energy through the proton-proton chain?",
+    "image_filename": "ext6-q8-hr-diagram.png",
+    "options": [
+      "Star C, a mid-main-sequence star similar to the Sun",
+      "Star A, a hot, very luminous, high-mass main-sequence star",
+      "Star B, a cool giant off the main sequence",
+      "Star D"
+    ],
+    "answer": "Star C, a mid-main-sequence star similar to the Sun",
+    "hint": "High-mass main-sequence stars (like A) run mainly on the CNO cycle; giants and stars off the main sequence do not run mainly on the proton-proton chain."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "The graph shows a measured property of a fast-moving object plotted against its speed as a fraction of c. The property falls towards zero as the speed approaches c. This best represents length contraction, not time dilation.",
+    "image_filename": "ext6-q10-relativity-graph.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Time dilation and relativistic momentum grow without limit as $v \\to c$; a quantity heading to zero fits length contraction."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A tennis ball is hit vertically upward off a racket (start), reaches its maximum height, and falls back onto the racket (finish), as shown. Ignoring air resistance, which statement correctly describes the ball's acceleration during the whole flight?",
+    "image_filename": "ext6-q11-tennis-ball.png",
+    "options": [
+      "It is a constant 9.8 m s$^{-2}$ directed downward throughout, including at the maximum-height position",
+      "It is zero at the maximum-height position",
+      "It decreases as the ball rises and increases as it falls",
+      "It points upward while the ball rises and downward while it falls"
+    ],
+    "answer": "It is a constant 9.8 m s$^{-2}$ directed downward throughout, including at the maximum-height position",
+    "hint": "Gravity is the only force acting, so the acceleration is unchanged even at the top where the velocity is momentarily zero."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows Maxwell's model of an electromagnetic wave, with perpendicular oscillating electric and magnetic fields propagating together. What could Maxwell use this model to determine?",
+    "image_filename": "ext6-q14-maxwell-wave.png",
+    "options": [
+      "The speed of light",
+      "The speed of sound in air",
+      "The frequency of a bat's sonar",
+      "The speed of ocean waves"
+    ],
+    "answer": "The speed of light",
+    "hint": "Maxwell's equations give the wave speed as $\\dfrac{1}{\\sqrt{\\varepsilon_0 \\mu_0}}$, which matched the measured speed of light."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "The table gives the peak emission wavelength of four blackbodies. Which blackbody has the highest surface temperature?",
+    "image_filename": "ext6-q17-blackbody-table.png",
+    "options": [
+      "Blackbody A, peak wavelength 380 nm",
+      "Blackbody B, peak wavelength 724 nm",
+      "Blackbody C, peak wavelength 580 nm",
+      "Blackbody D, peak wavelength 483 nm"
+    ],
+    "answer": "Blackbody A, peak wavelength 380 nm",
+    "hint": "Wien's law, $T = \\dfrac{b}{\\lambda_{max}}$: the shortest peak wavelength corresponds to the highest temperature."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "The four panels show a planet's mass M and an astronaut's orbital distance r. Escape velocity is $v = \\sqrt{\\dfrac{2GM}{r}}$. Which astronaut needs the greatest escape velocity to leave orbit?",
+    "image_filename": "ext6-q18-astronauts.png",
+    "options": [
+      "Astronaut S (mass 3M at distance r)",
+      "Astronaut P (mass M at distance r)",
+      "Astronaut Q (mass 3M at distance 2r)",
+      "Astronaut R (mass 6M at distance 3r)"
+    ],
+    "answer": "Astronaut S (mass 3M at distance r)",
+    "hint": "Escape velocity depends on the ratio $\\dfrac{M}{r}$; work out that ratio for each panel and pick the largest."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Vertically polarised light of intensity 10 units passes through the three polarisers shown, whose transmission axes are at 20 degrees, 40 degrees and 60 degrees to the vertical, in that order. Calculate the light intensity after Polariser 3.",
+    "image_filename": "ext6-q20-polarisers.png",
+    "answer": 6.89,
+    "unit": "units",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Apply $I = I_0\\cos^2\\theta$ three times, using the 20 degree step between each polariser and the one before it (the vertical for the first)."
+  }
+]

@@ -1,0 +1,305 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "A straight wire carries a conventional current from left to right across the page. It lies in a uniform magnetic field that points out of the page. In which direction is the force on the wire?",
+    "options": ["Down the page", "Up the page", "Into the page", "Out of the page"],
+    "answer": "Down the page",
+    "hint": "Use the right-hand rule with the fingers pointing along the current and curling towards the field; $F = IL \\times B$ is perpendicular to both."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "A straight current-carrying wire sits in a magnetic field and feels a force. If the direction of the magnetic field is reversed while the current is unchanged, the force on the wire reverses direction.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The motor-effect force depends on the directions of both the current and the field; reversing either one reverses the force."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "6.4",
+    "type": "word-bank",
+    "prompt": "An AC induction motor has a stationary ___, a ___-cage rotor, and ___-phase wiring, and its magnetic field is produced by electromagnetic coils.",
+    "bank": ["stator", "squirrel", "three", "rotor", "permanent", "single"],
+    "answer": ["stator", "squirrel", "three"],
+    "hint": "The rotating part of an induction motor is named after the shape of the exercise wheel used by a small rodent."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "Leptons are fundamental particles, meaning they are not made of smaller constituents. Which pair of particles are both leptons?",
+    "options": [
+      "Electrons and neutrinos",
+      "Protons and neutrons",
+      "Electrons and protons",
+      "Neutrons and neutrinos"
+    ],
+    "answer": "Electrons and neutrinos",
+    "hint": "Protons and neutrons are made of quarks, so they are not fundamental; the electron and the neutrino are."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "The relationship $q = \\dfrac{mgd}{V}$, which balances the electric force on a charged droplet against its weight, was central to Millikan's oil-drop experiment to measure the charge on the electron.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Think about which experiment suspended tiny charged droplets between charged plates."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.3",
+    "type": "word-bank",
+    "prompt": "According to Faraday's law, the emf induced in a coil is greater when the coil has more ___ and when the rate of change of magnetic ___ through it is larger.",
+    "bank": ["turns", "flux", "resistance", "current", "charge", "mass"],
+    "answer": ["turns", "flux"],
+    "hint": "The induced emf is $\\varepsilon = -N\\dfrac{\\Delta \\Phi}{\\Delta t}$."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A satellite travels in an elliptical orbit around Earth. At which point in the orbit is its kinetic energy greatest?",
+    "options": [
+      "At perigee, the point closest to Earth",
+      "At apogee, the point farthest from Earth",
+      "Midway between perigee and apogee",
+      "The kinetic energy is the same everywhere in the orbit"
+    ],
+    "answer": "At perigee, the point closest to Earth",
+    "hint": "Total mechanical energy is conserved, so where gravitational potential energy is lowest (closest to Earth) the kinetic energy must be highest."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "For a satellite in a stable elliptical orbit, the sum of its kinetic and gravitational potential energy stays constant even though its speed changes around the orbit.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "With only gravity doing work on the satellite, its total mechanical energy is conserved."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Four main-sequence stars are compared. Which one generates most of its energy through the proton-proton chain rather than the CNO cycle?",
+    "options": [
+      "A low-mass, relatively cool star similar to the Sun",
+      "A high-mass, very hot blue star",
+      "A star with a core temperature far above the Sun's",
+      "The most luminous star of the four"
+    ],
+    "answer": "A low-mass, relatively cool star similar to the Sun",
+    "hint": "The CNO cycle dominates only at the higher core temperatures found in more massive stars; lower-mass stars rely on the proton-proton chain."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "A graph shows a measured property of a fast-moving object falling towards zero as its speed approaches the speed of light. This is best interpreted as length contraction rather than time dilation.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Time dilation and relativistic momentum increase without limit as $v \\to c$; a quantity heading towards zero fits length contraction."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A tennis ball is hit straight up into the air and then falls back down. Ignoring air resistance, which statement best describes the ball's acceleration during the whole flight, including at the highest point?",
+    "options": [
+      "It is constant at 9.8 m s$^{-2}$ directed downwards throughout",
+      "It is zero at the highest point",
+      "It decreases to zero as the ball rises, then increases as it falls",
+      "It points upwards while the ball rises and downwards while it falls"
+    ],
+    "answer": "It is constant at 9.8 m s$^{-2}$ directed downwards throughout",
+    "hint": "Only gravity acts on the ball, so the acceleration is the same size and direction at every instant, even when the velocity is momentarily zero."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "At the very top of its flight a ball thrown straight up is momentarily at rest, so its acceleration at that instant is also zero.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "Velocity zero does not mean acceleration zero; gravity still acts, so the acceleration is 9.8 m s$^{-2}$ downwards."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "Newton argued that we can hear a sound from behind an obstacle but cannot see light around it. His corpuscular (particle) model of light was used to argue that light does not noticeably diffract around obstacles the way sound does.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Diffraction and interference are explained by the wave model; Newton's particle model did not predict light bending around edges."
+  },
+
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "In a hydrogen atom an electron drops from energy level $n = 3$ to $n = 1$. Using the Rydberg equation $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ with $R = 1.097 \\times 10^7$ m$^{-1}$, calculate the wavelength of the emitted photon.",
+    "answer": 102.6,
+    "unit": "nm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{1}{\\lambda} = 1.097 \\times 10^7 \\left(\\dfrac{1}{1} - \\dfrac{1}{9}\\right)$; convert the result from metres to nanometres."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "8.3",
+    "type": "ordering",
+    "prompt": "Arrange these hydrogen electron transitions in order of the wavelength of the emitted photon, from longest wavelength to shortest wavelength.",
+    "items": ["n = 3 to n = 2", "n = 4 to n = 2", "n = 3 to n = 1"],
+    "answer": ["n = 3 to n = 2", "n = 4 to n = 2", "n = 3 to n = 1"],
+    "hint": "A smaller energy gap gives a longer wavelength; the n = 3 to n = 1 jump is the largest energy gap here."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "Maxwell's electromagnetic theory allowed the speed of light to be predicted from the electric permittivity and magnetic permeability of free space, showing that light is an electromagnetic wave.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Maxwell found $c = \\dfrac{1}{\\sqrt{\\varepsilon_0 \\mu_0}}$, which matched the measured speed of light."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "An arrow was released from a bow four times, each time landing at its launch height. The horizontal (x) and vertical (y) components of the launch velocity are shown.\n\nTest 1: x = 120 km h$^{-1}$, y = 207 km h$^{-1}$\nTest 2: x = 167 km h$^{-1}$, y = 172 km h$^{-1}$\nTest 3: x = 183 km h$^{-1}$, y = 154 km h$^{-1}$\nTest 4: x = 207 km h$^{-1}$, y = 120 km h$^{-1}$\n\nWhich test flight produces the greatest range?",
+    "options": ["Test 2", "Test 1", "Test 3", "Test 4"],
+    "answer": "Test 2",
+    "hint": "For a projectile landing at its launch height the range is $R = \\dfrac{2u_x u_y}{g}$, so compare the product $u_x u_y$ for each test; here the launch speed is almost the same each time."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "For a projectile launched and landing at the same height with a fixed launch speed, the range is greatest when the horizontal and vertical components of the launch velocity are equal, which corresponds to a launch angle of 45 degrees.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$R = \\dfrac{u^2 \\sin 2\\theta}{g}$ is largest when $\\sin 2\\theta = 1$, that is $\\theta = 45$ degrees."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "The force per unit length between two long parallel current-carrying wires is $F_0$. The current in both wires is then doubled and the separation between them is quadrupled. The new force per unit length is what multiple of $F_0$?",
+    "answer": 1,
+    "unit": "x F0",
+    "tolerance": 0.05,
+    "tolerance_mode": "absolute",
+    "hint": "$\\dfrac{F}{L} \\propto \\dfrac{I_1 I_2}{r}$, so the factor is $\\dfrac{2 \\times 2}{4}$."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "For two long parallel current-carrying wires, doubling the current in just one of the wires (with the separation unchanged) doubles the force per unit length between them.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The force per unit length is proportional to the product $I_1 I_2$, so doubling one current doubles the force."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A blackbody has a peak emission wavelength of 483 nm. Using Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K, calculate its surface temperature.",
+    "answer": 6000,
+    "unit": "K",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Wien's law is $\\lambda_{max} = \\dfrac{b}{T}$, so $T = \\dfrac{b}{\\lambda_{max}}$."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "For the same blackbody with a peak emission wavelength of 483 nm, calculate the frequency of that peak emission. Use $c = 3.00 \\times 10^8$ m s$^{-1}$.",
+    "answer": 6.21e14,
+    "unit": "Hz",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$f = \\dfrac{c}{\\lambda}$, with $\\lambda = 483 \\times 10^{-9}$ m."
+  },
+
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Four astronauts orbit four different planets. The mass $M$ and orbital radius $r$ of each, in terms of reference values $M_0$ and $r_0$, are:\n\nP: $M = 2M_0$, $r = 2r_0$\nQ: $M = 3M_0$, $r = 4r_0$\nR: $M = 4M_0$, $r = 2r_0$\nS: $M = 6M_0$, $r = 2r_0$\n\nEscape velocity is $v = \\sqrt{\\dfrac{2GM}{r}}$. Which astronaut needs the greatest escape velocity to leave orbit?",
+    "options": ["S", "P", "Q", "R"],
+    "answer": "S",
+    "hint": "Escape velocity depends on the ratio $\\dfrac{M}{r}$; find which body has the largest value of $\\dfrac{M}{r}$."
+  },
+  {
+    "qsrc": "Q18b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A planet has mass $6.0 \\times 10^{24}$ kg and radius $4.0 \\times 10^6$ m. Calculate the escape velocity from its surface. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 1.41e4,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$v = \\sqrt{\\dfrac{2GM}{r}}$."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A radioisotope in a rock has a decay constant of 0.0054 year$^{-1}$. The rock originally contained 800 g of the isotope and now contains 8 g. Calculate the age of the rock.",
+    "answer": 853,
+    "unit": "years",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Rearrange $N = N_0 e^{-\\lambda t}$ to $t = \\dfrac{\\ln(N_0 / N)}{\\lambda}$."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "Using the same isotope (decay constant 0.0054 year$^{-1}$), after a further 850 years beyond the point where 8 g remained, about 0.08 g of the isotope would be left.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The time for the amount to fall by a factor of 100 is the same each time, so 8 g falls to about 0.08 g over the same interval."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Vertically polarised light of intensity 10 units passes through three polarisers in turn. Their transmission axes are set at 20 degrees, then 40 degrees, then 60 degrees, all measured from the vertical. Using Malus's law, calculate the light intensity after the third polariser.",
+    "answer": 6.89,
+    "unit": "units",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Apply $I = I_0 \\cos^2\\theta$ three times, using the 20 degree step between each polariser and the one before it."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "If the second and third polarisers in that setup were removed, leaving only the 20 degree polariser in the path of the vertically polarised 10 unit beam, the transmitted intensity would be about 8.8 units.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "One application of Malus's law: $10 \\times \\cos^2 20^\\circ$."
+  }
+]

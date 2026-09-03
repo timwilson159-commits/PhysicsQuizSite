@@ -1,0 +1,17 @@
+[
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "The four diagrams show an electron changing energy levels in an atom (shells labelled 1st, 2nd, 3rd). Which transition produces the emitted photon with the shortest wavelength?",
+    "image_filename": "ext4-q17-bohr-transitions.png",
+    "options": [
+      "Diagram C: from the 3rd shell to the 1st shell",
+      "Diagram A: from the 3rd shell to the 2nd shell",
+      "Diagram B: from the 2nd shell to the 1st shell",
+      "Diagram D: from the 1st shell to the 2nd shell"
+    ],
+    "answer": "Diagram C: from the 3rd shell to the 1st shell",
+    "quarantine_reason": "The exam's marking key gives the answer as A (3rd shell to 2nd shell). That is not correct: shortest wavelength means largest photon energy, which means the largest energy gap. The 3rd-to-1st transition (diagram C) spans a bigger energy gap than the 3rd-to-2nd transition (diagram A), so C produces the shorter wavelength. Diagram D is an absorption (the electron moves outward), so it emits nothing. This looks like an error in the trial paper. Recommend publishing with the corrected answer (C), or dropping the question. The image is ext4-q17-bohr-transitions.png in images/ext-4b/."
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "qsrc": "Q21",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "A scientist has two unlabelled radiation sources, one an alpha emitter and one a beta emitter. Which pair of tests would identify which is which?",
+    "options": [
+      "A penetration test (alpha is stopped by paper, beta passes paper but is stopped by a few mm of aluminium) and a deflection test in a magnetic field (both deflect, but beta far more, and in the opposite direction to alpha)",
+      "Weighing each source before and after a week",
+      "Measuring the colour of light each source emits",
+      "Checking which source feels warmer to the touch"
+    ],
+    "answer": "A penetration test (alpha is stopped by paper, beta passes paper but is stopped by a few mm of aluminium) and a deflection test in a magnetic field (both deflect, but beta far more, and in the opposite direction to alpha)",
+    "hint": "Alpha particles are heavy and +2 charged (low penetration, small deflection); beta particles are light and -1 charged (higher penetration, large deflection the other way)."
+  },
+  {
+    "qsrc": "Q23a",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "A single wire loop carries 2 A. The length of wire within a magnetic field is 5 cm, the field is $3 \\times 10^{-2}$ T (at right angles to the wire), and the loop pivots about an axis 20 cm across (10 cm from each current-carrying side). Calculate the magnitude of the torque produced by the motor effect.",
+    "answer": 6e-4,
+    "unit": "N m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Force on the 5 cm side: $F = BIL = 3 \\times 10^{-2} \\times 2 \\times 0.05$. Torque = force x lever arm; with two sides each 0.10 m from the axis, $\\tau = F \\times 0.20$."
+  },
+  {
+    "qsrc": "Q23b",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "Starting from the loop above, both the current and the magnetic field are changed so that the torque is in the same direction but twice the magnitude. Which change achieves this?",
+    "options": [
+      "Double one of them (for example double the current) and leave the other unchanged",
+      "Double both the current and the field",
+      "Halve the current and double the field",
+      "Reverse both the current and the field"
+    ],
+    "answer": "Double one of them (for example double the current) and leave the other unchanged",
+    "hint": "Torque is proportional to the product $B \\times I$; doubling both would quadruple it, and reversing both would keep it the same."
+  },
+  {
+    "qsrc": "Q24",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Satellites A and B are in stable circular orbits around Earth. A's orbital radius is three times B's, and both satellites have the same kinetic energy. What does this imply about their masses?",
+    "options": [
+      "The mass of A is three times the mass of B, because a satellite's orbital kinetic energy is $\\dfrac{GMm}{2r}$, so equal kinetic energy with three times the radius needs three times the mass",
+      "A and B must have the same mass",
+      "The mass of A is one third the mass of B",
+      "The mass of A is nine times the mass of B"
+    ],
+    "answer": "The mass of A is three times the mass of B, because a satellite's orbital kinetic energy is $\\dfrac{GMm}{2r}$, so equal kinetic energy with three times the radius needs three times the mass",
+    "hint": "For a circular orbit $\\tfrac{1}{2}mv^2 = \\dfrac{GMm}{2r}$; set this equal for A and B and the $\\dfrac{m}{r}$ ratios must match."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "In a photoelectric experiment on potassium, the stopping voltage was measured at several light frequencies:\n\nFrequency ($\\times 10^{15}$ Hz): 0.9, 1.1, 1.2, 1.3, 1.4, 1.5\nStopping voltage (V): 1.5, 2.0, 2.5, 3.0, 3.5, 4.0\n\nBy extrapolating the line of best fit to where the stopping voltage is zero, determine the threshold frequency of potassium.",
+    "answer": 6.0e14,
+    "unit": "Hz",
+    "tolerance": 20,
+    "tolerance_mode": "relative",
+    "hint": "$eV_{stop} = hf - \\phi$, so the graph of $V_{stop}$ against $f$ is a straight line whose x-intercept is the threshold frequency $f_0$."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Using the particle (photon) model of light, which features of the photoelectric results are explained?",
+    "options": [
+      "There is a threshold frequency below which no electrons are emitted (each photon must carry at least the work function energy), and above it the stopping voltage rises linearly with frequency because $eV_{stop} = hf - \\phi$",
+      "The stopping voltage depends only on how bright the light is, not its frequency",
+      "Photoelectrons are emitted at every frequency if you wait long enough",
+      "The current is zero at all frequencies"
+    ],
+    "answer": "There is a threshold frequency below which no electrons are emitted (each photon must carry at least the work function energy), and above it the stopping voltage rises linearly with frequency because $eV_{stop} = hf - \\phi$",
+    "hint": "One photon gives its whole energy $hf$ to one electron; below $\\phi$ that is not enough, and above it the surplus becomes kinetic energy."
+  },
+  {
+    "qsrc": "Q26a",
+    "inquiry_id": "6.4",
+    "type": "numeric-entry",
+    "prompt": "A single-loop AC generator has a coil measuring 0.4 m by 0.3 m in a uniform 0.5 T field. Starting from the position where the coil is face-on to the field, it is rotated through 90 degrees in 0.1 s. Calculate the magnitude of the average emf generated.",
+    "answer": 0.6,
+    "unit": "V",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Flux goes from $\\Phi = BA$ to zero, so $\\varepsilon = \\dfrac{\\Delta\\Phi}{\\Delta t} = \\dfrac{0.5 \\times (0.4 \\times 0.3)}{0.1}$."
+  },
+  {
+    "qsrc": "Q26b",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "The generator coil first turns at 10 revolutions per second, producing a sinusoidal voltage output. If it is instead turned at 20 revolutions per second in the opposite direction from the same starting position, how does the output change?",
+    "options": [
+      "The frequency doubles (period halved) and the peak voltage doubles (emf is proportional to rotational speed); the output also starts by going the opposite way (negative instead of positive)",
+      "The frequency doubles but the peak voltage is unchanged",
+      "The peak voltage doubles but the frequency is unchanged",
+      "The output is identical to before"
+    ],
+    "answer": "The frequency doubles (period halved) and the peak voltage doubles (emf is proportional to rotational speed); the output also starts by going the opposite way (negative instead of positive)",
+    "hint": "Peak emf $\\propto$ angular speed; reversing the rotation reverses the sign of the induced emf at every instant."
+  },
+  {
+    "qsrc": "Q27",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "How does Schrodinger's model of the electron in an atom differ from the models of Rutherford and Bohr?",
+    "options": [
+      "The electron is described by a wave function giving only the probability of finding it in each region (an orbital), with no definite path or orbit, and its energy levels emerge from solving a wave equation rather than being assumed",
+      "The electron orbits the nucleus in fixed circular paths at set radii",
+      "The electron is a stationary point charge at the centre of the atom",
+      "The electron has an exactly known position and momentum at all times"
+    ],
+    "answer": "The electron is described by a wave function giving only the probability of finding it in each region (an orbital), with no definite path or orbit, and its energy levels emerge from solving a wave equation rather than being assumed",
+    "hint": "Rutherford and Bohr kept a definite orbit; Schrodinger replaced it with a probability distribution and no trajectory."
+  },
+  {
+    "qsrc": "Q28",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A bicycle rider launches off a ramp inclined at 20 degrees and must land on a second, identical ramp whose take-off point is 16 m away at the same height. Calculate the minimum launch speed required. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 15.6,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Landing at the launch height: $R = \\dfrac{u^2\\sin2\\theta}{g}$; set $R = 16$ m and solve for $u$."
+  },
+  {
+    "qsrc": "Q29a",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A mass on a string of length r moves in a vertical circle. At the highest point B the string tension is zero. Why is the speed there given by $v = \\sqrt{rg}$?",
+    "options": [
+      "With zero tension, gravity is the only force acting, so it alone provides the centripetal force: $mg = \\dfrac{mv^2}{r}$, which rearranges to $v = \\sqrt{rg}$",
+      "Because the mass is momentarily at rest at the top",
+      "Because the string does work on the mass at the top",
+      "Because the kinetic energy equals the potential energy at the top"
+    ],
+    "answer": "With zero tension, gravity is the only force acting, so it alone provides the centripetal force: $mg = \\dfrac{mv^2}{r}$, which rearranges to $v = \\sqrt{rg}$",
+    "hint": "Zero tension means the weight is exactly the centripetal force needed to keep the mass on the circle."
+  },
+  {
+    "qsrc": "Q29b",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "For the same mass on the vertical circle (speed $\\sqrt{rg}$ at the top B), how does its speed at point A, level with the centre (a height r below B), compare?",
+    "options": [
+      "It is faster: by conservation of energy $\\tfrac{1}{2}v_A^2 = \\tfrac{1}{2}v_B^2 + gr$, giving $v_A = \\sqrt{3rg}$",
+      "It is the same, because the string length does not change",
+      "It is slower, because the string does negative work between B and A",
+      "It is exactly twice the speed at B"
+    ],
+    "answer": "It is faster: by conservation of energy $\\tfrac{1}{2}v_A^2 = \\tfrac{1}{2}v_B^2 + gr$, giving $v_A = \\sqrt{3rg}$",
+    "hint": "Dropping a height r converts gravitational potential energy into extra kinetic energy: $v_A^2 = v_B^2 + 2gr = rg + 2gr$."
+  },
+  {
+    "qsrc": "Q30a",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "A beam of electrons travels at $4 \\times 10^{3}$ m s$^{-1}$ towards a double slit. Calculate the de Broglie wavelength of the electrons. Use $h = 6.626 \\times 10^{-34}$ J s and electron mass $9.109 \\times 10^{-31}$ kg.",
+    "answer": 182,
+    "unit": "nm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda = \\dfrac{h}{mv}$; convert the answer to nanometres."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Electrons of wavelength 182 nm pass through two slits 1 mm apart, forming an interference pattern on a screen 50 cm away. Calculate the distance between the central bright fringe and the centre of the next bright fringe.",
+    "answer": 0.091,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Fringe spacing $\\Delta y = \\dfrac{\\lambda L}{d}$."
+  },
+  {
+    "qsrc": "Q30c",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "Calculate the potential difference needed in the electron gun to accelerate electrons from rest to $4 \\times 10^{3}$ m s$^{-1}$. Use electron mass $9.109 \\times 10^{-31}$ kg and charge $1.602 \\times 10^{-19}$ C.",
+    "answer": 4.5e-5,
+    "unit": "V",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$qV = \\tfrac{1}{2}mv^2$, so $V = \\dfrac{mv^2}{2q}$."
+  },
+  {
+    "qsrc": "Q34a",
+    "inquiry_id": "7.1",
+    "type": "numeric-entry",
+    "prompt": "In a Roemer-style method, light is found to take an extra $1.000 \\times 10^{3}$ s to reach Earth when Earth has moved from one side of its orbit to the other (a distance equal to the orbit's diameter, $2 \\times 1.471 \\times 10^{11}$ m). Calculate the speed of light from these measurements.",
+    "answer": 2.94e8,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$c = \\dfrac{\\text{distance}}{\\text{time}} = \\dfrac{2 \\times 1.471 \\times 10^{11}}{1000}$."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "If Earth's orbit were treated as elliptical rather than circular, how would this affect the determination of the speed of light by this method?",
+    "options": [
+      "The distance between the two measuring positions would no longer be a fixed orbit diameter and would depend on where in the orbit the measurements were taken, introducing uncertainty into the calculated speed",
+      "It would have no effect, because light speed does not depend on distance",
+      "It would make the light travel faster on one side of the orbit",
+      "It would make the method exact, because ellipses are simpler than circles"
+    ],
+    "answer": "The distance between the two measuring positions would no longer be a fixed orbit diameter and would depend on where in the orbit the measurements were taken, introducing uncertainty into the calculated speed",
+    "hint": "The method relies on knowing the exact distance light crossed; an elliptical orbit makes that distance variable."
+  },
+  {
+    "qsrc": "Q35",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A 50 g magnet is dropped inside an upright hollow copper pipe standing on a balance that reads 300 g. As the magnet falls, the balance reading rises to a steady 350 g before the magnet reaches the bottom. Explain the observations.",
+    "options": [
+      "The falling magnet induces eddy currents in the pipe that oppose its motion (Lenz's law); the pipe pushes up on the magnet, so by Newton's third law the magnet pushes down on the pipe, raising the reading. Once the magnet reaches terminal velocity the retarding force equals its weight, so the reading is a constant 300 + 50 = 350 g",
+      "The magnet magnetises the copper, which becomes heavier",
+      "Air compressed below the magnet pushes down on the balance",
+      "The reading rises because the magnet speeds up and gains kinetic energy"
+    ],
+    "answer": "The falling magnet induces eddy currents in the pipe that oppose its motion (Lenz's law); the pipe pushes up on the magnet, so by Newton's third law the magnet pushes down on the pipe, raising the reading. Once the magnet reaches terminal velocity the retarding force equals its weight, so the reading is a constant 300 + 50 = 350 g",
+    "hint": "At terminal velocity the whole weight of the magnet is transferred to the pipe through the magnetic interaction."
+  },
+  {
+    "qsrc": "Q36",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A satellite of speed v splits into two equal-mass pieces at point Y. Piece $m_a$ leaves with speed 2v in the original direction. Using conservation of momentum, what happens to piece $m_b$ and its subsequent motion?",
+    "options": [
+      "Momentum conservation ($mv + mv = m(2v) + mv_b$) gives $v_b = 0$: piece $m_b$ is momentarily at rest, so it no longer has orbital speed and falls towards Earth, while $m_a$ (now at 2v, above orbital speed) moves onto a larger, more elongated orbit or escapes",
+      "Both pieces continue in the original circular orbit at speed v",
+      "Piece $m_b$ also speeds up to 2v",
+      "Piece $m_b$ moves backwards along the orbit at speed v"
+    ],
+    "answer": "Momentum conservation ($mv + mv = m(2v) + mv_b$) gives $v_b = 0$: piece $m_b$ is momentarily at rest, so it no longer has orbital speed and falls towards Earth, while $m_a$ (now at 2v, above orbital speed) moves onto a larger, more elongated orbit or escapes",
+    "hint": "Total momentum before = total momentum after; with equal masses, if one piece doubles its speed the other must lose all of its forward speed."
+  }
+]

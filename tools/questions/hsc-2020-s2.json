@@ -1,0 +1,256 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the wavelength of the light emitted when an electron in a Bohr-model hydrogen atom moves from energy level 3 to level 2. Use the Rydberg constant $R = 1.097 \\times 10^{7}$ m$^{-1}$.",
+    "answer": 656,
+    "unit": "nm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{2^2} - \\dfrac{1}{3^2}\\right)$; convert to nanometres."
+  },
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "In the Bohr model, how does the behaviour of electrons respect the law of conservation of energy?",
+    "options": [
+      "An electron in a stationary state does not radiate; when it jumps between levels it emits or absorbs a photon whose energy exactly equals the difference between the two levels",
+      "The electron continuously radiates energy as it orbits and spirals into the nucleus",
+      "The electron's energy can take any value, and energy is lost as heat during each orbit",
+      "Electrons gain energy from the nucleus with every orbit, so total energy increases"
+    ],
+    "answer": "An electron in a stationary state does not radiate; when it jumps between levels it emits or absorbs a photon whose energy exactly equals the difference between the two levels",
+    "hint": "Energy released by the atom is carried away by a photon of precisely matching energy, so nothing is created or destroyed."
+  },
+  {
+    "qsrc": "Q22a",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "During re-entry a capsule reaches a temperature of 3200 K. Treating it as a blackbody, calculate the peak wavelength of the light it emits. Use Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K.",
+    "answer": 9.1e-7,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda_{max} = \\dfrac{b}{T}$."
+  },
+  {
+    "qsrc": "Q22b",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Why is special relativity not useful for analysing the motion of a capsule re-entering the atmosphere at about 12 900 m s$^{-1}$?",
+    "options": [
+      "The capsule is decelerating (a non-inertial frame), and in any case its speed is only about $4 \\times 10^{-5}$ of the speed of light, so relativistic effects are utterly negligible",
+      "Special relativity only applies to light, never to solid objects",
+      "The capsule is too massive for special relativity to apply",
+      "Air resistance makes the speed of light change near the capsule"
+    ],
+    "answer": "The capsule is decelerating (a non-inertial frame), and in any case its speed is only about $4 \\times 10^{-5}$ of the speed of light, so relativistic effects are utterly negligible",
+    "hint": "Special relativity assumes inertial (non-accelerating) frames, and its effects only become significant at an appreciable fraction of c."
+  },
+  {
+    "qsrc": "Q23",
+    "inquiry_id": "6.4",
+    "type": "numeric-entry",
+    "prompt": "A motor runs from a 240 V supply with an efficiency of 0.30. Its torque is related to its running by $\\tau = \\dfrac{VI\\eta}{\\omega}$. When it produces a torque of 2.95 N m it is turning at an angular velocity of 100 rad s$^{-1}$. Calculate the current drawn by the motor.",
+    "answer": 4.1,
+    "unit": "A",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Rearrange to $I = \\dfrac{\\tau\\omega}{V\\eta} = \\dfrac{2.95 \\times 100}{240 \\times 0.30}$."
+  },
+  {
+    "qsrc": "Q23b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "A circuit breaker cuts the supply if the motor current exceeds 5 A. When the motor produces a torque of 2.95 N m at 100 rad s$^{-1}$ (drawing about 4.1 A), the circuit breaker trips.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "4.1 A is below the 5 A trip current, so the breaker stays closed."
+  },
+  {
+    "qsrc": "Q24",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A projectile is launched from ground level. Its vertical-displacement graph shows a maximum height of 44 m reached at 3.0 s, with a total flight time of 6.0 s. The range is 130 m. Calculate the magnitude of the initial launch velocity. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 36.5,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$u_x = \\dfrac{130}{6.0}$; $u_y = g \\times 3.0$ (the time to the top); then $u = \\sqrt{u_x^2 + u_y^2}$."
+  },
+  {
+    "qsrc": "Q25",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "How is a hydrogen atom described in terms of the Standard Model of matter?",
+    "options": [
+      "A nucleus of one proton (two up quarks and one down quark, bound by the strong force) with one orbiting electron (a fundamental lepton), the two held together by the electromagnetic force",
+      "A proton and an electron, both of which are fundamental particles with no internal structure",
+      "Three quarks orbiting a central electron",
+      "A neutron that has split into a proton and an electron"
+    ],
+    "answer": "A nucleus of one proton (two up quarks and one down quark, bound by the strong force) with one orbiting electron (a fundamental lepton), the two held together by the electromagnetic force",
+    "hint": "The proton is a baryon (three quarks); the electron is a lepton; the binding of the atom is electromagnetic (photon exchange)."
+  },
+  {
+    "qsrc": "Q26a",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "How does the spectrum of light from a gas discharge tube differ from that of an incandescent lamp?",
+    "options": [
+      "The discharge tube gives a discrete set of bright emission lines; the incandescent lamp gives a continuous spectrum of all visible wavelengths",
+      "The discharge tube gives a continuous spectrum; the incandescent lamp gives emission lines",
+      "Both give identical continuous spectra",
+      "The discharge tube gives dark absorption lines on a bright background"
+    ],
+    "answer": "The discharge tube gives a discrete set of bright emission lines; the incandescent lamp gives a continuous spectrum of all visible wavelengths",
+    "hint": "Isolated excited atoms in a low-pressure gas emit only their characteristic wavelengths; a hot solid filament emits a full blackbody spectrum."
+  },
+  {
+    "qsrc": "Q26b",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "For the radiation emitted by a 5000 K object, model X predicts an intensity that rises without limit as the wavelength gets shorter, while model Y predicts a curve that peaks and then falls back to zero. Which assumptions produce these shapes?",
+    "options": [
+      "Model X assumes energy can be emitted in any (continuous) amount; model Y assumes energy is emitted only in discrete quanta of size $E = hf$",
+      "Model X assumes the object is a perfect blackbody; model Y assumes it is a perfect mirror",
+      "Model X assumes the object is hot; model Y assumes it is cold",
+      "Model X assumes light is a particle; model Y assumes light is a wave"
+    ],
+    "answer": "Model X assumes energy can be emitted in any (continuous) amount; model Y assumes energy is emitted only in discrete quanta of size $E = hf$",
+    "hint": "Model X is the classical result (the 'ultraviolet catastrophe'); model Y is Planck's quantised result."
+  },
+  {
+    "qsrc": "Q27",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In a double-slit experiment the fringe spacing is $\\Delta x = \\dfrac{\\lambda y}{d}$ (y = slit-to-screen distance, d = slit separation). Which change would keep the fringe spacing the same when the wavelength is reduced?",
+    "options": [
+      "Decrease the slit separation d in the same proportion as the wavelength (or increase the slit-to-screen distance y in that proportion)",
+      "Increase the slit separation d",
+      "Decrease the slit-to-screen distance y",
+      "Increase the brightness of the laser"
+    ],
+    "answer": "Decrease the slit separation d in the same proportion as the wavelength (or increase the slit-to-screen distance y in that proportion)",
+    "hint": "Fringe spacing depends on $\\dfrac{\\lambda y}{d}$; a smaller $\\lambda$ can be offset by a smaller $d$ or a larger $y$."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A rod slides 30 cm along rails 20 cm apart, set on a plane inclined at 30 degrees to the horizontal. A uniform 1 T magnetic field points vertically upward. Calculate the change in magnetic flux through the circuit as the rod moves.",
+    "answer": 5.2e-2,
+    "unit": "Wb",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Area swept = $0.30 \\times 0.20$ m$^2$ on the incline; only the component of B perpendicular to that area counts: $\\Phi = BA\\cos30^\\circ$."
+  },
+  {
+    "qsrc": "Q28b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "The rod (from the previous part) takes 2.5 s to move the 30 cm, producing a flux change of about $5.2 \\times 10^{-2}$ Wb. Calculate the emf induced between the ends of the rod.",
+    "answer": 0.021,
+    "unit": "V",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$\\varepsilon = \\dfrac{\\Delta\\Phi}{\\Delta t}$."
+  },
+  {
+    "qsrc": "Q28c",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The experiment is repeated with the magnetic field switched off. Why is the force needed to move the rod at constant speed now smaller?",
+    "options": [
+      "With no field there is no induced current, so there is no opposing magnetic (Lenz's law) force to push against; only friction and the gravity component along the incline remain",
+      "Without the field the rod becomes lighter",
+      "Without the field there is less friction between the rod and the rails",
+      "Without the field the rod moves itself, so no applied force is needed"
+    ],
+    "answer": "With no field there is no induced current, so there is no opposing magnetic (Lenz's law) force to push against; only friction and the gravity component along the incline remain",
+    "hint": "With the field on, the applied force also has to do the work that ends up as electrical energy dissipated in the circuit."
+  },
+  {
+    "qsrc": "Q29a",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "Alpha particles fired at beryllium produced an unknown radiation that was not deflected by an electric field, ejected protons from paraffin, and could not produce the photoelectric effect. Scientists first proposed it was gamma radiation, then rejected that. Why?",
+    "options": [
+      "Being undeflected suggested it was neutral (like gamma rays), but a massless gamma photon could not knock protons out of paraffin while conserving both energy and momentum, so it had to be a neutral particle with mass (the neutron)",
+      "Gamma radiation is always deflected by electric fields, so it could not be gamma",
+      "Gamma radiation cannot be produced by alpha particles hitting beryllium",
+      "The radiation was visible, so it had to be light rather than gamma rays"
+    ],
+    "answer": "Being undeflected suggested it was neutral (like gamma rays), but a massless gamma photon could not knock protons out of paraffin while conserving both energy and momentum, so it had to be a neutral particle with mass (the neutron)",
+    "hint": "A photon energetic enough to be undeflected carries too little momentum to eject fast protons; a particle with mass comparable to the proton does the job."
+  },
+  {
+    "qsrc": "Q30bi",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the de Broglie wavelength of a proton travelling at 0.1c (non-relativistically). Use $h = 6.626 \\times 10^{-34}$ J s, proton mass $1.673 \\times 10^{-27}$ kg and $c = 3.0 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 1.3e-14,
+    "unit": "m",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda = \\dfrac{h}{mv}$ with $v = 0.1 \\times 3.0 \\times 10^{8}$ m s$^{-1}$."
+  },
+  {
+    "qsrc": "Q30bii",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "For a proton travelling at 0.95c, how does the actual de Broglie wavelength compare with the value given by the non-relativistic formula $\\lambda = \\dfrac{h}{mv}$?",
+    "options": [
+      "The actual wavelength is shorter, because the proton's relativistic momentum is larger than $mv$",
+      "The actual wavelength is longer, because relativistic momentum is smaller than $mv$",
+      "They are the same; relativity does not affect wavelength",
+      "The wavelength becomes zero at 0.95c"
+    ],
+    "answer": "The actual wavelength is shorter, because the proton's relativistic momentum is larger than $mv$",
+    "hint": "$\\lambda = \\dfrac{h}{p}$; at 0.95c the momentum must be found with $p = \\gamma mv$, which is about 3.2 times $mv$."
+  },
+  {
+    "qsrc": "Q31a",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A comet moves in a highly elliptical orbit around the Sun. How does its speed change over one orbit?",
+    "options": [
+      "It is fastest when closest to the Sun and slowest when farthest away, as kinetic and gravitational potential energy trade off while total energy stays constant",
+      "It moves at constant speed throughout the orbit",
+      "It is slowest when closest to the Sun and fastest when farthest away",
+      "It speeds up steadily throughout the whole orbit"
+    ],
+    "answer": "It is fastest when closest to the Sun and slowest when farthest away, as kinetic and gravitational potential energy trade off while total energy stays constant",
+    "hint": "Close to the Sun the comet has lost gravitational potential energy, so it must have gained kinetic energy."
+  },
+  {
+    "qsrc": "Q34a",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A charged particle is fired midway between two oppositely charged plates and strikes the far plate. In a second setup the far plate is moved twice as far away, the same voltage is kept across the plates, and an identical particle enters at the same distance from the near plate. How does the work done by the electric field on the two particles compare?",
+    "options": [
+      "It is the same, because each particle moves through the same potential difference before striking the far plate",
+      "Twice as much work is done on the second particle, because it travels twice as far",
+      "Half as much work is done on the second particle, because the field is half as strong",
+      "No work is done on either particle"
+    ],
+    "answer": "It is the same, because each particle moves through the same potential difference before striking the far plate",
+    "hint": "Work by the field is $q\\Delta V$; widening the gap halves the field but doubles the distance, so $\\Delta V$ from the entry point to the far plate is unchanged."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "In the same two setups (far plate moved to twice the distance, same voltage, particle entering at the same point), how do the horizontal distances the two particles travel inside the field compare?",
+    "options": [
+      "The second particle travels twice as far horizontally, because the field is half as strong (half the acceleration) and it has twice as far to move sideways, so it spends twice as long in the field",
+      "The second particle travels the same horizontal distance",
+      "The second particle travels half as far horizontally",
+      "The second particle does not reach the far plate at all"
+    ],
+    "answer": "The second particle travels twice as far horizontally, because the field is half as strong (half the acceleration) and it has twice as far to move sideways, so it spends twice as long in the field",
+    "hint": "With half the acceleration and twice the sideways displacement, the time in the field doubles; horizontal distance is (unchanged horizontal speed) x time."
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "A marble is rolled off the edge of a horizontal bench and falls to the floor. Rolling the marble off at a slower speed would make it land closer to the base of the bench, but it would still take the same time to reach the floor.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The time of flight depends only on the height of the bench; the launch speed only affects the horizontal range."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "6.1",
+    "type": "word-bank",
+    "prompt": "A positive charge moves to the right through a uniform electric field that points up the page. The electric force on the charge is directed ___ the page, because the force on a positive charge is ___ to the field and does not depend on the charge's velocity.",
+    "bank": [
+      "up",
+      "down",
+      "parallel",
+      "perpendicular",
+      "opposite"
+    ],
+    "answer": [
+      "up",
+      "parallel"
+    ],
+    "hint": "$\\vec{F} = q\\vec{E}$; for a positive $q$ the force is along $\\vec{E}$."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "Which of the following is NOT a fundamental particle in the Standard Model of matter?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Gluon",
+      "Muon"
+    ],
+    "answer": "Proton",
+    "hint": "A proton is made of quarks; the electron and muon are leptons, and the gluon is a force-carrying boson."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "8.5",
+    "type": "word-bank",
+    "prompt": "In the Standard Model, the proton is not a fundamental particle because it is made of three ___.",
+    "bank": [
+      "quarks",
+      "leptons",
+      "gluons",
+      "photons"
+    ],
+    "answer": [
+      "quarks"
+    ],
+    "hint": "A proton is two up quarks and one down quark."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "An astronaut travels towards Earth at 0.8c and sends radio pulses to an observer on Earth at regular intervals. Which quantity would the astronaut and the Earth observer measure to be the same?",
+    "options": [
+      "The speed of the radio pulses",
+      "The length of the spaceship",
+      "The momentum of the astronaut",
+      "The time interval between the radio pulses"
+    ],
+    "answer": "The speed of the radio pulses",
+    "hint": "The speed of light (and of any electromagnetic wave) is the same for all inertial observers; length, time intervals and momentum are all frame-dependent."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "7.1",
+    "type": "drag-drop",
+    "prompt": "The spectrum shown is a broad continuous distribution of intensity crossed by several sharp dark dips (the features labelled Y). Match each description to what the spectrum shows.",
+    "image_filename": "2021-q5-stellar-spectrum.png",
+    "pairs": [
+      {
+        "item": "Most likely source of this spectrum",
+        "match": "A star"
+      },
+      {
+        "item": "The features labelled Y",
+        "match": "Absorption lines"
+      }
+    ],
+    "answer": {
+      "Most likely source of this spectrum": "A star",
+      "The features labelled Y": "Absorption lines"
+    },
+    "hint": "A continuous spectrum with dark gaps is produced when light from a hot dense source passes through a cooler gas, as in a star's atmosphere."
+  },
+  {
+    "qsrc": "Q5b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "The pattern of dark absorption lines in a star's spectrum can be used to identify which chemical elements are present in the star's outer layers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Each element absorbs light at its own characteristic set of wavelengths."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "8.1",
+    "type": "word-bank",
+    "prompt": "In the part of the proton-proton chain shown, two protons fuse to form a deuterium nucleus (plus a positron and a neutrino). The deuterium nucleus then fuses with another proton to form isotope R plus a gamma ray. Isotope R is ___.",
+    "image_filename": "2021-q6-pp-chain.png",
+    "bank": [
+      "He-3",
+      "H-2",
+      "He-2",
+      "H-3"
+    ],
+    "answer": [
+      "He-3"
+    ],
+    "hint": "Deuterium (1 proton, 1 neutron) plus a proton gives a nucleus with 2 protons and 1 neutron."
+  },
+  {
+    "qsrc": "Q6b",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "The overall effect of the proton-proton chain in a star is that four hydrogen nuclei are converted into one helium-4 nucleus, with a release of energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The helium-4 nucleus has slightly less mass than the four protons; the difference is released as energy."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.3",
+    "type": "drag-drop",
+    "prompt": "In an ideal transformer, the current in the secondary coil is four times as large as the current in the primary coil. Match each property to the correct description.",
+    "pairs": [
+      {
+        "item": "Type of transformer",
+        "match": "Step-down"
+      },
+      {
+        "item": "Ratio of primary turns to secondary turns",
+        "match": "4 : 1"
+      }
+    ],
+    "answer": {
+      "Type of transformer": "Step-down",
+      "Ratio of primary turns to secondary turns": "4 : 1"
+    },
+    "hint": "For an ideal transformer $V_p I_p = V_s I_s$, so a larger secondary current means a smaller secondary voltage (step-down) and fewer secondary turns."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "An ideal transformer has 800 turns on the primary coil and 200 turns on the secondary coil. The primary current is 0.50 A. Calculate the secondary current.",
+    "answer": 2.0,
+    "unit": "A",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "For an ideal transformer, $\\dfrac{I_s}{I_p} = \\dfrac{N_p}{N_s}$."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "7.2",
+    "type": "word-bank",
+    "prompt": "Light from a point source shines on a small circular metal disc, and a bright spot appears at the very centre of the disc's shadow on the screen, as shown. This bright spot is produced by the ___ of light waves around the edge of the disc, followed by their constructive ___ at the centre of the shadow.",
+    "image_filename": "2021-q8-poisson-spot.png",
+    "bank": [
+      "diffraction",
+      "interference",
+      "refraction",
+      "polarisation",
+      "reflection"
+    ],
+    "answer": [
+      "diffraction",
+      "interference"
+    ],
+    "hint": "Every point on the disc's rim is the same distance from the centre of the shadow, so the diffracted waves arrive there in phase."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "The bright spot at the centre of a circular object's shadow is strong evidence for the wave model of light and cannot be explained by treating light purely as particles.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Only waves diffract around an obstacle and interfere constructively behind it."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A mass M moves along a straight path that starts on one side of a pair of identical stars, passes midway between them, and continues out the other side to position X, as shown. How does the gravitational potential energy U of the mass change during this movement?",
+    "image_filename": "2021-q9-mass-two-stars.png",
+    "options": [
+      "U decreases to a minimum as M passes between the stars, then increases again",
+      "U increases steadily throughout the movement",
+      "U decreases steadily throughout the movement",
+      "U stays constant because M is always equidistant from the two stars"
+    ],
+    "answer": "U decreases to a minimum as M passes between the stars, then increases again",
+    "hint": "The mass is closest to the stars (deepest in the combined potential well, so U most negative) as it passes the midpoint."
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "As the mass M in the diagram moves from far away towards the point midway between the two stars, its gravitational potential energy becomes more negative.",
+    "image_filename": "2021-q9-mass-two-stars.png",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Moving closer to the stars means moving deeper into the gravitational potential well."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A strong magnet is moved to the right at constant speed past a stationary copper block, as shown. What is the direction of the force acting on the copper block?",
+    "image_filename": "2021-q10-magnet-copper-block.png",
+    "options": [
+      "To the right (the same direction the magnet is moving)",
+      "To the left (opposite to the magnet's motion)",
+      "Into the page",
+      "Out of the page"
+    ],
+    "answer": "To the right (the same direction the magnet is moving)",
+    "hint": "Eddy currents induced in the copper oppose the change in flux (Lenz's law), which drags the block along in the direction of the magnet's motion."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "The eddy currents induced in the copper block by the passing magnet exert a force on the block that acts in the same direction as the magnet's motion.",
+    "image_filename": "2021-q10-magnet-copper-block.png",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "By Lenz's law the induced effects oppose the relative motion, so the block is dragged after the magnet."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the peak wavelength of the electromagnetic radiation emitted by a person whose body temperature is 310 K. Use Wien's displacement law $\\lambda_{max} T = b$ with $b = 2.90 \\times 10^{-3}$ m K.",
+    "answer": 9.35e-06,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda_{max} = b / T$. The answer is in the infrared."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A star has a surface temperature of 5800 K. Calculate the wavelength at which it emits maximum intensity. Use Wien's displacement law $\\lambda_{max} T = b$ with $b = 2.90 \\times 10^{-3}$ m K.",
+    "answer": 5e-07,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "This wavelength (about 500 nm) is in the visible part of the spectrum."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "5.2",
+    "type": "word-bank",
+    "prompt": "The magnitude of the back EMF induced in a DC motor is ___ proportional to the motor's angular velocity.",
+    "bank": [
+      "directly",
+      "inversely",
+      "exponentially",
+      "not"
+    ],
+    "answer": [
+      "directly"
+    ],
+    "hint": "Faster rotation cuts field lines more quickly, inducing a larger opposing EMF; a graph of back EMF against angular velocity is a straight line through the origin."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows electron transitions W, X, Y and Z in a Bohr-model hydrogen atom (W: n=2 to n=1; X: n=4 to n=1; Y: n=3 to n=2; Z: n=5 to n=2). Which transition produces light of the shortest wavelength?",
+    "image_filename": "2021-q13-bohr-transitions.png",
+    "options": [
+      "X",
+      "W",
+      "Y",
+      "Z"
+    ],
+    "answer": "X",
+    "hint": "Shortest wavelength means the largest photon energy, so look for the transition with the biggest energy gap."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "8.3",
+    "type": "word-bank",
+    "prompt": "For light emitted when an electron drops between two energy levels, a shorter wavelength corresponds to a ___ energy difference between the levels.",
+    "image_filename": "2021-q13-bohr-transitions.png",
+    "bank": [
+      "larger",
+      "smaller",
+      "negative",
+      "zero"
+    ],
+    "answer": [
+      "larger"
+    ],
+    "hint": "$E = \\dfrac{hc}{\\lambda}$: smaller $\\lambda$ means larger $E$."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Which statement correctly describes the gravitational interaction between the Earth and the Moon?",
+    "options": [
+      "The Earth accelerates towards the Moon",
+      "The net force acting on the Earth is zero",
+      "The Moon and the Earth experience equal and opposite accelerations",
+      "The gravitational force acting on the Moon is smaller than the force acting on the Earth"
+    ],
+    "answer": "The Earth accelerates towards the Moon",
+    "hint": "The forces on the two bodies are equal in magnitude (Newton's third law), but the Earth's much greater mass gives it a much smaller acceleration -- small, but not zero."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "The gravitational force the Moon exerts on the Earth is equal in magnitude to the force the Earth exerts on the Moon, but the Earth's resulting acceleration is much smaller because of its far greater mass.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Equal forces (Newton's third law), unequal masses, so unequal accelerations."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Unpolarised light passes through two polarisers. The transmission axis of the second polariser is fixed. $I_1$ is the intensity after the first polariser and $I_2$ is the intensity after the second. If the transmission axis of the first polariser is rotated, how are $I_1$ and $I_2$ affected?",
+    "options": [
+      "Only $I_2$ changes",
+      "Both $I_1$ and $I_2$ change",
+      "Only $I_1$ changes",
+      "Neither $I_1$ nor $I_2$ changes"
+    ],
+    "answer": "Only $I_2$ changes",
+    "hint": "Unpolarised light loses exactly half its intensity through any single polariser, so $I_1$ is fixed; but rotating the first polariser changes the angle between the two axes, which changes $I_2$."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "When initially unpolarised light passes through a single polariser, the transmitted intensity is always half the incident intensity, regardless of how the polariser is oriented.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Unpolarised light contains all polarisation directions equally, so on average half gets through."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "The Sun has an energy output of $3.85 \\times 10^{28}$ W. Using $E = mc^2$ with $c = 3.00 \\times 10^{8}$ m s$^{-1}$, calculate the decrease in the Sun's mass each minute.",
+    "answer": 25700000000000.0,
+    "unit": "kg",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Energy radiated in one minute is $3.85 \\times 10^{28} \\times 60$ J; divide by $c^2$."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "The Sun radiates energy at $3.85 \\times 10^{28}$ W. Using $E = mc^2$ with $c = 3.00 \\times 10^{8}$ m s$^{-1}$, calculate the rate at which the Sun loses mass, in kg per second.",
+    "answer": 428000000000.0,
+    "unit": "kg s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Divide the power (energy per second) by $c^2$."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "Two long horizontal parallel conductors X and Y are part of the same series circuit with an AC supply and a light bulb, so the current always flows in opposite directions in the two conductors. X hangs directly below Y, each supported by a spring balance. Which statement correctly compares the forces the balances measure?",
+    "options": [
+      "The force measured on X is always greater than or equal to the force measured on Y",
+      "The forces measured on X and Y are always equal",
+      "The force measured on Y is always greater than or equal to the force measured on X",
+      "Which measured force is greater reverses continually"
+    ],
+    "answer": "The force measured on X is always greater than or equal to the force measured on Y",
+    "hint": "Opposite currents means the wires always repel, so X (below) is always pushed down (balance reads more) and Y (above) is always pushed up (balance reads less). The strength varies with the AC but the direction does not."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "Because conductors X and Y are in the same series circuit, their currents are always in opposite directions, so the wires repel each other at every instant of the AC cycle (except when the current is momentarily zero).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Anti-parallel currents always repel; reversing both currents together does not change that."
+  },
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Rh-106 is a beta-emitting radioisotope with a half-life of 30 seconds. A sample is placed near an electrode in an evacuated chamber connected to a galvanometer and a variable DC supply. With the supply at zero, a current I flows (from the beta particles reaching the electrode). The stopping voltage $V_s$ (the voltage needed to reduce this current to zero) is also measured. The measurements are repeated a few minutes later. How do the two sets of measurements compare?",
+    "options": [
+      "Only I changes",
+      "Only $V_s$ changes",
+      "Both I and $V_s$ change",
+      "Neither I nor $V_s$ changes"
+    ],
+    "answer": "Only I changes",
+    "hint": "After several half-lives the activity (rate of beta emission) has dropped a lot, so I falls; but the maximum energy of the beta particles is fixed by the decay, so $V_s$ is unchanged."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "As a radioactive sample decays over several half-lives, the rate at which it emits beta particles falls, but the maximum kinetic energy of those beta particles stays the same.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The maximum beta energy is set by the decay's energy release, which does not change; only the number of decays per second falls."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "5.2",
+    "type": "word-bank",
+    "prompt": "Photoelectrons freed from a metal (work function $\\phi$) by photons of energy $2\\phi$ travel in a circular path of radius $r$ in a magnetic field. The path radius is proportional to $\\sqrt{E_k}$, where $E_k$ is the electron's kinetic energy. If the photon energy is doubled to $4\\phi$, the maximum path radius changes by a factor of ___.",
+    "bank": [
+      "$\\sqrt{3}$",
+      "$\\sqrt{2}$",
+      "2",
+      "3"
+    ],
+    "answer": [
+      "$\\sqrt{3}$"
+    ],
+    "hint": "With photon energy $2\\phi$, $E_k = \\phi$. With photon energy $4\\phi$, $E_k = 3\\phi$. The radius ratio is $\\sqrt{3\\phi / \\phi}$."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "For a photoelectron moving in a circle in a magnetic field, the radius of the circular path is proportional to the square root of the photoelectron's kinetic energy.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "$r = \\dfrac{mv}{qB}$ and $E_k = \\tfrac{1}{2}mv^2$, so $r \\propto v \\propto \\sqrt{E_k}$."
+  }
+]

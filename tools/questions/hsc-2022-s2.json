@@ -1,0 +1,266 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "On a Hertzsprung-Russell diagram, star X has a higher surface temperature than star Y, but a lower luminosity. What kind of stars are X and Y?",
+    "options": [
+      "X is a hot but faint star (such as a white dwarf); Y is a cool but very bright star (such as a red giant)",
+      "X is a red giant; Y is a white dwarf",
+      "X and Y are both main-sequence stars of the same mass",
+      "X is a cool dim star; Y is a hot bright star"
+    ],
+    "answer": "X is a hot but faint star (such as a white dwarf); Y is a cool but very bright star (such as a red giant)",
+    "hint": "High temperature with low luminosity puts X at the bottom left; low temperature with high luminosity puts Y at the top right."
+  },
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Star Y is a red giant and star X is a white dwarf. Which best describes the fusion occurring in the core of each?",
+    "options": [
+      "In Y (a red giant), helium is fusing into carbon (and heavier elements); in X (a white dwarf) there is essentially no fusion at all",
+      "Both stars are fusing hydrogen into helium at the same rate",
+      "In Y, hydrogen fuses into helium; in X, carbon fuses into iron",
+      "In X, hydrogen fuses into helium; in Y there is no fusion"
+    ],
+    "answer": "In Y (a red giant), helium is fusing into carbon (and heavier elements); in X (a white dwarf) there is essentially no fusion at all",
+    "hint": "A red giant has finished core hydrogen burning and is fusing helium; a white dwarf is the inert remnant left after fusion has ceased."
+  },
+  {
+    "qsrc": "Q22",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "Which design feature of a transformer improves its efficiency, and why?",
+    "options": [
+      "The iron core is built from thin insulated laminations, which greatly reduces the eddy currents (and the heat they generate) circulating in the core",
+      "The core is made of many separate pieces so magnetic flux can escape between them",
+      "The copper wire is made as thin as possible to increase its resistance",
+      "The primary and secondary coils are wound on separate cores so they do not interfere"
+    ],
+    "answer": "The iron core is built from thin insulated laminations, which greatly reduces the eddy currents (and the heat they generate) circulating in the core",
+    "hint": "Laminating the core, using thick low-resistance wire, and keeping a continuous closed core for full flux linkage all cut losses."
+  },
+  {
+    "qsrc": "Q24a",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "The radioactive decay curve for americium-242 shows its mass halving every 16 hours. Calculate the decay constant of Am-242.",
+    "answer": 0.043,
+    "unit": "h^{-1}",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda = \\dfrac{\\ln 2}{t_{1/2}}$ with $t_{1/2} = 16$ h."
+  },
+  {
+    "qsrc": "Q24b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A sample of Am-242 starts with a mass of 80 micrograms and has a decay constant of 0.043 h$^{-1}$. Calculate the time taken for the mass remaining to fall to 8 micrograms.",
+    "answer": 54,
+    "unit": "h",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$8 = 80\\,e^{-\\lambda t}$, so $t = \\dfrac{\\ln 10}{\\lambda}$."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A 200 kg rocket coasting away from a planet has a speed of 5500 m s$^{-1}$ at one point and 2900 m s$^{-1}$ at a point further out. Calculate the magnitude of the change in its kinetic energy between the two points.",
+    "answer": 2.2e9,
+    "unit": "J",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\Delta K = \\tfrac{1}{2}m(v_1^2 - v_2^2)$."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "The 200 kg rocket has speed 5500 m s$^{-1}$ at $R = 4.3 \\times 10^{6}$ m from the planet's centre and 2900 m s$^{-1}$ at $R = 2.5 \\times 10^{7}$ m. Using conservation of energy, calculate the mass of the planet. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 8.5e23,
+    "unit": "kg",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The loss of kinetic energy equals the gain in gravitational potential energy: $\\tfrac{1}{2}m(v_1^2 - v_2^2) = GMm\\left(\\dfrac{1}{R_1} - \\dfrac{1}{R_2}\\right)$."
+  },
+  {
+    "qsrc": "Q26a",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Light of frequency $7.5 \\times 10^{14}$ Hz strikes calcium metal, which has a work function of 2.9 eV. Calculate the maximum kinetic energy of an emitted photoelectron, in joules. Use $h = 6.626 \\times 10^{-34}$ J s and $1$ eV $= 1.602 \\times 10^{-19}$ J.",
+    "answer": 3.2e-20,
+    "unit": "J",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$K_{max} = hf - \\phi$; convert the work function to joules first."
+  },
+  {
+    "qsrc": "Q26b",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "A photoelectron leaves the calcium surface with $3.2 \\times 10^{-20}$ J of kinetic energy into a uniform electric field of 5.2 N C$^{-1}$ that pushes it back towards the surface. Calculate the maximum distance it travels from the surface. Use electron charge $1.602 \\times 10^{-19}$ C.",
+    "answer": 0.038,
+    "unit": "m",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The field does work $qEd$ bringing it to rest, so $d = \\dfrac{K_{max}}{qE}$."
+  },
+  {
+    "qsrc": "Q27b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Red laser light of wavelength 655 nm passes through double slits separated by $5.0 \\times 10^{-5}$ m. Calculate the angle between the central bright line and the first-order bright line.",
+    "answer": 0.75,
+    "unit": "degrees",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$d\\sin\\theta = m\\lambda$ with $m = 1$."
+  },
+  {
+    "qsrc": "Q27c",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "The 655 nm red laser is replaced with a 520 nm green laser (same slits, same screen). How does the interference pattern change?",
+    "options": [
+      "The bright lines move closer together, because the fringe spacing is proportional to the wavelength",
+      "The bright lines move further apart",
+      "The pattern is unchanged",
+      "The bright lines disappear entirely"
+    ],
+    "answer": "The bright lines move closer together, because the fringe spacing is proportional to the wavelength",
+    "hint": "Shorter wavelength gives a smaller diffraction angle for each order, so the fringes bunch up."
+  },
+  {
+    "qsrc": "Q28",
+    "inquiry_id": "8.1",
+    "type": "numeric-entry",
+    "prompt": "In Step Y of the CNO cycle, carbon-13 (13.003 u) fuses with a proton (1.007 u) to form nitrogen-14 (14.003 u). Calculate the energy released in this step. Use 1 u = 931.5 MeV/c$^2$.",
+    "answer": 6.5,
+    "unit": "MeV",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Mass defect = 13.003 + 1.007 - 14.003 u; multiply by 931.5 MeV/u. (Step X releases only 1.20 MeV, so Step Y loses more mass.)"
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "An apple is thrown horizontally to the east from the window of a car that is moving with uniform velocity to the north. Ignoring air resistance, which best describes the apple's motion during its flight?",
+    "options": [
+      "Its horizontal velocity is the constant vector sum of the eastward throw and the northward car velocity; its vertical motion is free fall at g, entirely independent of the horizontal motion",
+      "The apple travels due east only, since that is the direction it was thrown",
+      "The apple's horizontal speed steadily decreases while its vertical speed steadily increases",
+      "The northward motion of the car has no effect, so the apple lands due east of the release point"
+    ],
+    "answer": "Its horizontal velocity is the constant vector sum of the eastward throw and the northward car velocity; its vertical motion is free fall at g, entirely independent of the horizontal motion",
+    "hint": "The apple keeps whatever horizontal velocity it had at release (east + north); gravity only acts vertically."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "In a light-clock thought experiment on a train moving at $v = 0.96c$, an observer inside the train measures the light's return trip between two mirrors as 15 nanoseconds. How long does an observer outside the train measure this trip to take?",
+    "answer": 53.6,
+    "unit": "ns",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$ with $t_0 = 15$ ns and $v = 0.96c$."
+  },
+  {
+    "qsrc": "Q32a",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "An exercise bike uses magnets on either side of a spinning thick aluminium flywheel to make pedalling harder. What is the principle involved?",
+    "options": [
+      "The moving aluminium experiences a changing magnetic flux, which induces eddy currents in it; by Lenz's law these currents oppose the motion, producing a retarding torque",
+      "The magnets physically rub against the flywheel, creating friction",
+      "The aluminium becomes permanently magnetised and sticks to the magnets",
+      "The magnets change the flywheel's mass, making it harder to turn"
+    ],
+    "answer": "The moving aluminium experiences a changing magnetic flux, which induces eddy currents in it; by Lenz's law these currents oppose the motion, producing a retarding torque",
+    "hint": "This is magnetic (eddy-current) braking: no contact, but a real opposing force whenever the wheel moves."
+  },
+  {
+    "qsrc": "Q32b",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The rider wants a larger opposing torque on the flywheel. Which adjustment to the magnets would achieve this?",
+    "options": [
+      "Move the magnets closer to the flywheel, so the field through the aluminium is stronger and the rate of change of flux is greater",
+      "Move the magnets further from the flywheel",
+      "Turn the magnets so their poles face away from the flywheel",
+      "Replace the magnets with pieces of unmagnetised iron"
+    ],
+    "answer": "Move the magnets closer to the flywheel, so the field through the aluminium is stronger and the rate of change of flux is greater",
+    "hint": "A stronger field (or stronger magnets) means larger induced eddy currents and a bigger braking torque."
+  },
+  {
+    "qsrc": "Q33a",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "In a hammer throw, a 7.0 kg projectile rotates in a circle of radius 1.6 m with a period of 0.50 s. It is released at point P where its velocity is directed 45 degrees above the horizontal. Calculate the vertical component of its velocity at P.",
+    "answer": 14.2,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Speed in the circle is $v = \\dfrac{2\\pi r}{T}$; the vertical component is $v\\sin45^\\circ$."
+  },
+  {
+    "qsrc": "Q33b",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "The hammer is released at point P, 1.2 m above the ground, moving at 45 degrees above the horizontal (so both velocity components are 14.2 m s$^{-1}$). Calculate the horizontal range from P to where it lands. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 42.3,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Solve $-1.2 = 14.2\\,t - 4.9\\,t^2$ for the total flight time, then range $= 14.2\\,t$."
+  },
+  {
+    "qsrc": "Q34",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "Three charged particles X, Y and Z enter the same uniform magnetic field at the same speed along parallel paths, and follow different curved paths. What determines the differences?",
+    "options": [
+      "The direction each path curves shows the sign of the charge; the radius of each path ($r = \\dfrac{mv}{qB}$) shows each particle's mass-to-charge ratio (a straight path means the particle is neutral)",
+      "Only the mass of each particle matters; charge has no effect",
+      "The particles repel each other, which bends their paths",
+      "The field strength is different for each particle"
+    ],
+    "answer": "The direction each path curves shows the sign of the charge; the radius of each path ($r = \\dfrac{mv}{qB}$) shows each particle's mass-to-charge ratio (a straight path means the particle is neutral)",
+    "hint": "Opposite charges curve in opposite directions; a larger mass-to-charge ratio gives a larger radius."
+  },
+  {
+    "qsrc": "Q35a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A capsule of mass $1.2 \\times 10^{4}$ kg moves in a circle of radius 200 m around the International Space Station at 0.233 m s$^{-1}$. Calculate the centripetal force required for this circular motion.",
+    "answer": 3.3,
+    "unit": "N",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$F_c = \\dfrac{mv^2}{r}$."
+  },
+  {
+    "qsrc": "Q35b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the gravitational force of attraction between the capsule ($1.2 \\times 10^{4}$ kg) and the ISS ($4.2 \\times 10^{5}$ kg) when their centres are 200 m apart. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 8.4e-6,
+    "unit": "N",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "$F_G = \\dfrac{Gm_1 m_2}{r^2}$."
+  },
+  {
+    "qsrc": "Q35c",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "The circular motion of the capsule around the ISS can be fully accounted for by the gravitational attraction between the two spacecraft.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "The centripetal force needed (about 3.3 N) is roughly a million times larger than the mutual gravitational force (about $8 \\times 10^{-6}$ N), so gravity cannot be responsible."
+  }
+]

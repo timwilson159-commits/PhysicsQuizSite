@@ -1,0 +1,18 @@
+[
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "An evacuated chamber contains two vertical parallel plates connected to a power supply through a switch that is initially closed. A positive charge falls under gravity from a point near the top, between the plates. While the switch is closed the charge follows a path that curves towards one plate. When the charge has fallen halfway down, the switch is opened (disconnecting the plates from the supply but leaving them charged). Which best describes the rest of the trajectory?",
+    "image_filename": "",
+    "options": [
+      "It keeps curving towards the same plate, because the isolated plates retain their charge and the field between them is unchanged",
+      "It becomes a straight line, because opening the switch removes the field",
+      "It curves back towards the other plate",
+      "It falls straight down, because gravity is now the only force"
+    ],
+    "answer": "It keeps curving towards the same plate, because the isolated plates retain their charge and the field between them is unchanged",
+    "hint": "An isolated (disconnected) charged capacitor holds its charge, so its field does not change.",
+    "quarantine_reason": "The original is a 'which of these four trajectory diagrams' question (option images), and the key answer is A. I have reworded it above to a self-contained MCQ whose correct answer (field persists after the switch opens because the plates are an isolated capacitor, so the path keeps curving the same way) is the standard HSC physics -- but I cannot verify from the extracted text that NESA's diagram A actually shows 'keeps curving the same way' rather than, say, 'curve then straight line'. Please confirm against the paper's option diagrams, then this can move into the main set as-is; or supply a single combined image of the four labelled trajectories to keep it as an A/B/C/D question; or approve dropping it."
+  }
+]

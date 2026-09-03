@@ -1,0 +1,17 @@
+[
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In a Young's double-slit experiment, two changes are made one at a time. Change 1: the slit separation is increased. Change 2: the distance from the slits to the screen is increased. Which row correctly describes the effect on the spacing of the bright bands?",
+    "image_filename": "",
+    "options": [
+      "Change 1: spacing decreases. Change 2: spacing increases.",
+      "Change 1: spacing increases. Change 2: spacing increases.",
+      "Change 1: spacing decreases. Change 2: spacing decreases.",
+      "Change 1: spacing increases. Change 2: spacing decreases."
+    ],
+    "answer": "Change 1: spacing decreases. Change 2: spacing increases.",
+    "quarantine_reason": "The marking guide gives the answer as C, which states that increasing the slit separation INCREASES the fringe spacing. That contradicts the standard relationship on the formula sheet, Delta y = (lambda x L) / d: increasing the slit separation d must DECREASE the fringe spacing. The marking guide's justification ('widening the slits decreases interference, which increases the band spacing') confuses slit separation with slit width and is not correct physics. The physically correct choice is the option 'Change 1: spacing decreases, Change 2: spacing increases' (the paper's option B). Per the project brief this is flagged rather than silently corrected: decide whether to publish with the corrected answer (recommended) or drop the question."
+  }
+]

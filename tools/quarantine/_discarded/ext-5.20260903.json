@@ -1,0 +1,53 @@
+[
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "A wheel nut needs a torque of 175 N m. A 60 cm torque wrench is used, with the applied force at 60 degrees to the wrench handle. Calculate the force that must be applied.",
+    "image_filename": "",
+    "answer": 337,
+    "unit": "N",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Torque $= rF\\sin\\theta$, so $F = \\dfrac{\\tau}{r\\sin\\theta}$.",
+    "quarantine_reason": "The paper's key is B (593 N), but I cannot reproduce it. Using torque = rF sin(theta) with theta = 60 degrees from the wrench gives F = 175 / (0.60 x sin60) = 337 N (not an option). The nearest option to 593 N corresponds to using cos(60) instead of sin(60) (i.e. treating the 60 degrees as measured from the perpendicular): 175 / (0.60 x cos60) = 583 N. The stem wording ('the angle of the force applied to the wrench is 60 degrees at the circumference') is ambiguous. Please confirm the intended geometry, then I can set this as a clean numeric-entry."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The circuit shows a transformer running a load from 240 V RMS mains, with an ammeter and voltmeter on the secondary side. A table of measurements is given. What is the missing current I?",
+    "image_filename": "",
+    "options": ["0.1035 A", "1.035 A", "10.35 A", "103.5 A"],
+    "answer": "0.1035 A",
+    "quarantine_reason": "The question depends on a table of measurements (secondary voltage, load, primary current, etc.) that is not present in the extracted text and was not among the extracted images (only the transformer circuit diagram, Paper_5_img03, was captured). Please supply the measurement table, or the full question image, so this can be reworded as a self-contained numeric-entry."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "An electron is accelerated until its relativistic mass is 22 times its rest mass (Lorentz factor = 22). Calculate its kinetic energy. Use electron rest energy $8.20 \\times 10^{-14}$ J.",
+    "image_filename": "",
+    "answer": 1.72e-12,
+    "unit": "J",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Relativistic kinetic energy $= (\\gamma - 1)m_0 c^2$.",
+    "quarantine_reason": "The paper's key (both the CSV and the marking guide) is A (9.02 x 10^-13 J). The standard relativistic kinetic energy KE = (gamma - 1)m0c^2 with gamma = 22 gives 21 x 8.20e-14 = 1.72e-12 J, which is option B, not A. Option A corresponds to (gamma - 1) approximately 11, i.e. gamma approximately 12. This looks like an error in the trial paper, or a non-standard reading of 'mass increases by a factor of 22'. Please decide: use the physically correct value (1.72e-12 J, my numeric-entry above), keep the paper's answer, or drop the question."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "The emission spectra of several reference metals and of an unknown mixture of metals are shown. Which metals are present in the unknown mixture?",
+    "image_filename": "",
+    "options": [
+      "Aluminium and magnesium",
+      "Lithium and copper",
+      "Aluminium and copper",
+      "Lithium, aluminium and magnesium"
+    ],
+    "answer": "Aluminium and magnesium",
+    "quarantine_reason": "Answering requires reading and comparing the emission-line positions in the reference and unknown spectra. That figure was not among the extracted images for Paper 5 (the extraction captured mostly Section II figures). Please supply the emission-spectra image to keep this as a figure-based MCQ, or approve dropping it."
+  }
+]

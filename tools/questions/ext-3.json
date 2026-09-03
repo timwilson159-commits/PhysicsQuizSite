@@ -1,0 +1,315 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A field hockey player scoops a ball up and over other players. The ball follows a curved path through the air from launch to landing. Ignoring air resistance, at which points along the flight is the ball's acceleration directed vertically downward?",
+    "options": [
+      "At every point of the flight",
+      "Only at the highest point",
+      "Only while the ball is falling",
+      "Only just before it lands"
+    ],
+    "answer": "At every point of the flight",
+    "hint": "The only force on the ball in flight is gravity, which always acts straight down."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "A black ball is dropped from rest at the same instant a white ball is projected horizontally from the same height. Ignoring air resistance, the two balls have different horizontal positions at all later times, but identical vertical positions, vertical velocities and vertical accelerations.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Horizontal and vertical motion are independent; only the white ball has a horizontal velocity, but both fall under gravity in exactly the same way."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "On a small body in the Solar System, a cube is thrown straight up at 6.5 m s$^{-1}$ and reaches a maximum height of 8.5 m. Calculate the acceleration due to gravity at the surface of that body.",
+    "answer": 2.49,
+    "unit": "m s^{-2}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "At the top the vertical velocity is zero; use $v^2 = u^2 - 2as$ with $v = 0$, so $g = \\dfrac{u^2}{2s}$."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "In that calculation, the mass of the cube (450 g) is needed to work out the surface gravity.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "The kinematic result $g = u^2 / (2s)$ does not contain the mass; it is a distractor."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "A road curve has radius 63 m and is banked at 12 degrees. Assuming the surface is frictionless, calculate the maximum speed (in m s$^{-1}$) at which a car can safely round the curve. Take $g = 9.8$ m s$^{-2}$.",
+    "answer": 11.5,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "For a frictionless banked curve, $v = \\sqrt{rg\\tan\\theta}$."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "On a frictionless banked curve, a heavily loaded truck has the same maximum safe cornering speed as a light car, because the vehicle's mass cancels out of the calculation.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$v = \\sqrt{rg\\tan\\theta}$ depends only on the radius, gravity and the banking angle."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "When white light is passed through a cool gaseous sample of an element and viewed with a spectrometer, the result is an absorption spectrum: a series of dark lines on a continuous coloured background, at the same wavelengths the gas would emit if it were excited.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The gas atoms absorb their own characteristic wavelengths from the white light passing through."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "A rectangular current-carrying loop in a magnetic field experiences a turning effect (torque) because the motor-effect forces on its two opposite sides act in opposite directions, one into the page and one out of the page.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "If the forces on the two sides acted in the same direction there would be no couple and no rotation."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.3",
+    "type": "word-bank",
+    "prompt": "Two magnetic field diagrams contain the same number of field lines, but one covers a smaller area than the other. The smaller diagram represents the ___ total magnetic flux and a ___ magnetic flux density.",
+    "bank": ["same", "greater", "different", "smaller", "zero"],
+    "answer": ["same", "greater"],
+    "hint": "Flux is the total number of field lines through the area; flux density is that flux divided by the area."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "A cyclist tightens a nut using a 50.0 cm spanner, applying a force of 70.0 N at an angle of 70 degrees to the spanner handle. Calculate the magnitude of the torque applied to the nut.",
+    "answer": 32.9,
+    "unit": "N m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\tau = rF\\sin\\theta = 0.500 \\times 70.0 \\times \\sin 70^\\circ$."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "If the cyclist applied the same 70.0 N force at 90 degrees to the spanner instead of 70 degrees, the torque on the nut would be larger.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$\\sin\\theta$ is largest at 90 degrees, so the torque is greatest when the force is perpendicular to the handle."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "Two long parallel wires 0.20 m apart carry currents of 4.0 A and 5.0 A. Calculate the magnitude of the force per unit length between them. Use $\\mu_0 = 4\\pi \\times 10^{-7}$ N A$^{-2}$.",
+    "answer": 2.0e-5,
+    "unit": "N m^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{F}{l} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi r}$."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "A conducting rod slides along a pair of conducting rails through a magnetic field, inducing a current. By Lenz's law, the force on the rod due to this induced current acts to oppose the rod's motion.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The induced effects always act to oppose the change producing them, so the rod is pushed against its direction of travel."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.2",
+    "type": "drag-drop",
+    "prompt": "In the whirling-stopper investigation, a rubber stopper is swung in a horizontal circle on a string that runs through a tube to a hanging mass. The swing rate is adjusted until the hanging mass neither rises nor falls, and the radius of the circle is then measured. Match each quantity to its role in the investigation.",
+    "pairs": [
+      { "item": "Rate of rotation of the stopper", "match": "Independent variable" },
+      { "item": "Radius of the circular path", "match": "Dependent variable" },
+      { "item": "Mass of the rubber stopper", "match": "Controlled variable" },
+      { "item": "Length of the string", "match": "Controlled variable" }
+    ],
+    "answer": {
+      "Rate of rotation of the stopper": "Independent variable",
+      "Radius of the circular path": "Dependent variable",
+      "Mass of the rubber stopper": "Controlled variable",
+      "Length of the string": "Controlled variable"
+    },
+    "hint": "The variable the student deliberately changes is the independent one; the quantity they then measure is the dependent one; anything held fixed is controlled."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "Light from the edge of a rotating star that is moving away from us is ___-shifted, while light from the edge moving towards us is ___-shifted. The ___ the star spins, the wider its absorption lines appear.",
+    "bank": ["red", "blue", "faster", "slower", "green"],
+    "answer": ["red", "blue", "faster"],
+    "hint": "Receding sources are shifted to longer wavelengths; a greater spread of line-of-sight speeds broadens the lines."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Light passes through a diffraction grating with a slit separation of 0.07 mm. On a screen 105 cm away, six consecutive bright bands (five equal gaps) span a total of 50 mm. Calculate the wavelength of the light.",
+    "answer": 667,
+    "unit": "nm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Band spacing $x = 50/5 = 10$ mm; for first order, $\\lambda = \\dfrac{dx}{L}$."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "Six consecutive bright bands are separated by five equal gaps, so if the six bands span 50 mm each gap is 10 mm.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Count the spaces between the bands, not the bands themselves."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Unpolarised light of intensity 150 W m$^{-2}$ falls on polariser P1, whose axis is 30 degrees to the vertical. It then passes through polariser P2, whose axis is horizontal. Calculate the intensity of light transmitted through P2.",
+    "answer": 18.75,
+    "unit": "W m^{-2}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "P1 halves the intensity to 75 W m$^{-2}$; the angle between P1 and P2 is 60 degrees, so apply $I = I_0\\cos^2 60^\\circ$."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "The first polariser reduces an unpolarised beam to exactly half its intensity, whatever the orientation of that polariser's axis.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Unpolarised light contains all orientations equally, so on average half gets through the first polariser."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Planets Psi and Tri orbit the same star. Psi's orbital radius is one quarter of Tri's orbital radius. How do their orbital periods compare?",
+    "options": [
+      "Tri takes 8 times as long as Psi to complete one orbit",
+      "Psi takes 8 times as long as Tri to complete one orbit",
+      "Tri takes 64 times as long as Psi to complete one orbit",
+      "Tri takes 16 times as long as Psi to complete one orbit"
+    ],
+    "answer": "Tri takes 8 times as long as Psi to complete one orbit",
+    "hint": "Kepler's third law: $T^2 \\propto r^3$, so a radius ratio of 4 gives a period ratio of $4^{3/2} = 8$."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Two planets orbit the same star. Planet B's orbital radius is 4.0 times planet A's orbital radius. Planet A has an orbital period of 1.0 year. Calculate planet B's orbital period.",
+    "answer": 8,
+    "unit": "years",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$T_B = T_A \\times \\left(\\dfrac{r_B}{r_A}\\right)^{3/2} = 1.0 \\times 4^{1.5}$."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A beta-emitting radioactive sample X reads 2.3 counts per minute on a Geiger counter. Sample Y, of the same element but more recently formed, reads 18.4 counts per minute. The half-life of the element is 356 years. Calculate how much older sample X is than sample Y.",
+    "answer": 1068,
+    "unit": "years",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{2.3}{18.4} = \\dfrac{1}{8} = \\left(\\dfrac{1}{2}\\right)^3$, so X has decayed for 3 half-lives longer than Y."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "Sample X shows one eighth of the activity of sample Y, which corresponds to three half-lives of extra decay.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Each half-life halves the activity: $\\tfrac12 \\times \\tfrac12 \\times \\tfrac12 = \\tfrac18$."
+  },
+
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "8.1",
+    "type": "ordering",
+    "prompt": "Arrange these stages in the life cycle of a medium-mass star in chronological order, earliest first.",
+    "items": ["Nebula", "Protostar", "Main sequence star", "Red giant", "Neutron star"],
+    "answer": ["Nebula", "Protostar", "Main sequence star", "Red giant", "Neutron star"],
+    "hint": "A cloud of gas and dust collapses under gravity before fusion begins; the collapsed core is left behind at the end."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "In a mercury atom the n = 5 energy level is at $-3.71$ eV and the n = 3 level is at $-5.52$ eV. Calculate the frequency of the photon emitted when an electron falls from n = 5 to n = 3. Use $h = 6.626 \\times 10^{-34}$ J s and $1$ eV $= 1.602 \\times 10^{-19}$ J.",
+    "answer": 4.4e14,
+    "unit": "Hz",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "The photon energy is $E = (-3.71) - (-5.52) = 1.81$ eV; convert to joules, then $f = \\dfrac{E}{h}$."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "The photon emitted when the electron falls from n = 5 to n = 3 in this mercury atom carries an energy of 1.81 eV.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The photon energy equals the difference between the two energy levels."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "In the Geiger-Marsden experiment, alpha particles were fired at a thin gold foil. Which observed result supported Rutherford's nuclear model of the atom rather than Thomson's plum-pudding model?",
+    "options": [
+      "A small fraction of alpha particles were deflected through very large angles, some almost straight back",
+      "Every alpha particle passed straight through the foil with no deflection",
+      "Every alpha particle bounced straight back off the foil",
+      "The alpha particles were completely absorbed by the foil"
+    ],
+    "answer": "A small fraction of alpha particles were deflected through very large angles, some almost straight back",
+    "hint": "Large-angle deflections require a tiny, dense, highly charged core, which the spread-out plum-pudding charge could not provide."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "Thomson's plum-pudding model predicted that alpha particles fired at gold foil would pass through with only very small deflections, because the positive charge was spread thinly throughout each atom.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "With charge and mass spread out, there is no concentrated region able to push an alpha particle sharply off course."
+  }
+]

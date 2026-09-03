@@ -1,0 +1,13 @@
+[
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Four lines W, X, Y and Z on a graph show activity decreasing with time; all start at the same activity. W is a straight line reaching zero; X, Y and Z are curves, with X the steepest and Z the shallowest. Which line is consistent with a radioactive decay graph with the smallest decay constant?",
+    "image_filename": "",
+    "options": ["Z (the shallowest curve)", "Y", "X", "W (the straight line)"],
+    "answer": "Z (the shallowest curve)",
+    "hint": "A radioactive decay curve is exponential (not a straight line), and a smaller decay constant means a slower decay: a shallower curve with a longer half-life.",
+    "quarantine_reason": "PHYSICS / KEY DISCREPANCY. The published NESA answer key gives C (line Y). My analysis: W is a straight line, so it is not a valid radioactive decay curve at all; of the genuine exponential curves X, Y and Z, the smallest decay constant (slowest decay, longest half-life) belongs to Z, the shallowest curve -- so the answer should be D (Z). I cannot reconcile the key's answer C with the graph as drawn. Please check the paper's graph directly (2025 exam, Question 10) and confirm which line is intended. If the key is right, there is an interpretation I am missing and the question can go into the main set with answer Y; if the key is wrong or the graph is ambiguous, you may prefer to drop it."
+  }
+]

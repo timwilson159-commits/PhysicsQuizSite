@@ -1,0 +1,195 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "An arrow is fired and stays airborne for 4.3 s, landing at the same height it was launched, with a horizontal range of 205 m. Calculate the magnitude of the arrow's initial velocity. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 52.2,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Horizontal: $u_x = \\dfrac{205}{4.3}$. Vertical: the arrow takes 2.15 s to reach the top, so $u_y = g \\times 2.15$. Then $u = \\sqrt{u_x^2 + u_y^2}$."
+  },
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "The archers could have achieved a greater range by using a larger launch angle. Why might they choose not to?",
+    "options": [
+      "A larger angle means a longer flight time, which makes aiming harder and gives wind more time to push the arrow off course",
+      "A larger angle would make the arrow travel slower",
+      "A larger angle would reduce the arrow's launch speed",
+      "The range does not actually depend on the launch angle"
+    ],
+    "answer": "A larger angle means a longer flight time, which makes aiming harder and gives wind more time to push the arrow off course",
+    "hint": "Beyond 45 degrees the extra range comes at the cost of a much higher, longer flight."
+  },
+  {
+    "qsrc": "Q22a",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A hand-cranked device has a coil that spins between the poles of a magnet, with its ends connected to two slip rings and then to an external circuit. What is this device?",
+    "options": [
+      "An AC generator: turning the coil in the field induces an alternating emf, and the slip rings deliver AC to the circuit",
+      "A DC motor: the slip rings act as a commutator to keep the coil turning one way",
+      "A transformer: the spinning coil steps the voltage up",
+      "An electromagnet: the current in the coil creates a steady magnetic field"
+    ],
+    "answer": "An AC generator: turning the coil in the field induces an alternating emf, and the slip rings deliver AC to the circuit",
+    "hint": "Slip rings (rather than a split-ring commutator) and a mechanical input are the signature of an AC generator."
+  },
+  {
+    "qsrc": "Q22b",
+    "inquiry_id": "6.4",
+    "type": "numeric-entry",
+    "prompt": "A generator coil of 200 turns, each of area $0.10 \\times 0.05$ m$^2$, sits in a 0.8 T field. Calculate the average emf induced when the coil is turned through a quarter of a revolution (from face-on to edge-on) in 18 ms.",
+    "answer": 44.4,
+    "unit": "V",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Flux per turn goes from $\\Phi = BA$ to 0, so $\\varepsilon = N\\dfrac{\\Delta\\Phi}{\\Delta t} = 200 \\times \\dfrac{0.8 \\times (0.10 \\times 0.05)}{0.018}$."
+  },
+  {
+    "qsrc": "Q22c",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "In a generator, the back emf produced by the spinning coil opposes the rotation, so more mechanical work must be put in than electrical energy is taken out. This is how the generator obeys conservation of energy.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "If drawing more current makes the generator harder to turn, the extra electrical energy is being paid for by extra mechanical work."
+  },
+  {
+    "qsrc": "Q24b",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A farmer wants to maximise electricity generation from a waterwheel. There are two designs (a flat-paddle wheel and a bucket wheel) available in 2 m, 3 m and 4 m diameters. Which choice gives the greatest torque, and therefore the most power?",
+    "options": [
+      "The bucket wheel at 4 m diameter: the water's weight in the buckets adds force, and the larger radius increases the torque arm",
+      "The flat-paddle wheel at 2 m diameter: a smaller wheel spins faster",
+      "The flat-paddle wheel at 4 m diameter: paddles catch more water than buckets",
+      "The bucket wheel at 2 m diameter: a compact wheel is more efficient"
+    ],
+    "answer": "The bucket wheel at 4 m diameter: the water's weight in the buckets adds force, and the larger radius increases the torque arm",
+    "hint": "Torque is $\\tau = rF\\sin\\theta$; both a larger force and a larger radius increase it."
+  },
+  {
+    "qsrc": "Q26b",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "Students plot the square of a pendulum's period against its length and get a straight line through the origin with a gradient of 4.0 s$^2$ m$^{-1}$. Using $T^2 = \\dfrac{4\\pi^2}{g}\\,l$, calculate their experimental value for $g$.",
+    "answer": 9.87,
+    "unit": "m s^{-2}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The gradient equals $\\dfrac{4\\pi^2}{g}$, so $g = \\dfrac{4\\pi^2}{\\text{gradient}}$."
+  },
+  {
+    "qsrc": "Q27a",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A transformer used in a power-transmission grid has many more turns on its secondary coil than its primary coil. What type of transformer is it, and where is it used?",
+    "options": [
+      "A step-up transformer, used at the power station to raise the voltage for long-distance transmission",
+      "A step-down transformer, used at the power station",
+      "A step-up transformer, used in each home",
+      "A step-down transformer, used to feed the generator"
+    ],
+    "answer": "A step-up transformer, used at the power station to raise the voltage for long-distance transmission",
+    "hint": "More secondary turns means a higher secondary voltage; high voltage (and so low current) minimises line losses."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Which type(s) of radioactive decay are transmutation reactions (a change from one element into another)?",
+    "options": [
+      "Alpha and beta decay, but not gamma decay",
+      "Gamma decay only",
+      "All three: alpha, beta and gamma decay",
+      "Beta decay only"
+    ],
+    "answer": "Alpha and beta decay, but not gamma decay",
+    "hint": "Alpha and beta decay change the atomic number, so the element changes; gamma decay only releases energy, leaving the nucleus as the same element."
+  },
+  {
+    "qsrc": "Q29a",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "Drew travels from Earth to the star Aldebaran, 60.8 light years away, at 0.99c, and then returns at 0.99c. Calculate the total time for the round trip as measured by his twin Alex, who stays on Earth.",
+    "answer": 122.8,
+    "unit": "years",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "For Alex, time = distance / speed for each leg: $\\dfrac{60.8}{0.99}$ years one way, doubled for the return."
+  },
+  {
+    "qsrc": "Q29b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "For the same journey (0.99c, total Earth-frame time about 122.8 years), calculate how much Drew ages during the round trip, taking time dilation into account.",
+    "answer": 17.3,
+    "unit": "years",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$t_0 = t\\sqrt{1 - v^2/c^2} = 122.8 \\times \\sqrt{1 - 0.99^2}$."
+  },
+  {
+    "qsrc": "Q30a",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "The Sun produces its energy because in each fusion reaction the total mass of the products is slightly less than that of the reactants, and this mass difference is released as energy according to $E = mc^2$.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Four hydrogen nuclei have more mass than the helium nucleus they form; the missing mass becomes energy."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "How would the continuous spectrum of a much larger, hotter star differ from that of the Sun?",
+    "options": [
+      "Its peak would be at a shorter wavelength (bluer), and it would emit a greater proportion of high-frequency light",
+      "Its peak would be at a longer wavelength (redder)",
+      "It would emit no continuous spectrum at all, only emission lines",
+      "It would look identical, since all stars are blackbodies"
+    ],
+    "answer": "Its peak would be at a shorter wavelength (bluer), and it would emit a greater proportion of high-frequency light",
+    "hint": "By Wien's law, a hotter blackbody has its peak emission at a shorter wavelength."
+  },
+  {
+    "qsrc": "Q31b",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "A beta particle (an electron) enters a magnetic field of strength $6.7 \\times 10^{-4}$ T at right angles, travelling at 0.4c. Calculate the radius of its circular path. Use electron mass $9.1 \\times 10^{-31}$ kg, charge $1.6 \\times 10^{-19}$ C and $c = 3.0 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 1.02,
+    "unit": "m",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The magnetic force provides the centripetal force: $qvB = \\dfrac{mv^2}{r}$, so $r = \\dfrac{mv}{qB}$ with $v = 0.4c$."
+  },
+  {
+    "qsrc": "Q32",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "In the Geiger-Marsden experiment, most alpha particles passed straight through the gold foil but a very small number were deflected through large angles. What did Rutherford conclude?",
+    "options": [
+      "The atom is mostly empty space, with its positive charge and almost all its mass concentrated in a tiny central nucleus",
+      "The positive charge is spread evenly throughout the atom (the plum-pudding model)",
+      "Atoms are solid spheres with no internal structure",
+      "Electrons orbit the nucleus in fixed energy levels"
+    ],
+    "answer": "The atom is mostly empty space, with its positive charge and almost all its mass concentrated in a tiny central nucleus",
+    "hint": "Only a rare, near head-on approach to something small, dense and highly charged could turn an alpha particle right around."
+  },
+  {
+    "qsrc": "Q33b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "In a Young's double-slit experiment, red laser light of wavelength 652 nm passes through slits 250 micrometres apart. The first-order bright fringe is measured 5.0 mm from the central bright fringe. Calculate the distance from the slits to the screen.",
+    "answer": 1.92,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "For small angles, $\\dfrac{\\lambda}{d} = \\dfrac{y}{L}$, so $L = \\dfrac{yd}{\\lambda}$."
+  }
+]

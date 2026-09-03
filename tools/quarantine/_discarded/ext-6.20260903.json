@@ -1,0 +1,42 @@
+[
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A classroom transformer was tested and this data recorded:\n\nSetting A: 2 V, 0.10 A\nSetting B: 4 V, 0.15 A\nSetting C: 6 V, 0.20 A\nSetting D: 8 V, 0.25 A\nSetting E: 10 V, 0.30 A\nSetting F: 12 V, 0.40 A\n\nWhich formula best describes an accurate assessment for voltage setting D if the transformer is treated as ideal?",
+    "image_filename": "",
+    "options": [
+      "(option text could not be recovered)",
+      "(option text could not be recovered)",
+      "(option text could not be recovered)",
+      "(option text could not be recovered)"
+    ],
+    "answer": "",
+    "quarantine_reason": "Two problems. (1) The four answer options are strings of loose numbers in the source PDF ('15 / 1 / 0.25 / 0.08', '120 / 8 / 0.08 / 0.25', etc.) with no recoverable equation, operators or structure, so they cannot be transcribed faithfully. (2) The stem itself is incoherent: it presents a single voltage-current table for one coil and calls the device a 'transformer', then asks which 'formula' describes an 'assessment' of it. The marking guide answer (B) just cites Vp/Vs = Np/Ns, which does not correspond to anything in the given single-coil data. Needs the original option images and a clarified stem before it can be rebuilt."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "The Rotor is a rotating drum ride. People stand against the inside wall, the drum spins up, and the floor is then lowered without the people sliding down. Which statement best describes the net force on a person once the floor is removed?",
+    "image_filename": "",
+    "options": [
+      "The direction of the net force is horizontal, towards the axis of rotation (perpendicular to the wall)",
+      "The magnitude of the net force is zero",
+      "The magnitude of the net force is at a maximum",
+      "The direction of the net force is vertically upwards"
+    ],
+    "answer": "The direction of the net force is horizontal, towards the axis of rotation (perpendicular to the wall)",
+    "quarantine_reason": "The marking guide gives the answer as A ('the magnitude of the net force is zero'), with the reasoning 'people do not move relative to the wall, therefore no net force acts'. That reasoning is wrong: a person moving in a circle at constant speed still has a non-zero net force, the centripetal force, directed horizontally towards the axis (the normal force from the wall). Weight is balanced by friction from the wall, but the horizontal normal force is unbalanced. The physically correct choice is the option describing a net force perpendicular to the wall (the paper's option D). Per the project brief this is flagged rather than overridden: decide whether to publish with the corrected answer, or drop the question."
+  },
+  {
+    "qsrc": "Q9b-note",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "(Reference only, not for publishing as-is) A person standing against the wall of a spinning Rotor ride with the floor removed has zero net force acting on them because they are not sliding relative to the wall.",
+    "image_filename": "",
+    "options": ["True", "False"],
+    "answer": "False",
+    "quarantine_reason": "Included only to record the corrected physics for Q9. The person undergoes uniform circular motion, so the net force is the non-zero centripetal force (horizontal, towards the axis). If you approve the corrected reading of Q9, this true-false item can move into the main set as a reinforcing question."
+  }
+]

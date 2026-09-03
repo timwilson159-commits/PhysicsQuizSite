@@ -1,0 +1,71 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "The figure shows a train at P rounding a curve of radius 200 m at 60 km h$^{-1}$, which is the maximum safe speed for that curve (set by the largest sideways force the rails can provide). Calculate the minimum radius of curve on which a train could safely travel at 120 km h$^{-1}$.",
+    "image_filename": "ext5-q1-train-curve.png",
+    "answer": 800,
+    "unit": "m",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "The maximum available sideways force is fixed, and $F = \\dfrac{mv^2}{r}$, so $r \\propto v^2$; the speed has doubled."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In the Young's double-slit demonstration shown, the laser is changed from green (532 nm) to red (633 nm), with the slits and the screen left unchanged. What happens to the pattern on the screen?",
+    "image_filename": "ext5-q3-double-slit.png",
+    "options": [
+      "The bright bands become more widely separated",
+      "The bright bands become closer together",
+      "The bright bands become brighter but keep the same spacing",
+      "The pattern stays exactly the same"
+    ],
+    "answer": "The bright bands become more widely separated",
+    "hint": "Fringe spacing $\\Delta y = \\dfrac{\\lambda L}{d}$ is directly proportional to the wavelength, which has increased."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Sam, floating freely in space, watches the ship pass at 0.2c. The container's proper dimensions are shown: L$_0$ is along the direction of motion, while W$_0$ and H$_0$ are both perpendicular to it. How would Sam measure the container's dimensions?",
+    "image_filename": "ext5-q14-rocket-container.png",
+    "options": [
+      "L < L$_0$, W = W$_0$, H = H$_0$",
+      "L < L$_0$, W < W$_0$, H < H$_0$",
+      "L < L$_0$, W < W$_0$, H = H$_0$",
+      "L > L$_0$, W = W$_0$, H = H$_0$"
+    ],
+    "answer": "L < L$_0$, W = W$_0$, H = H$_0$",
+    "hint": "Length contraction acts only along the direction of relative motion; dimensions perpendicular to the motion are unchanged."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "The figure shows reference emission spectra for magnesium, aluminium, copper and lithium, and beneath them the emission spectrum of an unknown mixture of metals. Which metals are present in the unknown mixture?",
+    "image_filename": "ext5-q18-emission-spectra.png",
+    "options": [
+      "Aluminium and magnesium",
+      "Lithium and copper",
+      "Aluminium and copper",
+      "Lithium, aluminium and magnesium"
+    ],
+    "answer": "Aluminium and magnesium",
+    "hint": "Every bright line in the unknown spectrum must line up with a line in one of the reference spectra; find the two references that together account for all of the unknown's lines."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Unpolarised light of intensity I$_1$ passes through the first polariser and then a second polariser whose transmission axis is at 30 degrees to that of the first, as shown. Calculate the ratio I$_2$/I$_1$ of the emergent intensity to the incident intensity.",
+    "image_filename": "ext5-q20-polarisers.png",
+    "answer": 0.375,
+    "unit": "",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The first polariser transmits half of the unpolarised light; then apply Malus's law, $I = I_0\\cos^2 30^\\circ$."
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "qsrc": "Q22b(i)",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Earth (mass $6.0 \\times 10^{24}$ kg) orbits the Sun (mass $2.0 \\times 10^{30}$ kg) at an average distance of $1.5 \\times 10^{11}$ m. Calculate the magnitude of Earth's gravitational potential energy in the Sun's field. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 5.3e33,
+    "unit": "J",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$U = \\dfrac{GMm}{r}$ in magnitude."
+  },
+  {
+    "qsrc": "Q22b(ii)",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "Earth's gravitational potential energy in the Sun's field is given a negative value because potential energy is defined as zero when the two bodies are infinitely far apart, and a body loses potential energy as it moves inward.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Work must be done against gravity to move a mass from a close orbit out to infinity, so bound orbits have energy below the zero level at infinity."
+  },
+  {
+    "qsrc": "Q22c",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Using the same Sun mass ($2.0 \\times 10^{30}$ kg) and Earth-Sun distance ($1.5 \\times 10^{11}$ m), calculate the speed Earth would need in order to just escape the Sun's gravitational field. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 4.2e4,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Set kinetic energy equal to the magnitude of the gravitational potential energy: $\\tfrac{1}{2}mv^2 = \\dfrac{GMm}{r}$, so $v = \\sqrt{\\dfrac{2GM}{r}}$."
+  },
+  {
+    "qsrc": "Q23a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the gravitational force between the Earth ($6.0 \\times 10^{24}$ kg) and the Moon ($7.3 \\times 10^{22}$ kg) when their centres are $3.6 \\times 10^{8}$ m apart. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 2.3e20,
+    "unit": "N",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$F = \\dfrac{GMm}{r^2}$."
+  },
+  {
+    "qsrc": "Q23c",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Jupiter is about 26 000 times more massive than the Moon, yet its effect on Earth's ocean tides is negligible compared with the Moon's. Which is the best explanation?",
+    "options": [
+      "Gravitational force falls off with the square of the distance, and Jupiter is roughly 1600 times further from Earth than the Moon",
+      "Jupiter's gravitational field does not reach as far as Earth",
+      "Tides are caused only by the Sun and the Moon, never by planets",
+      "Jupiter and Earth orbit the Sun in the same direction, so their gravitational forces cancel"
+    ],
+    "answer": "Gravitational force falls off with the square of the distance, and Jupiter is roughly 1600 times further from Earth than the Moon",
+    "hint": "Compare $\\dfrac{GMm}{r^2}$ for Jupiter-Earth and Moon-Earth; the huge distance more than cancels the larger mass."
+  },
+  {
+    "qsrc": "Q24a",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "A particle of mass $5.0 \\times 10^{-6}$ kg and charge $+2.0\\,\\mu$C is launched into the gravity-free region between the parallel charged plates shown. Calculate the magnitude of its acceleration.",
+    "image_filename": "ext1s2-q24-charged-plates.png",
+    "answer": 4.0e2,
+    "unit": "m s^{-2}",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$E = \\dfrac{V}{d}$, then $a = \\dfrac{qE}{m} = \\dfrac{qV}{md}$ using the 2000 V and 2.00 m from the diagram."
+  },
+  {
+    "qsrc": "Q24b",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "The particle is launched from the negative (lower) plate at 4.00 m s$^{-1}$ at 30 degrees above the plate, as shown. It rises, is turned back by the field, and strikes the lower plate again. Calculate how far along the plate (horizontally) from its launch point it lands. Use the acceleration from the previous part (about 400 m s$^{-2}$).",
+    "image_filename": "ext1s2-q24-charged-plates.png",
+    "answer": 3.5e-2,
+    "unit": "m",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Resolve the launch velocity: $u_y = 4.00\\sin30^\\circ$, $u_x = 4.00\\cos30^\\circ$. Time back to the plate is $t = \\dfrac{2u_y}{a}$; then $\\Delta x = u_x t$."
+  },
+  {
+    "qsrc": "Q25",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "In the photoelectric effect, the ___ voltage is the reverse potential difference that just prevents the fastest photoelectrons from reaching the anode. Multiplying this voltage by the electron's ___ gives the maximum ___ energy of the emitted photoelectrons.",
+    "bank": ["stopping", "charge", "kinetic", "threshold", "potential", "work"],
+    "answer": ["stopping", "charge", "kinetic"],
+    "hint": "The work done by the retarding field, $W = qV$, removes all of the fastest electron's kinetic energy."
+  },
+  {
+    "qsrc": "Q26",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The metal rod shown swings freely about the axle, back and forth within the horizontal magnetic field (the field lies in the plane of the swing). Why is the emf induced across the ends of the rod zero at the instant the rod is vertical?",
+    "image_filename": "ext1s2-q26-swinging-rod.png",
+    "options": [
+      "At that instant the charges in the rod are moving parallel to the magnetic field, so the magnetic force on them is zero",
+      "At that instant the rod is momentarily at rest",
+      "The rod is not a closed circuit, so no emf can ever be induced",
+      "The magnetic flux through the rod is at a maximum there"
+    ],
+    "answer": "At that instant the charges in the rod are moving parallel to the magnetic field, so the magnetic force on them is zero",
+    "hint": "$F = qvB\\sin\\theta$; when the velocity of the charges is parallel to B, $\\theta = 0$ and there is no force to separate the charges. (At the ends of the swing the rod is instead momentarily at rest.)"
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A person lost overboard at night has a body temperature of 37 degrees Celsius. Treating the person as a blackbody, calculate the peak wavelength of the radiation they emit. Use Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K.",
+    "answer": 9.3e-6,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Convert the temperature to kelvin (37 + 273 = 310 K), then $\\lambda_{max} = \\dfrac{b}{T}$."
+  },
+  {
+    "qsrc": "Q30a",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "The light from some aircraft instrument displays is horizontally polarised. A pilot wearing vertically polarising sunglasses would see those displays go almost completely dark.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Malus's law with a 90 degree angle between the light's polarisation and the filter's axis gives near-zero transmission."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Two polarising sheets are used so that 30% of the light passing through the first sheet is transmitted through the second. Calculate the angle between the transmission axes of the two sheets.",
+    "answer": 57,
+    "unit": "degrees",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Malus's law: $\\dfrac{I}{I_0} = \\cos^2\\theta = 0.30$, so $\\theta = \\cos^{-1}\\sqrt{0.30}$."
+  },
+  {
+    "qsrc": "Q32",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "As a spacecraft's speed approaches the speed of light, continued thrust keeps doing work on it, yet its speed barely increases. According to special relativity, what happens to the energy being supplied?",
+    "options": [
+      "It goes almost entirely into increasing the spacecraft's relativistic mass (momentum), not its speed",
+      "It is radiated away as heat and light",
+      "It is stored as gravitational potential energy",
+      "It disappears, because energy is not conserved at relativistic speeds"
+    ],
+    "answer": "It goes almost entirely into increasing the spacecraft's relativistic mass (momentum), not its speed",
+    "hint": "Relativistic kinetic energy is $(\\gamma - 1)mc^2$; as $v \\to c$, $\\gamma$ grows without limit even though $v$ changes very little."
+  },
+  {
+    "qsrc": "Q33b",
+    "inquiry_id": "8.1",
+    "type": "ordering",
+    "prompt": "Put the steps of the proton-proton chain (the main fusion pathway in a star like the Sun) in the correct order.",
+    "items": [
+      "Two protons fuse to form a deuterium nucleus, releasing a positron and a neutrino",
+      "The deuterium nucleus fuses with another proton to form a helium-3 nucleus, releasing a gamma ray",
+      "Two helium-3 nuclei fuse to form a helium-4 nucleus, releasing two protons"
+    ],
+    "answer": [
+      "Two protons fuse to form a deuterium nucleus, releasing a positron and a neutrino",
+      "The deuterium nucleus fuses with another proton to form a helium-3 nucleus, releasing a gamma ray",
+      "Two helium-3 nuclei fuse to form a helium-4 nucleus, releasing two protons"
+    ],
+    "hint": "Deuterium (hydrogen-2) must be built first, then helium-3, and only then can two helium-3 nuclei combine."
+  },
+  {
+    "qsrc": "Q34",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "The neutron, which explains the existence of isotopes, was discovered much later than the proton and the electron. Why was it so hard to detect?",
+    "options": [
+      "It has no electric charge, so it is not deflected by electric or magnetic fields and interacts only weakly with matter",
+      "It is far lighter than the electron, so it moves too fast to observe",
+      "It only exists inside the nucleus and cannot be released",
+      "It decays within a fraction of a second of being produced"
+    ],
+    "answer": "It has no electric charge, so it is not deflected by electric or magnetic fields and interacts only weakly with matter",
+    "hint": "Chadwick detected it indirectly, by the protons it knocked out of a paraffin block."
+  },
+  {
+    "qsrc": "Q35a",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the de Broglie wavelength of a proton moving at 500 km s$^{-1}$. Use $h = 6.626 \\times 10^{-34}$ J s and proton mass $1.673 \\times 10^{-27}$ kg.",
+    "answer": 7.9e-13,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\lambda = \\dfrac{h}{mv}$, with $v = 5.00 \\times 10^{5}$ m s$^{-1}$."
+  },
+  {
+    "qsrc": "Q35b",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "Which experimental result confirmed de Broglie's hypothesis that particles have a wavelength given by $\\lambda = \\dfrac{h}{mv}$?",
+    "options": [
+      "Davisson and Germer observed a diffraction pattern when electrons were scattered off a nickel crystal",
+      "Millikan measured the charge on individual oil drops",
+      "Rutherford saw alpha particles bounce back off gold foil",
+      "Hertz produced and detected radio waves"
+    ],
+    "answer": "Davisson and Germer observed a diffraction pattern when electrons were scattered off a nickel crystal",
+    "hint": "Diffraction is a wave behaviour, so seeing electrons diffract showed they have a wavelength."
+  },
+  {
+    "qsrc": "Q36",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Silicon-28 is bombarded with neutrons in a reactor and is transmuted into phosphorus by beta-minus decay. Which pair of nuclear equations represents this process?",
+    "options": [
+      "Si-28 + n → Si-29; then Si-29 → P-29 + an electron (and an antineutrino)",
+      "Si-28 + n → Si-29; then Si-29 → P-29 + a positron",
+      "Si-28 + n → Si-27 + 2n; then Si-27 → Al-27 + a positron",
+      "Si-28 + n → Mg-24 + an alpha particle; then Mg-24 → Al-24 + an electron"
+    ],
+    "answer": "Si-28 + n → Si-29; then Si-29 → P-29 + an electron (and an antineutrino)",
+    "hint": "Neutron capture raises the mass number by 1 with no change in atomic number; beta-minus decay then raises the atomic number by 1 (Si, Z = 14, becomes P, Z = 15)."
+  }
+]

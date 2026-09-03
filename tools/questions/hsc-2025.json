@@ -1,0 +1,454 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "7.1",
+    "type": "word-bank",
+    "prompt": "Maxwell's key contribution to the understanding of light was a ___ of the speed of electromagnetic waves, a value that turned out to match the measured speed of light.",
+    "bank": [
+      "prediction",
+      "measurement",
+      "explanation",
+      "disproof"
+    ],
+    "answer": [
+      "prediction"
+    ],
+    "hint": "The match between his predicted wave speed and the known speed of light showed that light is an electromagnetic wave."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "Maxwell's theory predicted that light is one part of a much wider spectrum of electromagnetic waves, all travelling at the same speed in a vacuum.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Radio waves, microwaves, infrared, visible, ultraviolet, X-rays and gamma rays are all electromagnetic waves."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "6.3",
+    "type": "drag-drop",
+    "prompt": "An ideal transformer converts 240 V to 2200 V. Match each property to the correct value.",
+    "pairs": [
+      {
+        "item": "Type of transformer",
+        "match": "Step-up"
+      },
+      {
+        "item": "Ratio of primary turns to secondary turns",
+        "match": "120 : 1100"
+      }
+    ],
+    "answer": {
+      "Type of transformer": "Step-up",
+      "Ratio of primary turns to secondary turns": "120 : 1100"
+    },
+    "hint": "The output voltage is larger, so it is a step-up transformer, and $\\dfrac{N_p}{N_s} = \\dfrac{V_p}{V_s} = \\dfrac{240}{2200}$."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "The visible emission spectrum of hydrogen consists of discrete lines at 410, 434, 486 and 656 nm. Which scientist's model of the atom explains the production of these specific lines?",
+    "options": [
+      "Bohr",
+      "Balmer",
+      "Planck",
+      "Rutherford"
+    ],
+    "answer": "Bohr",
+    "hint": "Bohr proposed quantised electron energy levels; a photon of a definite wavelength is emitted when an electron drops between two of them. (Balmer only found the empirical formula for the line positions.)"
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "In the Bohr model, a hydrogen atom emits a photon of one particular wavelength when its electron moves from a higher energy level to a lower one.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The photon energy equals the difference between the two energy levels, and $E = hc/\\lambda$."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "8.3",
+    "type": "word-bank",
+    "prompt": "The de Broglie wavelength is $\\lambda = \\dfrac{h}{mv}$. Of an electron at 0.1c, an electron at 0.9c, a proton at 0.1c and a proton at 0.9c, the particle with the shortest de Broglie wavelength is the ___.",
+    "bank": [
+      "proton at 0.9c",
+      "electron at 0.9c",
+      "proton at 0.1c",
+      "electron at 0.1c"
+    ],
+    "answer": [
+      "proton at 0.9c"
+    ],
+    "hint": "The shortest wavelength goes with the largest momentum $mv$: the heaviest particle at the highest speed."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A planet moves in the elliptical orbit shown, in the direction of the arrow (anticlockwise). The star is near the right-hand focus (close to point W). Points X, Y, Z and W are marked around the orbit. At which point is the planet's kinetic energy increasing?",
+    "image_filename": "2025-q5-elliptical-orbit.png",
+    "options": [
+      "Z",
+      "W",
+      "X",
+      "Y"
+    ],
+    "answer": "Z",
+    "hint": "Kinetic energy increases while the planet is moving towards the star (from the far side of the orbit towards the near side)."
+  },
+  {
+    "qsrc": "Q5b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "A planet in an elliptical orbit gains kinetic energy as it moves from the farthest point of its orbit towards the nearest point to the star.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Gravitational potential energy is converted to kinetic energy as the planet 'falls' inward."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.1",
+    "type": "word-bank",
+    "image_filename": "2025-q6-electron-arc.png",
+    "prompt": "An electron moving to the right is deflected by a uniform magnetic field into a circular arc, leaving the region moving upward (dotted line). The magnetic field must point ___.",
+    "bank": [
+      "out of the page",
+      "into the page",
+      "downward in the plane of the page",
+      "upward in the plane of the page"
+    ],
+    "answer": [
+      "out of the page"
+    ],
+    "hint": "The magnetic force must point towards the centre of the arc (initially upward); apply the right-hand rule for F = qv x B, remembering the electron's charge is negative."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A satellite is moved from a circular orbit at an altitude of 500 km to a circular orbit at an altitude of 35 800 km. Which statement correctly compares its properties in the higher orbit with those in the lower orbit?",
+    "options": [
+      "Its kinetic energy is less, and its acceleration is less",
+      "Its period is greater, and its acceleration is the same",
+      "Its orbital velocity is less, and its potential energy is positive",
+      "Its escape velocity is greater, and the centripetal force is less"
+    ],
+    "answer": "Its kinetic energy is less, and its acceleration is less",
+    "hint": "In a higher orbit the satellite is slower (less KE), the gravitational field is weaker (less acceleration), the period is longer, and its potential energy is greater but still negative."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "When a satellite is moved to a higher circular orbit, its orbital speed, kinetic energy and centripetal acceleration all decrease, while its orbital period increases.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "All of these follow from $v = \\sqrt{GM/r}$ and $g = GM/r^2$ with a larger $r$."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "5.1",
+    "type": "word-bank",
+    "prompt": "A projectile is launched from P and lands at Q, which is at a greater height than P (total flight time t, air resistance negligible). The time to reach maximum height is ___ t/2, and the speed at Q is ___ the launch speed.",
+    "bank": [
+      "more than",
+      "less than",
+      "equal to",
+      "exactly"
+    ],
+    "answer": [
+      "more than",
+      "less than"
+    ],
+    "hint": "Q being higher than P means the projectile is caught on the way down before reaching P's level, and it has more potential energy (so less kinetic energy) there."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "If a projectile is launched from P and lands at a point at the same height as P (air resistance negligible), its speed on landing equals its launch speed.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "By conservation of energy, equal heights means equal kinetic energy and so equal speed."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "The absorption spectra of two stars, A and B, are shown. The dark lines appear at the same wavelengths in both, but they are much broader (thicker) in Star B's spectrum than in Star A's. Which statement about the two stars is true?",
+    "image_filename": "2025-q9-absorption-spectra.png",
+    "options": [
+      "Star A has a lower density than Star B",
+      "Star A has a greater rotational velocity than Star B",
+      "Star A has a greater translational velocity than Star B",
+      "Star A and Star B have different chemical compositions"
+    ],
+    "answer": "Star A has a lower density than Star B",
+    "hint": "Broader spectral lines indicate higher gas pressure (density). The lines are at the same wavelengths, so the compositions are the same and there is no relative translational (Doppler) shift."
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "Because the absorption lines of Star A and Star B occur at the same wavelengths, the two stars contain the same chemical elements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The set of absorption wavelengths is a fingerprint of the elements present."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "6.4",
+    "type": "word-bank",
+    "prompt": "A running DC motor is made to spin more slowly by material falling into it. Its back EMF ___, so the current it draws from the supply ___.",
+    "bank": [
+      "decreases",
+      "increases",
+      "stays the same",
+      "reverses"
+    ],
+    "answer": [
+      "decreases",
+      "increases"
+    ],
+    "hint": "Back EMF is proportional to rotational speed; less back EMF leaves a larger net voltage across the coil resistance."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "The back EMF produced by a DC motor increases as the motor spins faster, and this is why a motor draws a large current at the moment it starts up.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "At start-up the speed (and back EMF) is zero, so the current is limited only by the coil's resistance."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.2",
+    "type": "word-bank",
+    "prompt": "Malus's law is $I = I_0\\cos^2\theta$. On a graph of transmitted light intensity against $\\cos^2\theta$, this gives a ___.",
+    "bank": [
+      "straight line through the origin",
+      "curve that steepens as $\\cos^2\theta$ increases",
+      "straight line with a positive intercept",
+      "U-shaped curve"
+    ],
+    "answer": [
+      "straight line through the origin"
+    ],
+    "hint": "Intensity is directly proportional to $\\cos^2\theta$."
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Plane-polarised light of intensity $I_0$ passes through a polariser whose transmission axis is at $60^{\\circ}$ to the light's polarisation. Using Malus's law, calculate the fraction $I / I_0$ of the light transmitted.",
+    "answer": 0.25,
+    "unit": "",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$\\cos^2 60^{\\circ} = 0.5^2$."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A mass on a string of length l swings in a horizontal circle (a conical pendulum), with the string at angle $\\theta$ to the vertical, at speed v. The radius of the circular path is $l\\sin\\theta$. What is the magnitude of the mass's acceleration?",
+    "image_filename": "2025-q13-conical-pendulum.png",
+    "options": [
+      "$\\dfrac{v^2}{l\\sin\\theta}$",
+      "$g$",
+      "$\\dfrac{v^2}{l}$",
+      "$\\dfrac{v^2}{l\\cos\\theta}$"
+    ],
+    "answer": "$\\dfrac{v^2}{l\\sin\\theta}$",
+    "hint": "The acceleration is centripetal, $\\dfrac{v^2}{r}$, and here the radius of the circle is $r = l\\sin\\theta$."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "6.1",
+    "type": "drag-drop",
+    "prompt": "A proton enters a uniform field with its velocity perpendicular to the field. It is deflected and its speed increases. Match each item to the correct description.",
+    "pairs": [
+      {
+        "item": "Type of field",
+        "match": "Electric field"
+      },
+      {
+        "item": "Effect on the proton's kinetic energy",
+        "match": "Increases"
+      }
+    ],
+    "answer": {
+      "Type of field": "Electric field",
+      "Effect on the proton's kinetic energy": "Increases"
+    },
+    "hint": "A magnetic force does no work, so it could not change the kinetic energy; only an electric field can."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Two stars X and Y are marked on the Hertzsprung-Russell diagram. Both are at the same spectral class (about G), but Y is much more luminous (absolute magnitude about 0) than X (absolute magnitude about +6). In what way are these two stars different?",
+    "image_filename": "2025-q15-hr-diagram.png",
+    "options": [
+      "X has a lower core temperature than Y",
+      "X has a higher luminosity than Y",
+      "X is a red star and Y is a blue star",
+      "X has a higher surface temperature than Y"
+    ],
+    "answer": "X has a lower core temperature than Y",
+    "hint": "Same spectral class means the same surface temperature and colour, so those options are ruled out; Y is the more luminous, more evolved star (a giant), with a hotter core."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "8.1",
+    "type": "word-bank",
+    "prompt": "Stars X and Y are the same spectral class, so they have the same ___, but Y is far more luminous, which means Y must be much ___ than X.",
+    "image_filename": "2025-q15-hr-diagram.png",
+    "bank": [
+      "surface temperature",
+      "luminosity",
+      "larger",
+      "smaller",
+      "denser"
+    ],
+    "answer": [
+      "surface temperature",
+      "larger"
+    ],
+    "hint": "Luminosity depends on both surface temperature and surface area ($L \\propto r^2 T^4$); if the temperatures match, the brighter star is the bigger one."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "8.4",
+    "type": "word-bank",
+    "prompt": "A neutron is absorbed by nucleus X. The resulting nucleus then undergoes alpha decay, producing lithium-7. Nucleus X is ___.",
+    "bank": [
+      "boron-10",
+      "boron-11",
+      "lithium-6",
+      "lithium-10"
+    ],
+    "answer": [
+      "boron-10"
+    ],
+    "hint": "Work backwards: lithium-7 + alpha particle gives a nucleus with Z = 5, mass number 11 (boron-11); removing the absorbed neutron leaves X with Z = 5, mass number 10."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "When a nucleus absorbs a neutron, its atomic number stays the same and its mass number increases by 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "A neutron adds one nucleon but no charge."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A circular loop of wire lies to the right of a long straight vertical wire carrying a downward current I. The loop is moved directly away from the wire, from position X to position Y, at constant speed. Which best describes the induced EMF in the loop as it moves?",
+    "image_filename": "2025-q17-loop-and-wire.png",
+    "options": [
+      "The EMF decreases along a curve that flattens out, and the induced current in the loop is anticlockwise as drawn",
+      "The EMF decreases along a straight line, and the induced current is anticlockwise as drawn",
+      "The EMF decreases along a curve that flattens out, and the induced current is clockwise as drawn",
+      "The EMF stays constant, and the induced current is clockwise as drawn"
+    ],
+    "answer": "The EMF decreases along a curve that flattens out, and the induced current in the loop is anticlockwise as drawn",
+    "hint": "The wire's field falls off with distance, so as the loop moves at constant speed the flux changes ever more slowly and the EMF decays. The out-of-page flux through the loop is decreasing, so the induced current flows anticlockwise to oppose that decrease."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "The escape velocity from the surface of an airless planet is v. A mass is launched from the surface at an angle of 45 degrees to the horizontal, with speed v. What is its subsequent motion?",
+    "options": [
+      "A trajectory that reaches zero velocity only at an infinite distance",
+      "A circular orbit around the planet",
+      "An elliptical orbit around the planet",
+      "A parabolic trajectory that returns it to land with speed v"
+    ],
+    "answer": "A trajectory that reaches zero velocity only at an infinite distance",
+    "hint": "Launched at exactly escape speed, the mass has just enough kinetic energy to reach infinity with nothing to spare, regardless of the launch direction."
+  },
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "In a sealed glass jar, a strip of magnesium reacts with oxygen to form magnesium oxide, and energy is released from the system. What happens to the total mass of the sealed system?",
+    "options": [
+      "It decreases, because energy has left the system",
+      "It increases, because oxygen has been added to the magnesium",
+      "It increases, because energy is added to the system by the reaction",
+      "It decreases, because magnesium and oxygen are used up in the reaction"
+    ],
+    "answer": "It decreases, because energy has left the system",
+    "hint": "By $E = mc^2$, energy leaving a closed system carries away a (tiny) amount of mass. The atoms are all still inside the sealed jar, just rearranged."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "When a sealed system releases energy in a chemical reaction, its mass decreases by $\\Delta m = \\dfrac{E}{c^2}$, though the change is far too small to detect with ordinary scales.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "For chemical reactions the mass change is around $10^{-10}$ of the total mass."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "In a particle accelerator, an electron and a positron collide and could produce a proton and an antiproton: electron + positron -> proton + antiproton. Which statement makes the correct conclusion about whether this reaction is possible, with a plausible reason?",
+    "options": [
+      "It is possible, because the mass of the proton and antiproton comes mainly from the energy supplied by the accelerator",
+      "It is possible, because the proton and antiproton masses are the result of their relativistic velocities",
+      "It is impossible, because an electron and a positron always combine into a single neutral particle",
+      "It is impossible, because protons are far more massive than electrons, so the reaction would violate conservation of mass"
+    ],
+    "answer": "It is possible, because the mass of the proton and antiproton comes mainly from the energy supplied by the accelerator",
+    "hint": "Mass and energy are interconvertible ($E = mc^2$); if the colliding particles carry enough kinetic energy, that energy can be converted into the rest mass of much heavier particles."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "8.5",
+    "type": "true-false",
+    "prompt": "In a high-energy collision, particles more massive than the ones that collided can be created, with the extra mass coming from the kinetic energy of the collision.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "This is how new particles are discovered in accelerators."
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "qsrc": "Q21",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A satellite is in a circular orbit of radius $3.8 \\times 10^{8}$ m around planet Xu, with a period of $2.36 \\times 10^{6}$ s. Calculate the mass of planet Xu. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 5.83e24,
+    "unit": "kg",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Rearrange Kepler's third law: $M = \\dfrac{4\\pi^2 r^3}{GT^2}$."
+  },
+  {
+    "qsrc": "Q22a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A coil of 50 turns sits perpendicular to a magnetic field of 0.2 T. In this position the magnetic flux through the coil is $8 \\times 10^{-4}$ Wb. Calculate the cross-sectional area of the coil.",
+    "answer": 4.0e-3,
+    "unit": "m^2",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\Phi = BA$, so $A = \\dfrac{\\Phi}{B}$ (this is the area of one turn)."
+  },
+  {
+    "qsrc": "Q22b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "The same 50-turn coil (flux $8 \\times 10^{-4}$ Wb per turn when face-on to the 0.2 T field) is rotated through 180 degrees in 0.2 s. Calculate the magnitude of the average emf generated.",
+    "answer": 0.4,
+    "unit": "V",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "A 180 degree flip changes the flux per turn from $+8 \\times 10^{-4}$ to $-8 \\times 10^{-4}$ Wb; $\\varepsilon = N\\dfrac{\\Delta\\Phi}{\\Delta t}$."
+  },
+  {
+    "qsrc": "Q23",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "A vertical wire carrying a current is placed just in front of the middle of a permanent bar magnet. When the current is switched on, why does the wire move?",
+    "options": [
+      "The current-carrying wire is in the magnet's field, so it experiences a motor-effect force ($F = BIl$) directed perpendicular to both the current and the field",
+      "The wire becomes magnetised and is attracted to the nearest pole",
+      "The changing current induces an emf in the magnet, which repels the wire",
+      "The wire heats up and expands towards the magnet"
+    ],
+    "answer": "The current-carrying wire is in the magnet's field, so it experiences a motor-effect force ($F = BIl$) directed perpendicular to both the current and the field",
+    "hint": "This is the motor effect: a current in an external magnetic field feels a sideways force."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A farmhouse is connected to a 240 V supply by a 1.0 km line with a total resistance of 2.0 ohm. When the house draws its maximum power of 12 000 W, calculate the power lost as heat in the transmission line.",
+    "image_filename": "ext5s2-q25-power-supply.png",
+    "answer": 5000,
+    "unit": "W",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The line current is $I = \\dfrac{P}{V} = \\dfrac{12000}{240}$; the line loss is $I^2 R$."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The electrician proposes using an 11 000 V supply with a step-down transformer at the house instead of the 240 V supply, to deliver the same power with far less line loss. Why does the higher supply voltage reduce the power lost in the line?",
+    "image_filename": "ext5s2-q25-power-supply.png",
+    "options": [
+      "For the same power, a higher voltage means a proportionally smaller current, and line loss depends on the square of the current",
+      "A higher voltage pushes the electricity through the wires faster, so less is lost",
+      "The transformer removes the resistance of the transmission line",
+      "Higher voltage lines are made of a more conductive metal"
+    ],
+    "answer": "For the same power, a higher voltage means a proportionally smaller current, and line loss depends on the square of the current",
+    "hint": "$P = VI$ fixes the current for a given power; line loss is $I^2 R$, so cutting the current by 46 times cuts the loss by about 2000 times."
+  },
+  {
+    "qsrc": "Q27a",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Which observation from the photoelectric effect could NOT be explained by the wave model of light?",
+    "options": [
+      "No photoelectrons are emitted below a threshold frequency, no matter how intense or how long the light is applied",
+      "Brighter light produces a larger photoelectric current",
+      "Photoelectrons travel through the circuit to the collecting plate",
+      "The photoelectric current can be reduced by a reverse voltage"
+    ],
+    "answer": "No photoelectrons are emitted below a threshold frequency, no matter how intense or how long the light is applied",
+    "hint": "The wave model says energy should build up over time, so even dim, low-frequency light should eventually free electrons; it never does."
+  },
+  {
+    "qsrc": "Q27b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "For a certain metal, photoelectrons are emitted only when the light's wavelength is 300 nm or shorter. Calculate the energy of a 300 nm photon (the work function of the metal). Use $h = 6.626 \\times 10^{-34}$ J s and $c = 3.00 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 6.6e-19,
+    "unit": "J",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$E = \\dfrac{hc}{\\lambda}$ with $\\lambda = 300 \\times 10^{-9}$ m."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Unpolarised light of intensity I passes through one polaroid sheet and then a second. A light meter reads the final intensity as 0.2I. Through what angle has the second sheet been rotated away from the orientation that gives maximum transmission through both sheets?",
+    "answer": 50.8,
+    "unit": "degrees",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "After the first sheet the intensity is 0.5I. Then $0.2I = 0.5I\\cos^2\\theta$, so $\\theta = \\cos^{-1}\\sqrt{0.4}$."
+  },
+  {
+    "qsrc": "Q28b",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "A third polaroid sheet is to be added after the second one so as to minimise the light transmitted through all three. At what angle to the second sheet should the third sheet's axis be set?",
+    "options": [
+      "90 degrees (crossed with the second sheet)",
+      "0 degrees (aligned with the second sheet)",
+      "45 degrees to the second sheet",
+      "It makes no difference where the third sheet is set"
+    ],
+    "answer": "90 degrees (crossed with the second sheet)",
+    "hint": "Malus's law gives zero transmission when consecutive axes are perpendicular."
+  },
+  {
+    "qsrc": "Q30",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "The pattern shown is produced when a parallel beam of high-speed electrons passes through a crystalline material in an electron microscope. What does this pattern demonstrate?",
+    "image_filename": "ext5s2-q30-electron-diffraction.png",
+    "options": [
+      "Electrons show wave behaviour (diffraction), which the classical particle picture of the electron cannot explain",
+      "Electrons carry an electric charge",
+      "Electrons are heavier than protons",
+      "Electrons travel faster than light inside the crystal"
+    ],
+    "answer": "Electrons show wave behaviour (diffraction), which the classical particle picture of the electron cannot explain",
+    "hint": "A regular pattern of spots is an interference/diffraction pattern, a wave phenomenon; it matches the de Broglie wavelength of the electrons."
+  },
+  {
+    "qsrc": "Q32a",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "A particle with mass can never quite reach the speed of light, because as its speed approaches c its relativistic momentum and energy grow without limit, so an infinite amount of work would be needed.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The Lorentz factor $\\gamma$ tends to infinity as $v \\to c$, and both momentum and kinetic energy scale with $\\gamma$."
+  },
+  {
+    "qsrc": "Q33b",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "The intensity-versus-wavelength curve for a hot object (blackbody radiation) could not be explained by classical wave physics, but was explained by Planck assuming that:",
+    "options": [
+      "Energy is emitted and absorbed only in discrete packets (quanta) of size $E = hf$",
+      "Light waves cannot have a wavelength shorter than the object",
+      "The object radiates equally at all wavelengths",
+      "Only the surface atoms of the object can radiate"
+    ],
+    "answer": "Energy is emitted and absorbed only in discrete packets (quanta) of size $E = hf$",
+    "hint": "Quantising the energy removes the classical prediction of unlimited emission at short wavelengths."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A simple DC motor uses a split-ring commutator. What single change to its construction would turn it into an AC (synchronous) motor?",
+    "options": [
+      "Replace the split-ring commutator with two slip rings",
+      "Replace the coil with a permanent magnet",
+      "Remove the brushes",
+      "Double the number of turns on the coil"
+    ],
+    "answer": "Replace the split-ring commutator with two slip rings",
+    "hint": "Slip rings feed the alternating current straight into the coil without reversing the connections each half turn."
+  },
+  {
+    "qsrc": "Q35a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A 100 kg satellite is in a near-circular orbit of radius $6.671 \\times 10^{6}$ m around Earth. Calculate its orbital period. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$ and Earth's mass $6.0 \\times 10^{24}$ kg.",
+    "answer": 5412,
+    "unit": "s",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$T = 2\\pi\\sqrt{\\dfrac{r^3}{GM}}$."
+  },
+  {
+    "qsrc": "Q35b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "For the same satellite (orbital radius $6.671 \\times 10^{6}$ m, period about 5412 s), calculate its orbital speed.",
+    "answer": 7745,
+    "unit": "m s^{-1}",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$v = \\dfrac{2\\pi r}{T}$, or $v = \\sqrt{\\dfrac{GM}{r}}$."
+  },
+  {
+    "qsrc": "Q35c",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "A 1000 kg satellite placed in a circular orbit at the same radius as the 100 kg satellite would have the same orbital period.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Setting gravitational force equal to the centripetal force, the satellite's mass cancels, so period depends only on the orbit radius and Earth's mass."
+  }
+]

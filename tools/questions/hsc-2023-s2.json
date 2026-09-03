@@ -1,0 +1,241 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Which two properties of a star together determine its luminosity (total power output)?",
+    "options": [
+      "Its size (radius or surface area) and its surface temperature",
+      "Its distance from Earth and its apparent brightness",
+      "Its rotational speed and its magnetic field strength",
+      "Its age and its chemical composition"
+    ],
+    "answer": "Its size (radius or surface area) and its surface temperature",
+    "hint": "$L \\propto R^2 T^4$: a star is more luminous if it is larger or hotter."
+  },
+  {
+    "qsrc": "Q22",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A spacecraft passes Earth at 0.9c. Its crew measure the time between light pulses it emits as $3.1 \\times 10^{-9}$ s. Calculate the time between pulses as measured by an observer on Earth.",
+    "answer": 7.1e-9,
+    "unit": "s",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$ with $v = 0.9c$."
+  },
+  {
+    "qsrc": "Q23a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "The James Webb Space Telescope has a mass of $6.1 \\times 10^{3}$ kg and orbits the Sun (mass $1.99 \\times 10^{30}$ kg) at a distance of $1.52 \\times 10^{11}$ m. Calculate the magnitude of the gravitational force the Sun exerts on the telescope. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 35,
+    "unit": "N",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$F = \\dfrac{GMm}{r^2}$."
+  },
+  {
+    "qsrc": "Q23b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "The JWST is sensitive to wavelengths from $6.0 \\times 10^{-7}$ m to $2.8 \\times 10^{-5}$ m. Calculate the minimum photon energy it can detect. Use $h = 6.626 \\times 10^{-34}$ J s and $c = 3.0 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 7.1e-21,
+    "unit": "J",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "The lowest energy photon has the longest wavelength: $E = \\dfrac{hc}{\\lambda}$ with $\\lambda = 2.8 \\times 10^{-5}$ m."
+  },
+  {
+    "qsrc": "Q23c",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "The JWST observed an exoplanet whose thermal emission peaks at a wavelength of $1.14 \\times 10^{-5}$ m. Calculate the temperature of the exoplanet. Use Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K.",
+    "answer": 254,
+    "unit": "K",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$T = \\dfrac{b}{\\lambda_{max}}$."
+  },
+  {
+    "qsrc": "Q24",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "An electron travels at $3.0 \\times 10^{6}$ m s$^{-1}$ in a circular path of radius 10 m. Calculate the magnetic field strength required to keep it on this path. Use electron mass $9.109 \\times 10^{-31}$ kg and charge $1.602 \\times 10^{-19}$ C.",
+    "answer": 1.7e-6,
+    "unit": "T",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The magnetic force provides the centripetal force: $qvB = \\dfrac{mv^2}{r}$, so $B = \\dfrac{mv}{qr}$."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "In a DC motor, what is the function of the split-ring commutator (part X)?",
+    "options": [
+      "It reverses the direction of the current through the rotating coil every half turn, so that the torque keeps turning the coil the same way",
+      "It steps the supply voltage up before it reaches the coil",
+      "It smooths the current so the coil turns at constant speed",
+      "It stores energy as the coil slows down"
+    ],
+    "answer": "It reverses the direction of the current through the rotating coil every half turn, so that the torque keeps turning the coil the same way",
+    "hint": "Without the commutator the torque would reverse every half turn and the coil would just oscillate."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Why does the torque produced by a DC motor decrease as its rotational speed increases?",
+    "options": [
+      "A faster-spinning coil generates a larger back emf, which reduces the net voltage across the coil and hence the current; torque is proportional to current",
+      "The magnetic field weakens as the coil spins faster",
+      "The commutator stops working at high speed",
+      "The coil's resistance increases with speed"
+    ],
+    "answer": "A faster-spinning coil generates a larger back emf, which reduces the net voltage across the coil and hence the current; torque is proportional to current",
+    "hint": "Back emf grows with rotational speed and opposes the supply voltage."
+  },
+  {
+    "qsrc": "Q26",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "In the reaction $^{12}_{6}$C + $^{1}_{1}$H -> $^{9}_{5}$B + $^{4}_{2}$He, the masses are: C-12 = 12.064 u, H-1 = 1.008 u, B-9 = 9.013 u, He-4 = 4.003 u. Calculate the energy released. Use 1 u = 931.5 MeV/c$^2$.",
+    "answer": 52,
+    "unit": "MeV",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Mass defect = (12.064 + 1.008) - (9.013 + 4.003) u; multiply by 931.5 MeV/u."
+  },
+  {
+    "qsrc": "Q27a",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "How are the composition and the surface temperature of a star each found from its spectrum?",
+    "options": [
+      "Composition comes from the pattern of absorption (or emission) lines, since each element has its own characteristic set; temperature comes from the peak wavelength of the continuous spectrum (Wien's law)",
+      "Both come only from how bright the star appears",
+      "Composition comes from the peak wavelength; temperature comes from the line pattern",
+      "Both come from the width of a single spectral line"
+    ],
+    "answer": "Composition comes from the pattern of absorption (or emission) lines, since each element has its own characteristic set; temperature comes from the peak wavelength of the continuous spectrum (Wien's law)",
+    "hint": "Line positions fingerprint the elements present; the overall shape and peak of the continuous spectrum give the temperature."
+  },
+  {
+    "qsrc": "Q27b",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "A star's 656 nm hydrogen emission line is observed. What change to this line results from the star's rotation?",
+    "options": [
+      "The line becomes broader (spread over a range of wavelengths) but stays centred on 656 nm, because one limb of the star is approaching (blueshift) while the other is receding (redshift)",
+      "The whole line shifts to a longer wavelength",
+      "The line splits into two completely separate lines far apart",
+      "The line disappears"
+    ],
+    "answer": "The line becomes broader (spread over a range of wavelengths) but stays centred on 656 nm, because one limb of the star is approaching (blueshift) while the other is receding (redshift)",
+    "hint": "Rotation gives a spread of line-of-sight velocities across the visible disc, smearing the line symmetrically."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "An ideal transformer on a 240 V AC supply has 300 turns on the primary and 50 turns on the secondary. With the switch in the secondary circuit open, all the secondary voltage appears across light globe X. Calculate the voltage across globe X.",
+    "answer": 40,
+    "unit": "V",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$V_s = V_p \\times \\dfrac{N_s}{N_p} = 240 \\times \\dfrac{50}{300}$."
+  },
+  {
+    "qsrc": "Q28b",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "After the switch is closed, a second identical globe Y is added to the secondary circuit. Why does the current in the primary coil change?",
+    "options": [
+      "The secondary now delivers more power (two globes instead of one), so by conservation of energy the primary must draw more current from the supply",
+      "The primary current falls, because the extra globe adds resistance to the primary circuit",
+      "The primary current is unchanged, because the transformer isolates the two circuits",
+      "The primary current stops, because the secondary is now overloaded"
+    ],
+    "answer": "The secondary now delivers more power (two globes instead of one), so by conservation of energy the primary must draw more current from the supply",
+    "hint": "For an ideal transformer $V_p I_p = V_s I_s$; more secondary power means more primary current."
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Light from an incandescent lamp is dimmed when passed through a single polarising filter. Why?",
+    "options": [
+      "The lamp light is unpolarised (its electric field oscillates in all orientations); the filter transmits only the component aligned with its axis, which is on average half the intensity",
+      "The filter absorbs all wavelengths equally, halving the brightness of every colour",
+      "The filter reflects most of the light back towards the lamp",
+      "The filter slows the light down, reducing its energy"
+    ],
+    "answer": "The lamp light is unpolarised (its electric field oscillates in all orientations); the filter transmits only the component aligned with its axis, which is on average half the intensity",
+    "hint": "Averaging $\\cos^2\\theta$ over all random orientations gives one half."
+  },
+  {
+    "qsrc": "Q30a",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A complete copper ring is held near the end of an electromagnet. When the switch is turned on, the magnetic field through the ring rises from zero over about 0.05 s. What force acts on the ring during this time?",
+    "options": [
+      "While the field is increasing, the induced current in the ring opposes the rising flux (Lenz's law), so the ring is pushed away from the coil; once the field becomes steady there is no induced current and no force",
+      "The ring is pulled towards the coil the whole time",
+      "There is no force at any time, because the ring is not connected to a battery",
+      "The ring is pushed away only after the field stops changing"
+    ],
+    "answer": "While the field is increasing, the induced current in the ring opposes the rising flux (Lenz's law), so the ring is pushed away from the coil; once the field becomes steady there is no induced current and no force",
+    "hint": "A force appears only while the flux through the ring is changing."
+  },
+  {
+    "qsrc": "Q30bi",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The experiment is repeated with ring Y, which is identical to ring X except that a small gap has been cut in it. What happens to ring Y when the electromagnet is switched on?",
+    "options": [
+      "An emf is still induced around the ring, but the gap breaks the circuit so no current can flow; with no current there is no force, and the ring stays still",
+      "A larger current flows because the gap reduces the resistance, so the ring is pushed away more strongly",
+      "The ring is pulled towards the coil",
+      "The ring melts because all the induced energy is concentrated at the gap"
+    ],
+    "answer": "An emf is still induced around the ring, but the gap breaks the circuit so no current can flow; with no current there is no force, and the ring stays still",
+    "hint": "Force on the ring needs an induced current, and an induced current needs a complete conducting loop."
+  },
+  {
+    "qsrc": "Q31",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A roller-coaster car brakes by passing magnets on the car either side of a fixed aluminium fin. The deceleration-time graph is recorded for entry speeds of 10 m s$^{-1}$ and 12 m s$^{-1}$. What do the two data sets have in common, and how do they differ?",
+    "options": [
+      "Both show a deceleration that is largest at entry and then falls as the car slows (the eddy-current braking force depends on speed); the 12 m s$^{-1}$ run starts with a larger deceleration because the faster motion causes a faster change of flux",
+      "Both show a constant deceleration; the faster run just lasts longer",
+      "The slower run has the larger deceleration throughout",
+      "The two runs are identical, because magnetic braking does not depend on speed"
+    ],
+    "answer": "Both show a deceleration that is largest at entry and then falls as the car slows (the eddy-current braking force depends on speed); the 12 m s$^{-1}$ run starts with a larger deceleration because the faster motion causes a faster change of flux",
+    "hint": "Eddy-current braking force grows with the relative speed, so it is strongest at entry and fades as the car slows."
+  },
+  {
+    "qsrc": "Q34",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A 400 kg satellite in a circular orbit has a gravitational potential energy of $-2.389 \\times 10^{10}$ J and a total mechanical energy of $-1.195 \\times 10^{10}$ J. Calculate its kinetic energy.",
+    "answer": 1.19e10,
+    "unit": "J",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Total energy = kinetic + potential, so kinetic energy = total energy - potential energy."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "The 400 kg satellite has a kinetic energy of about $1.194 \\times 10^{10}$ J. Calculate its orbital speed.",
+    "answer": 7.7e3,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$K = \\tfrac{1}{2}mv^2$, so $v = \\sqrt{\\dfrac{2K}{m}}$."
+  }
+]

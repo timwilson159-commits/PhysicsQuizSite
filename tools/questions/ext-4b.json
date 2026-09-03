@@ -1,0 +1,117 @@
+[
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows a cyclist rounding a banked track at a steady speed. Which statement about the forces acting on the cyclist is correct?",
+    "image_filename": "ext4-q3-banked-cyclist.png",
+    "options": [
+      "The forces are not balanced; their vector sum is a net force that acts as the centripetal force",
+      "All the forces are balanced, which is what allows the cyclist to travel at constant speed",
+      "The force on the cyclist parallel to the banked surface is balanced by the centripetal force",
+      "The component of the normal force perpendicular to the slope is equal to the weight force"
+    ],
+    "answer": "The forces are not balanced; their vector sum is a net force that acts as the centripetal force",
+    "hint": "Any object moving in a circle must have an unbalanced force directed towards the centre of the circular path."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A class investigated centripetal force with a whirling-mass apparatus. The graph shows two of the measured quantities plotted against each other, with the axes unlabelled. From the shape of the curve, which pair of variables was most likely plotted (vertical vs horizontal)?",
+    "image_filename": "ext4-q4-centripetal-graph.png",
+    "options": [
+      "Force and speed",
+      "Force and radius",
+      "Speed and radius",
+      "Acceleration and (speed divided by radius)"
+    ],
+    "answer": "Force and speed",
+    "hint": "The curve starts at the origin and rises ever more steeply, which is the shape of $F = \\dfrac{mv^2}{r}$ plotted against $v$."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows a trolley moving at constant speed through a dip, following the circular arc drawn. Which statement best describes the forces on the trolley at the bottom of the dip?",
+    "image_filename": "ext4-q6-rollercoaster-dip.png",
+    "options": [
+      "The normal force minus the gravitational force equals the centripetal force, which points upward towards the centre of the arc",
+      "The centripetal force is equal to the normal force",
+      "The gravitational force on the trolley is larger than when it travels on a flat surface",
+      "The normal force is larger than on a flat surface because the centrifugal force is larger"
+    ],
+    "answer": "The normal force minus the gravitational force equals the centripetal force, which points upward towards the centre of the arc",
+    "hint": "Take up (towards the centre) as positive: $N - mg = \\dfrac{mv^2}{r}$."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "The four diagrams show pairs of parallel current-carrying conductors, with the current, separation and length marked on each. Which pair has the weakest force acting between the conductors?",
+    "image_filename": "ext4-q7-conductor-pairs.png",
+    "options": [
+      "Pair B",
+      "Pair A",
+      "Pair C",
+      "Pair D"
+    ],
+    "answer": "Pair B",
+    "hint": "$F = \\dfrac{\\mu_0 I_1 I_2 l}{2\\pi r}$. Work out the combination of currents, separation and length for each pair; B gives the smallest value."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "The graph shows the magnetic flux through a generator coil during one full revolution. The magnitude of the induced emf is greatest at the points where the flux-time graph crosses zero.",
+    "image_filename": "ext4-q8-flux-graph.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The induced emf depends on the rate of change of flux, which is greatest where the flux-time graph is steepest, and that is at its zero crossings."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Using the same flux-time graph, consider the instant t = 0 at the start of the graph, where the flux is at its most negative value. How is the plane of the coil oriented relative to the magnetic field at that instant?",
+    "image_filename": "ext4-q8-flux-graph.png",
+    "options": [
+      "Perpendicular to the field (the coil is face-on to the field, so the flux through it is a maximum)",
+      "Parallel to the field (the coil is edge-on, so the flux through it is zero)",
+      "At 45 degrees to the field",
+      "The orientation cannot be worked out from the graph"
+    ],
+    "answer": "Perpendicular to the field (the coil is face-on to the field, so the flux through it is a maximum)",
+    "hint": "Flux magnitude is largest when the coil's face squarely faces the field; note the emf is momentarily zero there because the flux is not changing."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A straight vertical conductor (end X at the bottom, end Y at the top) is moved steadily to the right. The four diagrams show possible uniform magnetic fields. Which field would induce a conventional (positive) current flowing from X to Y within the conductor?",
+    "image_filename": "ext4-q12-field-options.png",
+    "options": [
+      "Field A (into the page)",
+      "Field B (out of the page)",
+      "Field C (to the right)",
+      "Field D (to the left)"
+    ],
+    "answer": "Field A (into the page)",
+    "hint": "The force on a positive charge in the conductor is $q\\vec{v} \\times \\vec{B}$; for it to point from X up to Y with $\\vec{v}$ to the right, $\\vec{B}$ must be into the page."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In the experiment shown, straight (plane) wavefronts reach a barrier with two gaps, and circular wavelets spread out from each gap and overlap. The blue lines mark where crests always meet troughs. Which wave phenomenon is this?",
+    "image_filename": "ext4-q20-two-slit-wavefronts.png",
+    "options": [
+      "Wave interference",
+      "Wave diffraction",
+      "Wave resonance",
+      "Wave refraction"
+    ],
+    "answer": "Wave interference",
+    "hint": "Two overlapping sets of waves produce fixed lines of cancellation (nodal lines) and reinforcement; that superposition is interference."
+  }
+]

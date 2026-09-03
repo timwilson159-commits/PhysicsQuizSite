@@ -1,0 +1,217 @@
+[
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "In a totem-tennis set-up, a ball on a 1.80 m cord swings in a horizontal circle around a pole, with the cord at 45 degrees to the pole. Calculate the radius of the ball's circular path.",
+    "answer": 1.27,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The radius is the horizontal side of the triangle: $r = 1.80\\sin45^\\circ$."
+  },
+  {
+    "qsrc": "Q21c",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "The totem-tennis ball has a mass of 60.0 g and swings with the 1.80 m cord at 45 degrees to the pole. Calculate the magnitude of the net (centripetal) force on the ball. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 0.59,
+    "unit": "N",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "Vertically, the cord tension balances the weight: $T\\cos45^\\circ = mg$. The net (horizontal) force is $T\\sin45^\\circ = mg\\tan45^\\circ$."
+  },
+  {
+    "qsrc": "Q22",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A student kicks a ball from ground level at 8.3 m s$^{-1}$ at 35 degrees above the horizontal. Assuming it lands at the same height, calculate the range of the ball. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 6.6,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$R = \\dfrac{u^2 \\sin 2\\theta}{g}$, or find the components, then the time of flight, then $R = u_x t$."
+  },
+  {
+    "qsrc": "Q23a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A 250 kg satellite is in a circular orbit of radius 33 500 km (measured from Earth's centre). Calculate the magnitude of its gravitational potential energy. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$ and Earth's mass $6.0 \\times 10^{24}$ kg.",
+    "answer": 3.0e9,
+    "unit": "J",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$U = \\dfrac{GMm}{r}$ in magnitude, with $r = 3.35 \\times 10^{7}$ m."
+  },
+  {
+    "qsrc": "Q23b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "For the same 250 kg satellite at an orbital radius of 33 500 km, calculate its escape velocity (the speed at which its kinetic energy equals the magnitude of its gravitational potential energy).",
+    "answer": 4.9e3,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\tfrac{1}{2}mv^2 = \\dfrac{GMm}{r}$, so $v = \\sqrt{\\dfrac{2GM}{r}}$."
+  },
+  {
+    "qsrc": "Q24a",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Two supertankers, each of mass $5.00 \\times 10^{8}$ kg, float with their centres 100.00 m apart. Calculate the gravitational force of attraction between them. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 1.7e3,
+    "unit": "N",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$F = \\dfrac{Gm_1 m_2}{r^2}$."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "6.4",
+    "type": "numeric-entry",
+    "prompt": "The rectangular coil shown carries a current of 8.0 A in a magnetic field of 0.025 T. The coil has 1 turn and, in the position drawn, its plane is parallel to the field. Calculate the magnitude of the torque on the coil.",
+    "image_filename": "ext3s2-q25-motor-loop.png",
+    "answer": 0.015,
+    "unit": "N m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\tau = nBIA\\sin\\theta$; with the coil plane parallel to the field $\\sin\\theta = 1$, and $A = 0.30 \\times 0.25$ m$^2$ (from the diagram)."
+  },
+  {
+    "qsrc": "Q25c",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Which single change to the coil would increase the torque it experiences in the magnetic field?",
+    "options": [
+      "Increasing the number of turns on the coil",
+      "Decreasing the current through the coil",
+      "Replacing the magnet with a weaker one",
+      "Making the coil area smaller"
+    ],
+    "answer": "Increasing the number of turns on the coil",
+    "hint": "$\\tau = nBIA\\sin\\theta$: torque rises with the number of turns, the current, the field strength and the area."
+  },
+  {
+    "qsrc": "Q27",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The same electrical power is transmitted along the same lines in two ways: transmission A at 28 kV and transmission B at 280 kV. How does the power lost as heat in the lines compare?",
+    "options": [
+      "Transmission B loses about one hundredth as much power as transmission A",
+      "Transmission B loses about one tenth as much power as transmission A",
+      "Transmission B loses about ten times as much power as transmission A",
+      "Both transmissions lose the same amount of power"
+    ],
+    "answer": "Transmission B loses about one hundredth as much power as transmission A",
+    "hint": "Same power at ten times the voltage means one tenth of the current; line loss is $I^2R$, so it falls by a factor of 100."
+  },
+  {
+    "qsrc": "Q28",
+    "inquiry_id": "8.3",
+    "type": "drag-drop",
+    "prompt": "Match each physicist to their contribution to the quantum model of the atom.",
+    "pairs": [
+      { "item": "Bohr", "match": "Explained the hydrogen emission spectrum using quantised electron energy levels" },
+      { "item": "de Broglie", "match": "Proposed that electrons behave as matter waves, forming standing waves in stable orbits" },
+      { "item": "Schrodinger", "match": "Described the electron with a wave equation giving the probability of finding it in a region (an orbital)" }
+    ],
+    "answer": {
+      "Bohr": "Explained the hydrogen emission spectrum using quantised electron energy levels",
+      "de Broglie": "Proposed that electrons behave as matter waves, forming standing waves in stable orbits",
+      "Schrodinger": "Described the electron with a wave equation giving the probability of finding it in a region (an orbital)"
+    },
+    "hint": "One quantised the orbits, one gave the electron a wavelength, and one replaced fixed orbits with a probability cloud."
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Newton's particle model and Huygens' wave model of light made opposite predictions about the speed of light entering a denser medium such as glass. Which prediction is correct, and which model does it support?",
+    "options": [
+      "Light slows down in the denser medium, which supports Huygens' wave model",
+      "Light speeds up in the denser medium, which supports Newton's particle model",
+      "Light keeps the same speed, which supports neither model",
+      "Light stops at the boundary, which supports Newton's particle model"
+    ],
+    "answer": "Light slows down in the denser medium, which supports Huygens' wave model",
+    "hint": "Newton's model needed light to speed up in glass to explain bending towards the normal; measurements later showed it slows down."
+  },
+  {
+    "qsrc": "Q30a-i",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A meson has a proper (rest-frame) lifetime of $2.5 \\times 10^{-8}$ s and travels at $2.95 \\times 10^{8}$ m s$^{-1}$ in the laboratory. If time dilation did not occur, how far would it travel before decaying?",
+    "answer": 7.4,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Distance = speed x proper lifetime = $2.95 \\times 10^{8} \\times 2.5 \\times 10^{-8}$."
+  },
+  {
+    "qsrc": "Q30a-ii",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "For the same meson (proper lifetime $2.5 \\times 10^{-8}$ s, speed $2.95 \\times 10^{8}$ m s$^{-1}$), calculate the distance it is actually measured to travel in the laboratory, taking time dilation into account. Use $c = 3.00 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 40.4,
+    "unit": "m",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The lab-frame lifetime is $t = \\dfrac{t_0}{\\sqrt{1 - v^2/c^2}}$ (about $1.37 \\times 10^{-7}$ s); then distance = $vt$."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A spacecraft with a rest mass of 79 000 kg travels at 0.3c. Calculate the mass an external observer would measure for the spacecraft.",
+    "answer": 8.3e4,
+    "unit": "kg",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$m = \\dfrac{m_0}{\\sqrt{1 - v^2/c^2}}$, with $v = 0.3c$."
+  },
+  {
+    "qsrc": "Q32a",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "In a controlled fission chain reaction, on average exactly one neutron released by each fission goes on to cause a further fission, so the reaction rate stays steady.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Control rods absorb the surplus neutrons; if more than one neutron per fission caused a further fission, the rate would grow explosively."
+  },
+  {
+    "qsrc": "Q32b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "An oxygen-18 nucleus contains 8 protons and 10 neutrons. Using proton mass 1.007276 u, neutron mass 1.008664 u and atom mass 17.99916 u, calculate the binding energy of the nucleus in MeV. Use 1 u = 931.5 MeV/c$^2$.",
+    "answer": 136,
+    "unit": "MeV",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Mass defect = (8 x 1.007276 + 10 x 1.008664) - 17.99916 u; multiply by 931.5 MeV/u."
+  },
+  {
+    "qsrc": "Q32c",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Which reaction best represents how energy is released by fusion in a cooler main-sequence star such as the Sun?",
+    "options": [
+      "Four hydrogen nuclei combine, through the proton-proton chain, to form one helium-4 nucleus",
+      "Three helium nuclei combine to form a carbon nucleus (the triple-alpha process)",
+      "A heavy uranium nucleus splits into two lighter nuclei",
+      "A carbon nucleus captures a proton to begin the CNO cycle"
+    ],
+    "answer": "Four hydrogen nuclei combine, through the proton-proton chain, to form one helium-4 nucleus",
+    "hint": "The triple-alpha process and the CNO cycle need the higher core temperatures of more massive or more evolved stars."
+  },
+  {
+    "qsrc": "Q33b",
+    "inquiry_id": "8.2",
+    "type": "numeric-entry",
+    "prompt": "Electrons are accelerated from rest through a potential difference of 2400 V. Calculate the speed they reach. Use electron charge $1.6 \\times 10^{-19}$ C and electron mass $9.1 \\times 10^{-31}$ kg.",
+    "answer": 2.9e7,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "All the electrical work becomes kinetic energy: $eV = \\tfrac{1}{2}mv^2$, so $v = \\sqrt{\\dfrac{2eV}{m}}$."
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "An object moves around a circular path at constant speed. At any instant, in which direction is the object's acceleration?",
+    "options": [
+      "Towards the centre of the circle",
+      "Along the direction of motion (tangent to the circle)",
+      "Away from the centre of the circle",
+      "Zero, because the speed is constant"
+    ],
+    "answer": "Towards the centre of the circle",
+    "hint": "Constant speed means no tangential acceleration, but the direction of the velocity keeps changing; that change points towards the centre."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A projectile is launched at 30 degrees above the horizontal. Ignoring air resistance and taking upwards as positive, which best describes its acceleration while it is in flight?",
+    "options": [
+      "A constant 9.8 m s$^{-2}$ directed downwards for the whole flight",
+      "9.8 m s$^{-2}$ downwards while rising and 9.8 m s$^{-2}$ upwards while falling",
+      "Zero at the highest point of the path",
+      "A constant 4.9 m s$^{-2}$ downwards for the whole flight"
+    ],
+    "answer": "A constant 9.8 m s$^{-2}$ directed downwards for the whole flight",
+    "hint": "The only force in flight is gravity, so the acceleration is the same size and direction at every point, including the top."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "A clear, stable two-slit interference pattern of evenly spaced bright and dark fringes requires the light passing through the slits to be monochromatic (a single wavelength).",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Fringe spacing depends on wavelength, so many wavelengths at once would wash the pattern out."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "Using white light instead of monochromatic light in a double-slit experiment produces overlapping coloured fringes rather than a set of sharp, evenly spaced bright and dark bands.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Each wavelength forms its own pattern with its own spacing, and these patterns overlap."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A charged particle moves through a uniform magnetic field. In which case does it experience zero magnetic force?",
+    "options": [
+      "When it moves parallel to the magnetic field",
+      "When it moves perpendicular to the magnetic field",
+      "When it moves at 45 degrees to the magnetic field",
+      "Whenever it is located inside the field"
+    ],
+    "answer": "When it moves parallel to the magnetic field",
+    "hint": "The magnetic force is $F = qvB\\sin\\theta$; it vanishes when $\\theta = 0$, that is when the velocity is along the field."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "Two horizontal parallel wires, each 70.0 cm long and 5.0 mm apart, carry 25.5 A in opposite directions. The lower wire rests on a balance, and the magnetic force between the wires changes the balance reading by 0.500 g. Use $F = \\dfrac{\\mu_0 I_1 I_2 L}{2\\pi r}$ and $g = 9.8$ m s$^{-2}$ to calculate the value of $\\mu_0$ obtained from this experiment.",
+    "answer": 3.4e-7,
+    "unit": "N A^{-2}",
+    "tolerance": 8,
+    "tolerance_mode": "relative",
+    "hint": "The magnetic force equals the weight change: $F = mg = 0.500 \\times 10^{-3} \\times 9.8$. Then rearrange for $\\mu_0$."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "In the experiment above, the separation of the wires (only a few millimetres) is the measurement with the greatest relative uncertainty, because the uncertainty in measuring such a small distance is a large fraction of the distance itself.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Relative error is absolute uncertainty divided by the measured value; a small measured value makes that fraction large."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A transformer has 1000 turns on the primary coil and 200 turns on the secondary coil. The primary side operates at 240 V with a current of 10.0 A. The secondary current is measured as 44.0 A. Calculate the efficiency of the transformer as a percentage.",
+    "answer": 88,
+    "unit": "%",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "For an ideal transformer the secondary voltage would be $240 \\times \\dfrac{200}{1000}$; efficiency is $\\dfrac{V_s I_s}{V_p I_p} \\times 100$."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "A transformer with 1000 primary turns and 200 secondary turns is a step-down transformer.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Fewer turns on the secondary coil than the primary means the secondary voltage is lower."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A radioactive sample decays according to $N = N_0 e^{-0.024t}$, where $t$ is measured in hours. Calculate the half-life of the sample.",
+    "answer": 28.9,
+    "unit": "hours",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The half-life is $t_{1/2} = \\dfrac{\\ln 2}{\\lambda}$, with $\\lambda = 0.024$ h$^{-1}$."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "For that sample, after a time equal to two half-lives has passed, about one quarter of the original number of radioactive nuclei remains.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Each half-life halves the amount: after two half-lives the fraction left is $\\tfrac{1}{2} \\times \\tfrac{1}{2}$."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "Repeating an investigation using exactly the same procedure and checking how consistent the results are is a test of the reliability of the investigation.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Reliability is about consistency on repetition; validity is about whether the method actually tests what it claims to."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "A discrete line emission spectrum (a few bright coloured lines on a dark background), like that of hydrogen, is produced by which source?",
+    "options": [
+      "A low-pressure gas discharge tube",
+      "A glowing solid metal filament",
+      "The continuous spectrum of sunlight",
+      "A blackbody at room temperature"
+    ],
+    "answer": "A low-pressure gas discharge tube",
+    "hint": "Line spectra come from isolated atoms in a low-density gas making transitions between discrete energy levels."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "A hot, dense object such as a glowing filament produces a continuous spectrum rather than a discrete line spectrum.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "In a dense solid the atoms interact strongly, smearing the discrete levels into continuous bands."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A planet moves in a circular orbit around a single star. Which quantities determine the planet's orbital period?",
+    "options": [
+      "The mass of the star and the radius of the orbit",
+      "The mass of the planet, the mass of the star and the radius of the orbit",
+      "The speed of the planet and the radius of the orbit only",
+      "The mass of the star and the mass of the planet only"
+    ],
+    "answer": "The mass of the star and the radius of the orbit",
+    "hint": "Kepler's third law gives $T^2 = \\dfrac{4\\pi^2 r^3}{GM_{star}}$; the planet's own mass cancels out."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "Two planets orbiting the same star at the same orbital radius but with different masses have the same orbital period.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The orbiting body's mass does not appear in Kepler's third law."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "In a photoelectric experiment with a zinc cathode, a graph of stopping voltage against the frequency of the incident light is plotted. Extrapolating the line of best fit back cuts the voltage axis at $-3.74$ V. Using $e = 1.602 \\times 10^{-19}$ C and $h = 6.626 \\times 10^{-34}$ J s, calculate the threshold frequency of zinc.",
+    "answer": 9.0e14,
+    "unit": "Hz",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The magnitude of the voltage-axis intercept is the work function in electronvolts: $W = 3.74$ eV. Then $f_0 = \\dfrac{W}{h}$."
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "From that experiment, the work function of zinc is 3.74 eV.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "On a stopping-voltage against frequency graph the size of the vertical intercept equals the work function expressed in electronvolts."
+  },
+
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "8.5",
+    "type": "true-false",
+    "prompt": "In the Standard Model, protons are not classified as fundamental particles because they are made of smaller particles (quarks) and can be broken apart in high-energy collisions.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Fundamental particles, such as electrons and quarks, have no known internal structure; protons are built from three quarks."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Which observation is most directly linked to the discovery that the Universe is expanding?",
+    "options": [
+      "The redshift of light from distant galaxies, interpreted using the Doppler effect",
+      "The discovery of gas and dust clouds within our galaxy",
+      "The realisation that stars come in a range of colours",
+      "Computer simulations showing galaxies moving through space"
+    ],
+    "answer": "The redshift of light from distant galaxies, interpreted using the Doppler effect",
+    "hint": "Distant galaxies show light shifted towards longer (redder) wavelengths, and the shift grows with distance."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "In a simulation of Millikan's oil-drop experiment, charged oil drops of known mass are suspended between charged plates by adjusting the potential difference. Which measurement allowed Millikan to find the charge on a single electron?",
+    "options": [
+      "The differences between the potential differences that suspended different drops",
+      "The mass of every oil drop used",
+      "The speed of the drops that were not suspended",
+      "The radius of each suspended oil drop"
+    ],
+    "answer": "The differences between the potential differences that suspended different drops",
+    "hint": "The charges on the drops were always whole-number multiples of one basic amount; the steps between them revealed that amount."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "Four identical conducting loops are placed in the same uniform magnetic field. In which case is the average emf induced in the loop the greatest?",
+    "options": [
+      "The loop whose area facing the field is reduced from full to zero in the shortest time",
+      "A loop held stationary in the field",
+      "A loop pulled slowly out of the field",
+      "A loop rotated through 90 degrees slowly"
+    ],
+    "answer": "The loop whose area facing the field is reduced from full to zero in the shortest time",
+    "hint": "Induced emf depends on the rate of change of magnetic flux; the fastest, largest flux change wins."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "A key limitation of Bohr's model of the atom is that it cannot predict the spectral lines of atoms that have more than one electron.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Bohr's model works well for hydrogen and other one-electron ions, but fails once electron-electron interactions matter."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "Bohr's model of the atom successfully predicts the wavelengths of the lines in the hydrogen emission spectrum.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "This success for hydrogen was one of the model's main early triumphs, even though it fails for larger atoms."
+  },
+
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "One reason nuclear fusion is not yet used in power stations is that it requires extremely high temperatures and pressures that are very difficult to create and sustain.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Fusion needs nuclei to be forced close enough for the strong force to act, overcoming their electrostatic repulsion."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Which statement about AC induction motors is correct?",
+    "options": [
+      "The rotating magnetic field turns faster than the rotor, so there is always some slip",
+      "The rotor turns faster than the rotating magnetic field",
+      "Induction motors need slip rings to supply current to the rotor",
+      "No current flows in the rotor of an induction motor"
+    ],
+    "answer": "The rotating magnetic field turns faster than the rotor, so there is always some slip",
+    "hint": "Relative motion between the field and the rotor is what induces the rotor currents that produce torque."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "If the rotor of an AC induction motor turned at exactly the same speed as the rotating magnetic field, no emf would be induced in the rotor and it would produce no driving torque.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "With no relative motion there is no change in flux through the rotor, so no induced current and no force."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "Spaceship C moves at 0.5c relative to spaceship B, and B moves at 0.5c relative to spaceship A, all in the same direction. Using the relativistic velocity addition formula, calculate the speed of C relative to A. Give your answer as a multiple of c.",
+    "answer": 0.8,
+    "unit": "c",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$u = \\dfrac{v + w}{1 + \\dfrac{vw}{c^2}} = \\dfrac{0.5c + 0.5c}{1 + 0.25}$."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "Spaceship C has a rest length of 100 m and moves at 0.80c relative to observer A. Calculate the length of spaceship C as measured by A.",
+    "answer": 60,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$L = L_0\\sqrt{1 - \\dfrac{v^2}{c^2}}$, with $v = 0.80c$."
+  }
+]

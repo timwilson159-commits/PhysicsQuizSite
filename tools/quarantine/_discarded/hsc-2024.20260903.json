@@ -1,0 +1,18 @@
+[
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A bar magnet moves towards a coil X with its north pole leading, inducing a current in X. A second coil (with no magnet) is placed near X instead. Which situation would induce a current in X in the same direction as the moving magnet did: a nearby coil whose current is increasing so that its magnetic field through X points the same way as the approaching magnet's field, or one whose current is decreasing?",
+    "image_filename": "",
+    "options": [
+      "A nearby coil with a decreasing current, wound so that its field through X points opposite to the approaching magnet's field",
+      "A nearby coil with an increasing current, wound so that its field through X points the same way as the approaching magnet's field",
+      "A nearby coil with a steady (constant) current",
+      "Any of these would work equally well"
+    ],
+    "answer": "A nearby coil with a decreasing current, wound so that its field through X points opposite to the approaching magnet's field",
+    "hint": "The induced current in X depends on whether the flux through X is increasing or decreasing and in which direction.",
+    "quarantine_reason": "Original is a 'which of four diagrams' question (options A-D each show a neighbouring coil with an increasing or decreasing current and a particular winding sense), key answer D. The correct answer depends on the exact winding direction drawn in each option, which cannot be reconstructed reliably in text. My reworded MCQ above is a guess at what diagram D shows and I am not confident it is faithful. Please confirm against the paper's four diagrams, supply a single combined image, or approve dropping it."
+  }
+]

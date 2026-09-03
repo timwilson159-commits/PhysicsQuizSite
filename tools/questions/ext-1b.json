@@ -1,0 +1,180 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "The diagram shows an object moving anticlockwise at constant speed around the dashed circular path. A student has drawn the arrow at the object to represent its acceleration. What is wrong with the student's arrow?",
+    "image_filename": "ext1-q1-circular-accel.png",
+    "options": [
+      "The arrow points along the direction of motion; the acceleration should instead point horizontally, towards the centre of the circle",
+      "Nothing is wrong; the drawn arrow is correct",
+      "The acceleration should point outward, directly away from the centre of the circle",
+      "The object has no acceleration at all because its speed is constant"
+    ],
+    "answer": "The arrow points along the direction of motion; the acceleration should instead point horizontally, towards the centre of the circle",
+    "hint": "At constant speed there is no tangential acceleration; the only acceleration is centripetal, directed towards the centre."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "The four graphs show possible acceleration-time relationships for a projectile launched at 30 degrees, while it is in flight (upwards is positive). Which graph correctly represents the projectile's vertical acceleration?",
+    "image_filename": "ext1-q2-accel-time-graphs.png",
+    "options": [
+      "Graph C: a constant negative value for the whole flight",
+      "Graph A: a constant positive value for the whole flight",
+      "Graph B: a value that decreases steadily through zero",
+      "Graph D: a value that decreases and then increases again"
+    ],
+    "answer": "Graph C: a constant negative value for the whole flight",
+    "hint": "The only force in flight is gravity, so the acceleration is a constant 9.8 m s$^{-2}$ downwards (negative) throughout."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "The pattern shown was produced on a screen by light passing through two narrow, closely spaced slits. The evenly spaced bright bands are evidence that the light:",
+    "image_filename": "ext1-q3-double-slit-pattern.png",
+    "options": [
+      "behaves as a wave and is monochromatic (a single wavelength)",
+      "is polarised",
+      "travels as particles in straight lines",
+      "is a longitudinal wave"
+    ],
+    "answer": "behaves as a wave and is monochromatic (a single wavelength)",
+    "hint": "Regular, equally spaced fringes need waves that interfere; a spread of wavelengths would blur the pattern out."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "The four situations show a charged particle Q in a uniform magnetic field B whose field lines point to the right. In which situation(s) does Q experience a magnetic force?",
+    "image_filename": "ext1-q4-charge-in-field.png",
+    "options": [
+      "Situations (ii) and (iv) only",
+      "Situation (i) only",
+      "Situations (i) and (iii) only",
+      "All four situations"
+    ],
+    "answer": "Situations (ii) and (iv) only",
+    "hint": "A magnetic force needs a velocity component perpendicular to B. In (i) the particle is stationary; in (iii) it moves parallel to B."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "The apparatus shown is used to find the magnetic permeability constant. The two wires (length 70.0 cm) carry 25.5 A in opposite directions, and the separation is marked on the diagram. The magnetic force between the wires changes the balance reading by 0.500 g. Using $F = \\dfrac{\\mu_0 I_1 I_2 L}{2\\pi r}$ and $g = 9.8$ m s$^{-2}$, calculate the value of $\\mu_0$ obtained.",
+    "image_filename": "ext1-q5-mu0-apparatus.png",
+    "answer": 3.4e-7,
+    "unit": "N A^{-2}",
+    "tolerance": 10,
+    "tolerance_mode": "relative",
+    "hint": "Read the separation as 0.50 cm from the diagram. The force equals the weight change: $F = 0.500 \\times 10^{-3} \\times 9.8$."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "In the experiment shown, which single measurement contributes the greatest relative (percentage) uncertainty to the calculated value of the magnetic permeability constant?",
+    "image_filename": "ext1-q5-mu0-apparatus.png",
+    "options": [
+      "The 0.50 cm separation between the two wires",
+      "The 70.0 cm length of the wires",
+      "The 25.5 A current in the wires",
+      "The 0.500 g change in the balance reading"
+    ],
+    "answer": "The 0.50 cm separation between the two wires",
+    "hint": "The smallest quantity measured usually carries the largest fractional uncertainty, since the absolute error is a big share of it."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "The transformer shown has its turns and meter readings marked on the diagram. Calculate the efficiency of this transformer as a percentage.",
+    "image_filename": "ext1-q7-transformer.png",
+    "answer": 88,
+    "unit": "%",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "An ideal transformer would give $V_s = 240 \\times \\dfrac{200}{1000} = 48$ V; efficiency is $\\dfrac{V_s I_s}{V_p I_p} \\times 100$."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "From the number of turns shown on the diagram (1000 on the primary, 200 on the secondary), this transformer is a step-down transformer.",
+    "image_filename": "ext1-q7-transformer.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Fewer turns on the secondary than the primary means a lower secondary voltage."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "The spectrum shown was obtained from hydrogen: a continuous coloured band crossed by several sharp dark lines. What type of spectrum is it, and which source would produce a similar one?",
+    "image_filename": "ext1-q10-spectrum.png",
+    "options": [
+      "An absorption spectrum; light from a star",
+      "An emission spectrum; a low-pressure gas discharge tube",
+      "A continuous spectrum; a hot glowing filament",
+      "An absorption spectrum; a low-pressure gas discharge tube"
+    ],
+    "answer": "An absorption spectrum; light from a star",
+    "hint": "Dark lines on a bright continuous background are absorption lines, formed when light from a hot source passes through cooler gas, as in a star's outer layers."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "The graph shows stopping voltage against the frequency of the incident light for a photoelectric experiment with a zinc cathode. Using the intercept marked on the graph, with $h = 6.626 \\times 10^{-34}$ J s and $e = 1.602 \\times 10^{-19}$ C, calculate the threshold frequency of zinc.",
+    "image_filename": "ext1-q12-photoelectric-graph.png",
+    "answer": 9.0e14,
+    "unit": "Hz",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "The line meets the voltage axis at $-3.74$ V, so the work function is 3.74 eV. Then $f_0 = \\dfrac{\\phi}{h}$."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "The apparatus shown suspends a charged oil drop of known mass between the plates by adjusting the variable potential difference. Which quantity did Millikan use, together with many repeated results like these, to determine the charge on a single electron?",
+    "image_filename": "ext1-q15-millikan-apparatus.png",
+    "options": [
+      "The differences between the potential differences that suspended different drops",
+      "The mass of every oil drop used",
+      "The speed of the drops that were not suspended",
+      "The radius of each suspended oil drop"
+    ],
+    "answer": "The differences between the potential differences that suspended different drops",
+    "hint": "The charges on the drops came in whole-number multiples of one basic amount; the size of the steps between them revealed that amount."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The four scenarios (S, T, U, V) each start from the same loop in the same magnetic field. Which scenario produces the largest change in magnetic flux through the loop?",
+    "image_filename": "ext1-q16-induced-emf-scenarios.png",
+    "options": [
+      "U: the loop's radius doubles, so its area becomes four times as large",
+      "S: the loop is rotated 90 degrees",
+      "T: the magnetic field is reduced to zero",
+      "V: the direction of the magnetic field is reversed"
+    ],
+    "answer": "U: the loop's radius doubles, so its area becomes four times as large",
+    "hint": "Rotating to 90 degrees or dropping the field to zero removes one 'unit' of flux; reversing the field changes it by two units; quadrupling the area changes it by three units."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "Using the speeds shown in the diagram and the relativistic velocity addition formula, calculate the speed of spaceship C relative to spaceship A. Give your answer as a multiple of c.",
+    "image_filename": "ext1-q20-spaceships.png",
+    "answer": 0.8,
+    "unit": "c",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$u = \\dfrac{v + w}{1 + \\dfrac{vw}{c^2}} = \\dfrac{0.5c + 0.5c}{1 + 0.25}$."
+  }
+]

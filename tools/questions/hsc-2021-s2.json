@@ -1,0 +1,219 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "6.4",
+    "type": "numeric-entry",
+    "prompt": "A DC motor has a single rectangular loop of wire measuring 0.10 m by 0.07 m, carrying a current of 14 A in a magnetic field of 0.40 T. Calculate the magnitude of the maximum torque produced.",
+    "answer": 0.0392,
+    "unit": "N m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\tau_{max} = nBIA$ with $n = 1$ and $A = 0.10 \\times 0.07$ m$^2$."
+  },
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Starting from the position where its plane is parallel to the field, how does the torque on the motor loop change as it turns through half a revolution?",
+    "options": [
+      "It starts at a maximum, falls to zero after a quarter turn (plane perpendicular to the field), then rises again to a maximum (but tending to turn the loop the other way) after a half turn",
+      "It stays constant throughout the half revolution",
+      "It rises steadily from zero to a maximum over the half revolution",
+      "It falls steadily from a maximum to zero and stays at zero"
+    ],
+    "answer": "It starts at a maximum, falls to zero after a quarter turn (plane perpendicular to the field), then rises again to a maximum (but tending to turn the loop the other way) after a half turn",
+    "hint": "$\\tau = nBIA\\sin\\theta$, where $\\theta$ is measured between the coil's plane and the field; a commutator is needed to keep the motor turning the same way past the half-turn point."
+  },
+  {
+    "qsrc": "Q22",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A horizontal disc rotates at a constant rate. Point X is twice as far from the centre as point Y. How do the angular and linear (instantaneous) velocities of X compare with those of Y?",
+    "options": [
+      "X and Y have the same angular velocity, but X's linear speed is twice that of Y",
+      "X has twice the angular velocity and twice the linear speed of Y",
+      "X and Y have the same angular velocity and the same linear speed",
+      "X has half the angular velocity and half the linear speed of Y"
+    ],
+    "answer": "X and Y have the same angular velocity, but X's linear speed is twice that of Y",
+    "hint": "Every point on a rigid rotating disc sweeps the same angle per second; linear speed is $v = \\omega r$, so it scales with distance from the centre."
+  },
+  {
+    "qsrc": "Q23",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "How did Thomson and Millikan each use fields to find a property of the electron?",
+    "options": [
+      "Thomson deflected a cathode-ray beam with electric and magnetic fields to find the charge-to-mass ratio; Millikan balanced the electric force on charged oil drops against gravity to find the charge itself",
+      "Thomson measured the charge on oil drops; Millikan found the charge-to-mass ratio of cathode rays",
+      "Both used only magnetic fields, and both measured the electron's mass directly",
+      "Thomson used gravity alone; Millikan used a magnetic field alone"
+    ],
+    "answer": "Thomson deflected a cathode-ray beam with electric and magnetic fields to find the charge-to-mass ratio; Millikan balanced the electric force on charged oil drops against gravity to find the charge itself",
+    "hint": "Combining Millikan's charge with Thomson's charge-to-mass ratio gives the electron's mass."
+  },
+  {
+    "qsrc": "Q24",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A stationary coil of 35 turns and cross-sectional area 0.02 m$^2$ sits in a uniform 0.15 T field. The field is reduced to zero at a constant rate over 0.4 s. Calculate the magnitude of the emf induced in the coil.",
+    "answer": 0.26,
+    "unit": "V",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$\\varepsilon = N\\dfrac{\\Delta\\Phi}{\\Delta t} = N\\dfrac{A\\,\\Delta B}{\\Delta t}$."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A satellite is launched from the surface of Mars into orbit. Which pair of energy changes occurs as it moves from the surface into orbit?",
+    "options": [
+      "Chemical potential energy of the fuel is converted into kinetic energy and gravitational potential energy of the satellite (both of which increase)",
+      "Kinetic energy is converted into chemical potential energy",
+      "Gravitational potential energy decreases while kinetic energy stays constant",
+      "Nuclear energy is converted into gravitational potential energy only"
+    ],
+    "answer": "Chemical potential energy of the fuel is converted into kinetic energy and gravitational potential energy of the satellite (both of which increase)",
+    "hint": "Reaching a higher, faster orbit means gaining both potential and kinetic energy, paid for by burning fuel."
+  },
+  {
+    "qsrc": "Q25b",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A satellite is placed in an orbit that keeps it directly above one point on Mars. The Martian day is 24 hours 40 minutes and the mass of Mars is $6.39 \\times 10^{23}$ kg. Calculate the orbital radius. Use $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 2.04e7,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The orbital period equals the Martian day (88 800 s). $r = \\left(\\dfrac{GMT^2}{4\\pi^2}\\right)^{1/3}$."
+  },
+  {
+    "qsrc": "Q26b",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "A student measures the voltage V needed to produce each of several light frequencies f, where $V = \\dfrac{hf}{q_e}$. Rather than using a single data point, what is the best way to find Planck's constant from all the data?",
+    "options": [
+      "Plot V against f, draw a line of best fit, and multiply its gradient by $q_e$ (since the gradient equals $h/q_e$)",
+      "Average the four voltage readings and divide by $q_e$",
+      "Use only the data point with the largest voltage, as it has the least percentage error",
+      "Take the difference between the largest and smallest voltage readings"
+    ],
+    "answer": "Plot V against f, draw a line of best fit, and multiply its gradient by $q_e$ (since the gradient equals $h/q_e$)",
+    "hint": "A line of best fit uses every data point and averages out random errors; a single point carries all of its own error."
+  },
+  {
+    "qsrc": "Q27b",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "A straight metal rod carrying a current of 2.3 A is to be levitated in a horizontal magnetic field of 1.2 T, with the motor-effect force supporting its weight. Calculate the maximum mass per unit length of rod that can be levitated. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 0.282,
+    "unit": "kg m^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "For levitation $BIl = mg$, so $\\dfrac{m}{l} = \\dfrac{BI}{g}$."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A spaceship travels to a distant star at constant speed. On arrival, 15 years have passed on Earth but only 9.4 years have passed for the astronaut. Calculate the distance to the star as measured by an observer on Earth, in light years.",
+    "answer": 11.7,
+    "unit": "light years",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "First find the speed from $9.4 = 15\\sqrt{1 - v^2/c^2}$; the Earth-frame distance is then (speed) x (15 years)."
+  },
+  {
+    "qsrc": "Q29",
+    "inquiry_id": "8.3",
+    "type": "drag-drop",
+    "prompt": "Bohr, de Broglie and Schrodinger each proposed a different picture of the electron in an atom. Match each scientist to the nature of the electron in their model.",
+    "pairs": [
+      { "item": "Bohr", "match": "A particle moving in fixed circular orbits, each with a definite quantised energy" },
+      { "item": "de Broglie", "match": "A standing matter wave that fits a whole number of wavelengths around the orbit" },
+      { "item": "Schrodinger", "match": "A wave function whose square gives the probability of finding the electron in each region (an orbital)" }
+    ],
+    "answer": {
+      "Bohr": "A particle moving in fixed circular orbits, each with a definite quantised energy",
+      "de Broglie": "A standing matter wave that fits a whole number of wavelengths around the orbit",
+      "Schrodinger": "A wave function whose square gives the probability of finding the electron in each region (an orbital)"
+    },
+    "hint": "The models move from a hard orbiting particle, to a wave wrapped around the orbit, to a probability cloud with no definite path."
+  },
+  {
+    "qsrc": "Q30b",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A proton accelerates from rest between two charged plates. If an electron is released from the same starting point instead, how does its motion differ?",
+    "options": [
+      "It accelerates towards the opposite plate (its charge is the reverse sign) and its acceleration is far greater (its mass is about 1800 times smaller), but it gains the same kinetic energy over the same distance",
+      "It accelerates in the same direction as the proton, at the same rate",
+      "It stays at rest, because an electron is not affected by an electric field",
+      "It accelerates in the opposite direction but with a much smaller acceleration than the proton"
+    ],
+    "answer": "It accelerates towards the opposite plate (its charge is the reverse sign) and its acceleration is far greater (its mass is about 1800 times smaller), but it gains the same kinetic energy over the same distance",
+    "hint": "Same magnitude of charge and same field means the same force magnitude and the same work done per metre; the tiny mass means a huge acceleration."
+  },
+  {
+    "qsrc": "Q32",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "A student stretches a straight elastic band with three evenly spaced marks so that the distance of every mark from the fixed end doubles. How well does this model the evidence for Hubble's expansion of the Universe?",
+    "options": [
+      "It models it well: every mark moves away from every other, and marks that were further away move a greater distance in the same time (recession speed proportional to distance), which is Hubble's law",
+      "It does not model it at all, because the elastic band does not glow",
+      "It models it perfectly, including the fact that the Universe has a fixed edge",
+      "It models it well because the marks all move at the same speed"
+    ],
+    "answer": "It models it well: every mark moves away from every other, and marks that were further away move a greater distance in the same time (recession speed proportional to distance), which is Hubble's law",
+    "hint": "Doubling every distance means the mark twice as far away moves twice as far in the same time; its 'recession speed' is proportional to its distance. (The main limitation is that the band is one-dimensional and has a fixed end.)"
+  },
+  {
+    "qsrc": "Q33",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Experiment A shines 400 nm light on a double slit and produces an interference pattern. Experiment B shines 400 nm light on metals: calcium (work function $4.60 \\times 10^{-19}$ J) emits photoelectrons, nickel ($8.25 \\times 10^{-19}$ J) does not. Which models of light do the two experiments support?",
+    "options": [
+      "Experiment A supports the wave model (interference); Experiment B supports the particle model, since a single 400 nm photon carries about $5.0 \\times 10^{-19}$ J, enough to free an electron from calcium but not from nickel",
+      "Both experiments support only the wave model of light",
+      "Both experiments support only the particle model of light",
+      "Experiment A supports the particle model; Experiment B supports the wave model"
+    ],
+    "answer": "Experiment A supports the wave model (interference); Experiment B supports the particle model, since a single 400 nm photon carries about $5.0 \\times 10^{-19}$ J, enough to free an electron from calcium but not from nickel",
+    "hint": "Photon energy $E = \\dfrac{hc}{\\lambda} = \\dfrac{6.626 \\times 10^{-34} \\times 3.0 \\times 10^{8}}{400 \\times 10^{-9}} \\approx 5.0 \\times 10^{-19}$ J; compare it with each work function."
+  },
+  {
+    "qsrc": "Q34b",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A 3.0 kg mass is launched from a cliff edge. Its kinetic energy is 864 J at launch and 1393 J when it hits the ground. The horizontal component of its velocity throughout the flight is 13.76 m s$^{-1}$. Calculate the time of flight. Use $g = 9.8$ m s$^{-2}$.",
+    "answer": 4.8,
+    "unit": "s",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "From each KE, find the speed ($\\tfrac{1}{2}mv^2$), then the vertical velocity component ($v_y = \\sqrt{v^2 - 13.76^2}$) at launch (upward) and at the ground (downward). The change in $v_y$ divided by $g$ is the time."
+  },
+  {
+    "qsrc": "Q35a",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "Plutonium-238 (238.0495 u) undergoes alpha decay to uranium-234 (234.0409 u) plus a helium-4 nucleus (4.0026 u). Calculate the energy released in one decay. Use 1 u = $1.661 \\times 10^{-27}$ kg and $c = 3.0 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 9.0e-13,
+    "unit": "J",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "Mass defect = 238.0495 - 234.0409 - 4.0026 u; energy = (mass defect in kg) x $c^2$."
+  },
+  {
+    "qsrc": "Q35b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A generator initially contains $9.0 \\times 10^{24}$ atoms of Pu-238 (half-life 87.7 years), each decay releasing $9.0 \\times 10^{-13}$ J. Calculate the total energy produced by the generator during the first 10 years after launch.",
+    "answer": 6.2e11,
+    "unit": "J",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Number of decays in 10 years = $N_0\\left(1 - e^{-\\lambda t}\\right)$ with $\\lambda = \\dfrac{\\ln 2}{87.7}$ per year; multiply by the energy per decay."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Two identical wires X and Y each contain a row of evenly spaced positive charges when no current flows. Equal currents (conventional current = flow of positive charge) then flow in the two wires, but in opposite directions. In the frame of reference of a positive charge moving with the current in wire Y, how do the positive-charge distributions in the two wires appear?",
+    "image_filename": "",
+    "options": [
+      "Wire X's positive charges appear more closely spaced (X appears positively charged); wire Y's positive charges appear at their normal spacing",
+      "Both wires' positive charges appear at their normal spacing",
+      "Wire Y's positive charges appear more closely spaced; wire X's appear more widely spaced",
+      "Both wires' positive charges appear more closely spaced by the same amount"
+    ],
+    "answer": "Wire X's positive charges appear more closely spaced (X appears positively charged); wire Y's positive charges appear at their normal spacing",
+    "hint": "Length contraction depends on each charge population's speed in the chosen frame; Y's positive charges are at rest in this frame while X's move relative to it.",
+    "quarantine_reason": "Original is a 'which of four diagrams shows the charge spacing' question and the key answer is B. This is the relativistic (length-contraction) explanation of the force between current-carrying wires -- a subtle frame-of-reference analysis where the correct diagram depends on the exact spacings drawn. My reworded MCQ above is a best-effort text version, but I am not confident enough that its option wording faithfully matches NESA's diagram B, and this topic is easy to get subtly wrong. Please either confirm the reworded version against the paper's four diagrams, supply a single combined image of the four charge-distribution diagrams (kept as an A/B/C/D question), or approve dropping it."
+  }
+]

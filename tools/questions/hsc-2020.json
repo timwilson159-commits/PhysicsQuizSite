@@ -1,0 +1,571 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "7.2",
+    "type": "word-bank",
+    "prompt": "A model of refraction uses expanding secondary wavelets to build successive wavefronts, and correctly predicts that light slows down and bends towards the normal when it enters a denser medium. This wave model of light was proposed by ___.",
+    "bank": [
+      "Huygens",
+      "Newton",
+      "Planck",
+      "Malus",
+      "Maxwell"
+    ],
+    "answer": [
+      "Huygens"
+    ],
+    "hint": "Newton's competing model treated light as particles that speed up in a denser medium."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "Newton's particle (corpuscular) model of light predicted that light travels faster in a denser medium such as glass than it does in air.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "This prediction was later shown to be wrong; light travels slower in a denser medium, as the wave model predicts."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "An AC induction motor requires brushes (or slip rings) to supply current directly to its rotor.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "hint": "The rotor current in an induction motor is induced by the stator's rotating magnetic field, with no direct electrical connection to the rotor."
+  },
+  {
+    "qsrc": "Q2b",
+    "inquiry_id": "6.4",
+    "type": "word-bank",
+    "prompt": "An AC induction motor needs a stator winding and magnetic fields to work, but unlike a DC motor it does not need ___ to make an electrical connection to its rotor.",
+    "bank": [
+      "brushes",
+      "a stator",
+      "magnetic fields",
+      "an iron core"
+    ],
+    "answer": [
+      "brushes"
+    ],
+    "hint": "The rotor current is induced by the stator's rotating field, so the rotor has no electrical contacts at all."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "What was the basis for Maxwell's prediction of the speed of electromagnetic waves?",
+    "options": [
+      "His equations describing how oscillating electric and magnetic fields propagate through space",
+      "Experiments using light and mirrors to measure the finite speed of light",
+      "Experiments using magnetic fields to accelerate charged particles",
+      "Equations describing how electromagnetic waves are bent by gravitational fields"
+    ],
+    "answer": "His equations describing how oscillating electric and magnetic fields propagate through space",
+    "hint": "Maxwell's equations gave a wave speed of $1/\\sqrt{\\mu_0 \\varepsilon_0}$, which matched the measured speed of light."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "The mass of a radioactive isotope falls from 400 g to 200 g over 100 years. Calculate its decay constant $\\lambda$, using $\\lambda = \\dfrac{\\ln 2}{t_{1/2}}$.",
+    "answer": 0.00693,
+    "unit": "yr^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The mass halving in 100 years means the half-life is 100 years."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A radioactive sample starts with a mass of 400 g and has a half-life of 100 years. Calculate the time taken for the sample to decay to 100 g.",
+    "answer": 200,
+    "unit": "years",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "400 g to 100 g is two halvings."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "A ball is thrown and follows a parabolic path with negligible air resistance. Decreasing only the vertical component of the launch velocity would make the ball's time of flight shorter.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Time of flight depends only on the vertical motion; a smaller upward velocity means less time in the air."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "8.1",
+    "type": "word-bank",
+    "prompt": "The stars plotted on the Hertzsprung-Russell diagram shown all belong to one globular cluster. They have approximately the same ___.",
+    "image_filename": "2020-q6-cluster-hr-diagram.png",
+    "bank": [
+      "age",
+      "colour",
+      "luminosity",
+      "mass",
+      "surface temperature"
+    ],
+    "answer": [
+      "age"
+    ],
+    "hint": "The stars of a cluster all formed together from the same gas cloud, but with a range of masses."
+  },
+  {
+    "qsrc": "Q6b",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "The point where a globular cluster's main sequence bends away towards the giant branch (the 'main-sequence turnoff') is used to estimate the cluster's age.",
+    "image_filename": "2020-q6-cluster-hr-diagram.png",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "More massive stars leave the main sequence first, so the mass at the turnoff tells you how long the cluster has existed."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "A device produces the voltage output shown: a series of identical positive humps (pulsating direct current). Which device produces this output?",
+    "image_filename": "2020-q7-output-waveform.png",
+    "options": [
+      "A generator connected to the external circuit through a split-ring commutator (a DC generator)",
+      "A generator connected to the external circuit through two slip rings (an AC generator)",
+      "A transformer with an AC supply on the primary coil",
+      "A DC electric motor"
+    ],
+    "answer": "A generator connected to the external circuit through a split-ring commutator (a DC generator)",
+    "hint": "A split-ring commutator reverses the connections every half turn, folding the negative half of each cycle up into a positive hump."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "Replacing the split-ring commutator of a simple DC generator with two slip rings would change its output from pulsating DC to alternating current.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Slip rings keep each end of the coil permanently connected to the same output terminal, so the reversing EMF appears at the output."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "8.4",
+    "type": "drag-drop",
+    "prompt": "A uranium isotope U (atomic number 92, 146 neutrons) undergoes four successive decays, ending at product Q, as plotted on the neutron number versus atomic number diagram shown. Step R is the last decay, from (Z = 92, N = 142) to Q at (Z = 90, N = 140). Match each label to the correct entry.",
+    "image_filename": "2020-q8-decay-nz-plot.png",
+    "pairs": [
+      {
+        "item": "Process R",
+        "match": "Alpha decay"
+      },
+      {
+        "item": "Product Q",
+        "match": "$^{230}_{90}$Th (thorium-230)"
+      }
+    ],
+    "answer": {
+      "Process R": "Alpha decay",
+      "Product Q": "$^{230}_{90}$Th (thorium-230)"
+    },
+    "hint": "Step R lowers Z by 2 and N by 2, which is alpha decay. Q has Z = 90 and mass number 90 + 140 = 230."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "On the decay diagram shown, the first step goes from U at (Z = 92, N = 146) to a nuclide at (Z = 90, N = 144). Because both the atomic number and the neutron number decrease by 2, this step is an alpha decay.",
+    "image_filename": "2020-q8-decay-nz-plot.png",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "An alpha particle is 2 protons and 2 neutrons."
+  },
+  {
+    "qsrc": "Q8c",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "In a beta-minus decay, the atomic number of the nucleus increases by 1 while its neutron number decreases by 1.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "A neutron converts to a proton, emitting an electron and an antineutrino."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "Which observation provided evidence supporting Bohr's improvement to Rutherford's model of the atom?",
+    "options": [
+      "Each element produces a unique emission spectrum made up of discrete wavelengths",
+      "A small percentage of alpha particles fired at a gold foil were deflected by more than 90 degrees",
+      "A beam of electrons reflected from a nickel crystal produced a diffraction pattern",
+      "An electron and a positron annihilated to produce two photons travelling in opposite directions"
+    ],
+    "answer": "Each element produces a unique emission spectrum made up of discrete wavelengths",
+    "hint": "Discrete spectral lines are explained by electrons dropping between fixed (quantised) energy levels."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.1",
+    "type": "drag-drop",
+    "prompt": "An electron enters the region between two charged plates travelling horizontally to the right, and curves downward towards the bottom plate, as shown. A magnetic field is then added so that a second identical electron passes straight through undeflected. Match each field to its direction.",
+    "image_filename": "2020-q10-charged-plates.png",
+    "pairs": [
+      {
+        "item": "Direction of the electric field between the plates",
+        "match": "Towards the top of the page"
+      },
+      {
+        "item": "Direction of the magnetic field that lets the second electron pass straight through",
+        "match": "Out of the page"
+      }
+    ],
+    "answer": {
+      "Direction of the electric field between the plates": "Towards the top of the page",
+      "Direction of the magnetic field that lets the second electron pass straight through": "Out of the page"
+    },
+    "hint": "The electron curves down, so the electric force on it is downward and the field (opposite for a negative charge) points up. The magnetic force must then point up to cancel it."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "6.1",
+    "type": "true-false",
+    "prompt": "In the setup shown, the first electron curves towards the bottom plate, so the electric force on it points downward and the electric field between the plates points upward (towards the top plate).",
+    "image_filename": "2020-q10-charged-plates.png",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "For a negative charge, the electric force is opposite to the field direction."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "In the reaction $^{6}_{3}\\mathrm{Li} + ^{1}_{0}\\mathrm{n} \\rightarrow ^{4}_{2}\\mathrm{He} + ^{3}_{1}\\mathrm{H}$, the total mass of the reactants is 7.023787704 u and the total mass of the products is 7.018652532 u. What type of reaction is this?",
+    "options": [
+      "A transmutation in which energy is released",
+      "A transmutation that requires an input of energy",
+      "A fusion reaction in which energy is released",
+      "A fusion reaction that requires an input of energy"
+    ],
+    "answer": "A transmutation in which energy is released",
+    "hint": "The products are lighter than the reactants, so mass has been converted to energy. One element has changed into others, which is transmutation (not fusion)."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "For the reaction in the previous question, the reactant mass is 7.023787704 u and the product mass is 7.018652532 u. Calculate the energy released. Take 1 u = 931.5 MeV/$c^2$.",
+    "answer": 4.78,
+    "unit": "MeV",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Energy released = (mass lost in u) $\\times$ 931.5 MeV."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "The escape velocity from Earth for an object depends only on the object's distance from Earth's centre, not on its mass. Of four satellites at distances of $r$, $2r$, $3r$ and $4r$ from Earth's centre, the one with the greatest escape velocity is the one at distance ___.",
+    "bank": [
+      "$r$",
+      "$2r$",
+      "$3r$",
+      "$4r$"
+    ],
+    "answer": [
+      "$r$"
+    ],
+    "hint": "$v_{esc} = \\sqrt{\\dfrac{2GM_{Earth}}{d}}$, which is largest when $d$ is smallest."
+  },
+  {
+    "qsrc": "Q12c",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the escape velocity from the surface of Earth. Take Earth's mass as $5.97 \\times 10^{24}$ kg, Earth's radius as $6.37 \\times 10^{6}$ m, and $G = 6.67 \\times 10^{-11}$ N m$^2$ kg$^{-2}$.",
+    "answer": 11200,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$v_{esc} = \\sqrt{\\dfrac{2GM}{r}}$."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Light of frequency $8 \\times 10^{14}$ Hz is used to irradiate both metals whose photoelectric response is shown. Metal Y has a higher threshold frequency than metal X. Compared with the photoelectrons emitted from metal X, the photoelectrons emitted from metal Y will:",
+    "image_filename": "2020-q13-photoelectric-graph.png",
+    "options": [
+      "have a lower maximum velocity",
+      "have a higher maximum velocity",
+      "take a longer time to gain enough energy to be ejected",
+      "be ejected sooner"
+    ],
+    "answer": "have a lower maximum velocity",
+    "hint": "At the same frequency, the metal with the higher threshold frequency gives its photoelectrons less kinetic energy."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "On a graph of maximum photoelectron kinetic energy against the frequency of the incident light, the gradient of the straight line is equal to ___.",
+    "image_filename": "2020-q13-photoelectric-graph.png",
+    "bank": [
+      "Planck's constant",
+      "the work function",
+      "the threshold frequency",
+      "the speed of light"
+    ],
+    "answer": [
+      "Planck's constant"
+    ],
+    "hint": "The photoelectric equation is $E_{k,max} = hf - \\phi$, a straight line of gradient $h$."
+  },
+  {
+    "qsrc": "Q13c",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "Because metal Y has a higher threshold frequency than metal X, metal Y also has a larger work function.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Work function $\\phi = h f_0$, where $f_0$ is the threshold frequency."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "6.2",
+    "type": "drag-drop",
+    "prompt": "Two long parallel wires X and Y initially carry equal currents in the same direction, and the force on each wire has magnitude $F$ (attractive). The current in wire Y is then doubled and reversed in direction (the current in X is unchanged). Match each change to its effect on the force on wire X.",
+    "pairs": [
+      {
+        "item": "Doubling the current in wire Y",
+        "match": "The force magnitude doubles, to $2F$"
+      },
+      {
+        "item": "Reversing the direction of the current in wire Y",
+        "match": "The attraction becomes a repulsion"
+      }
+    ],
+    "answer": {
+      "Doubling the current in wire Y": "The force magnitude doubles, to $2F$",
+      "Reversing the direction of the current in wire Y": "The attraction becomes a repulsion"
+    },
+    "hint": "The force is proportional to the product of the currents, and its sign depends on whether the currents are parallel or antiparallel."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "6.2",
+    "type": "word-bank",
+    "prompt": "The force per unit length between two parallel current-carrying wires is ___ proportional to the product of the two currents, so doubling one of the currents ___ the force.",
+    "bank": [
+      "directly",
+      "inversely",
+      "doubles",
+      "halves",
+      "quadruples"
+    ],
+    "answer": [
+      "directly",
+      "doubles"
+    ],
+    "hint": "$\\dfrac{F}{\\ell} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d}$."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A rocket of mass 7800 kg is travelling horizontally at 20 m s$^{-1}$, oriented nose-up with its engine exhaust pointing downward. The engine thrust is set to 90 000 N (vertically upward). Taking $g = 9.8$ m s$^{-2}$, which best describes its subsequent motion?",
+    "options": [
+      "It keeps moving sideways while accelerating upward, following a path that curves upward",
+      "It follows a downward parabolic path like a projectile",
+      "It continues in a straight horizontal line at constant velocity",
+      "It stops moving sideways and rises vertically"
+    ],
+    "answer": "It keeps moving sideways while accelerating upward, following a path that curves upward",
+    "hint": "Weight is $7800 \\times 9.8 \\approx 76\\,400$ N, less than the 90 000 N thrust, so there is a net upward force while the horizontal velocity is unchanged."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "For the 7800 kg rocket in the previous question, with 90 000 N of upward thrust and $g = 9.8$ m s$^{-2}$, calculate the magnitude of its vertical acceleration immediately after the thrust change.",
+    "answer": 1.74,
+    "unit": "m s^{-2}",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$a = \\dfrac{F_{thrust} - mg}{m}$."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "In a fission reactor core, the moderator slows neutrons to increase the rate of fission, the control rods absorb free neutrons, and the coolant removes heat. A fault causes some of the moderator to leak out of the core. Which action would best compensate for the loss of moderator?",
+    "image_filename": "2020-q16-reactor-core.png",
+    "options": [
+      "Withdraw the control rods further out of the core",
+      "Lower the control rods further into the core",
+      "Pump the coolant through the core at a faster rate",
+      "Reduce the temperature of the coolant before pumping it in"
+    ],
+    "answer": "Withdraw the control rods further out of the core",
+    "hint": "Less moderator means fewer neutrons are slowed to fission-causing speeds, so the reaction rate falls; removing neutron-absorbing control rods pushes it back up."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "8.4",
+    "type": "drag-drop",
+    "prompt": "Match each component of the fission reactor core shown to its function.",
+    "image_filename": "2020-q16-reactor-core.png",
+    "pairs": [
+      {
+        "item": "Moderator",
+        "match": "Slows down neutrons so they are more likely to cause further fission"
+      },
+      {
+        "item": "Control rods",
+        "match": "Absorb neutrons to regulate the rate of the chain reaction"
+      },
+      {
+        "item": "Coolant",
+        "match": "Carries heat away from the core"
+      }
+    ],
+    "answer": {
+      "Moderator": "Slows down neutrons so they are more likely to cause further fission",
+      "Control rods": "Absorb neutrons to regulate the rate of the chain reaction",
+      "Coolant": "Carries heat away from the core"
+    },
+    "hint": "Only the control rods are adjusted during normal operation to speed up or slow down the reaction."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Observer X is on a train moving at a constant 0.95c relative to the ground. Observer Y stands on the ground. As X passes Y, X sends a short light pulse towards a sensor at the front of the carriage. Which statement is correct?",
+    "image_filename": "2020-q17-relativity-train.png",
+    "options": [
+      "X measures a longer time for the pulse to reach the sensor than Y does",
+      "Y measures the speed of the pulse to be 0.05c",
+      "X measures a shorter distance for the pulse to travel than Y does",
+      "X and Y measure the same distance and the same travel time"
+    ],
+    "answer": "X measures a longer time for the pulse to reach the sensor than Y does",
+    "hint": "The speed of light is c for both observers, but they disagree on the distance and time; working through the Lorentz transformation gives a longer time in X's frame here."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "Both observer X (on the train) and observer Y (on the ground) measure the speed of the light pulse to be $c$.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The constancy of the speed of light for all inertial observers is Einstein's second postulate."
+  },
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "An observer times one orbit of Io around Jupiter while Earth moves between each labelled pair of points (P, Q, R and S) on its orbit, as shown. The measured orbital period of Io is longest for the pair at point ___.",
+    "image_filename": "2020-q18-io-romer.png",
+    "bank": [
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "answer": [
+      "Q"
+    ],
+    "hint": "The measured period is longest where Earth is moving away from Jupiter during the measurement, so light from the end of the orbit has further to travel than light from the start."
+  },
+  {
+    "qsrc": "Q18b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "When Earth is moving away from Jupiter during a measurement of Io's orbital period, the period appears longer than its true value because light from the end of the orbit has to travel a greater distance to reach Earth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "This effect was used by Romer to make the first estimate of the speed of light."
+  },
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A straight conductor PQ rotates at constant angular velocity about the end P, in a plane that contains a uniform magnetic field B. At the instant shown, PQ is perpendicular to B. Which best describes the induced EMF between P and Q over one complete revolution?",
+    "image_filename": "2020-q19-rotating-conductor.png",
+    "options": [
+      "It varies sinusoidally, starting from zero and completing one full cycle",
+      "It varies sinusoidally, starting from its maximum value",
+      "It stays at zero throughout",
+      "It decreases at a steady rate"
+    ],
+    "answer": "It varies sinusoidally, starting from zero and completing one full cycle",
+    "hint": "When PQ is perpendicular to B (as shown) the conductor moves parallel to the field lines and cuts no flux, so the EMF is momentarily zero."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A ball is launched with velocity u at an angle to the horizontal and follows a path around the inside of a smooth (frictionless), vertical, semicircular wall of radius r, as shown. It does not reach the top of the wall and lands on the ground opposite its starting point. Which statement correctly describes the net force on the ball during its motion?",
+    "image_filename": "2020-q20-semicircular-wall.png",
+    "options": [
+      "The magnitude of the net force remains constant",
+      "The direction of the net force is always vertically downward",
+      "The direction of the net force is always perpendicular to the wall",
+      "The magnitude of the net force is smallest when the ball is at its highest point"
+    ],
+    "answer": "The magnitude of the net force remains constant",
+    "hint": "The wall is smooth, so it does no work on the ball: the horizontal speed stays constant, which makes the (horizontal) normal force constant in magnitude, and gravity is already constant."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "5.2",
+    "type": "drag-drop",
+    "prompt": "For the ball moving around the inside of the smooth semicircular wall shown, match each part of its motion to the correct description.",
+    "image_filename": "2020-q20-semicircular-wall.png",
+    "pairs": [
+      {
+        "item": "Vertical motion of the ball",
+        "match": "Free fall: acceleration is g downward the whole time"
+      },
+      {
+        "item": "Horizontal motion of the ball",
+        "match": "Circular motion around the axis at constant speed"
+      }
+    ],
+    "answer": {
+      "Vertical motion of the ball": "Free fall: acceleration is g downward the whole time",
+      "Horizontal motion of the ball": "Circular motion around the axis at constant speed"
+    },
+    "hint": "The normal force is horizontal, so it never affects the vertical motion and never does work on the horizontal motion."
+  }
+]

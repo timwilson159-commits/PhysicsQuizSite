@@ -1,0 +1,462 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "A projectile is launched from a cannon at an angle above the horizontal. Air resistance is negligible. At its maximum height, the projectile's velocity is directed horizontally, in the direction of launch.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "At the top of the flight the vertical component of velocity is zero, but the horizontal component is unchanged."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "7.1",
+    "type": "drag-drop",
+    "prompt": "The spectra of two stars, X and Y, are shown with wavelength in nanometres. The dark absorption lines appear in the same pattern (same spacing) in both spectra, but they are shifted to different wavelengths. Match each property to what the spectra show.",
+    "image_filename": "2019-q2-star-spectra.png",
+    "pairs": [
+      { "item": "Motion of the two stars relative to Earth", "match": "Different" },
+      { "item": "Chemical composition of the two stars", "match": "The same" }
+    ],
+    "answer": { "Motion of the two stars relative to Earth": "Different", "Chemical composition of the two stars": "The same" },
+    "hint": "The set of elements present fixes the pattern of lines; a Doppler shift of the whole pattern shows line-of-sight motion."
+  },
+  {
+    "qsrc": "Q2b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "Two stars show absorption lines in an identical pattern, but every line in star Y is shifted to a longer wavelength than the corresponding line in star X. This shows that star Y is receding from Earth faster than star X.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "A shift of the whole pattern to longer wavelengths is a redshift, indicating recession."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "8.2",
+    "type": "drag-drop",
+    "prompt": "Geiger and Marsden fired a beam of particles at a thin gold foil to investigate the structure of the atom. Match each description to the correct entry.",
+    "pairs": [
+      { "item": "Particles used in the experiment", "match": "Alpha particles" },
+      { "item": "Result initially expected (using the plum pudding model)", "match": "Almost all particles pass straight through with little or no deflection" }
+    ],
+    "answer": { "Particles used in the experiment": "Alpha particles", "Result initially expected (using the plum pudding model)": "Almost all particles pass straight through with little or no deflection" },
+    "hint": "In the plum pudding model, positive charge is spread thinly throughout the atom, so it could not deflect a fast massive particle much."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "Under Thomson's plum pudding model, physicists expected alpha particles fired at a thin gold foil to be deflected through large angles.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "Charge and mass were thought to be spread out, so only tiny deflections were expected."
+  },
+  {
+    "qsrc": "Q3c",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "In the Geiger-Marsden experiment a small fraction of alpha particles were deflected through very large angles, some almost straight back. What did this lead Rutherford to conclude about the atom?",
+    "options": [
+      "Almost all of the atom's mass and all of its positive charge are concentrated in a tiny central nucleus.",
+      "The atom is a uniform sphere of positive charge with electrons embedded in it.",
+      "Electrons orbit the nucleus only in fixed, quantised energy levels.",
+      "The nucleus contains uncharged particles of about the same mass as the proton."
+    ],
+    "answer": "Almost all of the atom's mass and all of its positive charge are concentrated in a tiny central nucleus.",
+    "hint": "Only a dense, concentrated charge could turn a fast alpha particle back."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Four stars P, Q, R and S are marked on the Hertzsprung-Russell diagram shown. Which statement is correct?",
+    "image_filename": "2019-q4-hr-diagram.png",
+    "options": [
+      "S has a higher surface temperature than R.",
+      "S has a greater luminosity than Q.",
+      "R is a blue star whereas S is a red star.",
+      "P is at a more advanced stage of its evolution than R."
+    ],
+    "answer": "S has a higher surface temperature than R.",
+    "hint": "Surface temperature increases towards the left (spectral class O) of the diagram."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "8.1",
+    "type": "drag-drop",
+    "prompt": "Using the Hertzsprung-Russell diagram shown, match each labelled star to the type of star it is.",
+    "image_filename": "2019-q4-hr-diagram.png",
+    "pairs": [
+      { "item": "P", "match": "Main sequence star" },
+      { "item": "Q", "match": "Red giant" },
+      { "item": "R", "match": "Supergiant" },
+      { "item": "S", "match": "White dwarf" }
+    ],
+    "answer": { "P": "Main sequence star", "Q": "Red giant", "R": "Supergiant", "S": "White dwarf" },
+    "hint": "High luminosity and low temperature means a giant or supergiant; low luminosity and high temperature means a white dwarf."
+  },
+  {
+    "qsrc": "Q4c",
+    "inquiry_id": "8.1",
+    "type": "word-bank",
+    "prompt": "On the Hertzsprung-Russell diagram shown, the star with the greatest luminosity is ___ and the star with the highest surface temperature is ___.",
+    "image_filename": "2019-q4-hr-diagram.png",
+    "bank": ["P", "Q", "R", "S"],
+    "answer": ["R", "S"],
+    "hint": "Luminosity increases up the diagram; surface temperature increases to the left."
+  },
+  {
+    "qsrc": "Q4d",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "On the Hertzsprung-Russell diagram shown, star P lies on the main sequence at a position where the Sun would also be found.",
+    "image_filename": "2019-q4-hr-diagram.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The Sun is a main sequence star of about spectral class G, absolute magnitude near +5, luminosity about 1."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "Two coils are wound on the same solid iron rod. The left (primary) coil is connected through a switch to a battery; the right (secondary) coil is connected to a galvanometer. The switch has been closed for some time and is now opened. The galvanometer pointer will:",
+    "image_filename": "2019-q5-induction-coils.png",
+    "options": [
+      "move from a zero reading to a non-zero reading, then back to zero",
+      "remain at a constant non-zero reading",
+      "move from a non-zero reading to a zero reading and stay there",
+      "move to a non-zero reading and stay there"
+    ],
+    "answer": "move from a zero reading to a non-zero reading, then back to zero",
+    "hint": "An EMF is induced in the secondary coil only while the magnetic flux through it is changing."
+  },
+  {
+    "qsrc": "Q5b",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "In a transformer-style arrangement of two coils on a shared iron core, while the primary current is steady and unchanging, the galvanometer connected to the secondary coil reads zero.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "No change in flux means no induced EMF."
+  },
+  {
+    "qsrc": "Q5c",
+    "inquiry_id": "6.3",
+    "type": "ordering",
+    "prompt": "The switch in the primary circuit of the two-coil arrangement shown is opened. Put the following events in the order they occur.",
+    "image_filename": "2019-q5-induction-coils.png",
+    "items": [
+      "The current in the primary coil falls to zero",
+      "The magnetic flux in the iron rod decreases",
+      "An EMF is induced in the secondary coil",
+      "The galvanometer pointer deflects",
+      "The galvanometer pointer returns to zero"
+    ],
+    "answer": [
+      "The current in the primary coil falls to zero",
+      "The magnetic flux in the iron rod decreases",
+      "An EMF is induced in the secondary coil",
+      "The galvanometer pointer deflects",
+      "The galvanometer pointer returns to zero"
+    ],
+    "hint": "The induced EMF exists only during the brief time the flux is changing."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "Wien's displacement law states that the wavelength $\\lambda_{max}$ at which a black body emits maximum intensity is ___ proportional to its absolute (surface) temperature.",
+    "bank": ["inversely", "directly", "exponentially", "logarithmically"],
+    "answer": ["inversely"],
+    "hint": "$\\lambda_{max} T = b$, a constant, so a hotter body peaks at a shorter wavelength."
+  },
+  {
+    "qsrc": "Q6b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A black body emits maximum intensity at a wavelength of $\\lambda_{max} = 500$ nm. Using Wien's displacement law $\\lambda_{max} T = b$ with $b = 2.90 \\times 10^{-3}$ m K, calculate its surface temperature.",
+    "answer": 5800,
+    "unit": "K",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$T = b / \\lambda_{max}$. Convert 500 nm to metres first."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A bar magnet is moved directly away from a nearby stationary coil, with its south pole facing the coil. What is the magnetic polarity of the face of the coil nearest the magnet, and why?",
+    "options": [
+      "North, because the induced current opposes the change by attracting the departing magnet (Lenz's law)",
+      "South, because the induced current opposes the change by repelling the magnet",
+      "North, because the induced current flows so as to increase the flux through the coil",
+      "South, because like poles always face each other during electromagnetic induction"
+    ],
+    "answer": "North, because the induced current opposes the change by attracting the departing magnet (Lenz's law)",
+    "hint": "By Lenz's law the induced current always opposes the change that produces it; here the magnet is leaving, so the coil tries to hold on to it."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "When a bar magnet is moved away from a coil, the induced current in the coil sets up a magnetic force that attracts the magnet, opposing its motion.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "This is Lenz's law, and it is a consequence of conservation of energy."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Hubble measured the recessional velocity and distance of many galaxies. Plotted as recessional velocity (km s$^{-1}$) against distance (Mpc), which best describes the graph consistent with his measurements?",
+    "options": [
+      "A straight line through the origin with a positive gradient",
+      "A curve that becomes steeper as distance increases",
+      "A straight line with a negative gradient",
+      "A horizontal line"
+    ],
+    "answer": "A straight line through the origin with a positive gradient",
+    "hint": "Hubble's law is $v = H_0 d$: velocity is directly proportional to distance."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "8.1",
+    "type": "numeric-entry",
+    "prompt": "A galaxy is measured to be 40 Mpc from Earth. Using Hubble's law $v = H_0 d$ with $H_0 = 70$ km s$^{-1}$ Mpc$^{-1}$, calculate its recessional velocity.",
+    "answer": 2800,
+    "unit": "km s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Multiply the Hubble constant by the distance in Mpc."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.3",
+    "type": "drag-drop",
+    "prompt": "Two satellites have the same mass. One is in low-Earth orbit (LEO) and the other is in a geostationary orbit (GEO), which has a much larger orbital radius. The total energy of a satellite in orbit is half its (negative) gravitational potential energy. Match each description to the correct satellite.",
+    "pairs": [
+      { "item": "Satellite with the greater orbital period", "match": "GEO" },
+      { "item": "Satellite with the greater (less negative) total energy", "match": "GEO" }
+    ],
+    "answer": { "Satellite with the greater orbital period": "GEO", "Satellite with the greater (less negative) total energy": "GEO" },
+    "hint": "A larger orbit means a longer period (Kepler's third law) and a total energy closer to zero."
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "A satellite in a higher circular orbit has a greater (less negative) total mechanical energy than an identical satellite in a lower circular orbit.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Total energy is $E = -\\dfrac{GMm}{2r}$, which increases towards zero as $r$ increases."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Plane-polarised light of intensity $I_0$ passes through a polariser whose transmission axis is at $30^{\\circ}$ to the plane of polarisation of the light. Using Malus's law, calculate the fraction $I_B / I_0$ of the light that is transmitted.",
+    "image_filename": "2019-q10-polarisers.png",
+    "answer": 0.75,
+    "unit": "",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "Malus's law: $I_B = I_0 \\cos^2\\theta$, so the fraction is $\\cos^2 30^{\\circ}$."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "7.2",
+    "type": "word-bank",
+    "prompt": "Malus's law, $I = I_0 \\cos^2\\theta$ for the transmission of polarised light, is evidence for the ___ model of light.",
+    "bank": ["wave", "particle", "ray", "quantum"],
+    "answer": ["wave"],
+    "hint": "Polarisation is a property of transverse waves."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.3",
+    "type": "numeric-entry",
+    "prompt": "A dwarf planet orbits the Sun with a period of 40 000 years. Applying Kepler's third law in the form $T^2 = r^3$ (with $T$ in years and $r$ in astronomical units), calculate its average orbital radius $r$ in astronomical units.",
+    "answer": 1170,
+    "unit": "AU",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$r = T^{2/3} = 40000^{2/3}$."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "8.5",
+    "type": "word-bank",
+    "prompt": "The up quark has charge $+\\tfrac{2}{3}e$ and the down quark has charge $-\\tfrac{1}{3}e$. A particle with quark composition udd (a ___) is transformed into a particle with quark composition uud (a ___). Besides an antineutrino, the other particle emitted is an ___.",
+    "bank": ["neutron", "proton", "electron", "positron", "photon", "alpha particle"],
+    "answer": ["neutron", "proton", "electron"],
+    "hint": "udd has total charge 0; uud has total charge $+1$. This is beta-minus decay."
+  },
+
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A laser has a power output of 30 mW and emits light of wavelength 650 nm. Calculate the number of photons it emits per second. Use $h = 6.63 \\times 10^{-34}$ J s and $c = 3.00 \\times 10^8$ m s$^{-1}$.",
+    "answer": 9.8e16,
+    "unit": "photons per second",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Energy per photon $E = hc/\\lambda$; divide the power by $E$."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the energy of a single photon of light of wavelength 650 nm. Use $h = 6.63 \\times 10^{-34}$ J s and $c = 3.00 \\times 10^8$ m s$^{-1}$.",
+    "answer": 3.06e-19,
+    "unit": "J",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$E = hc/\\lambda$."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "A satellite is in a circular orbit of radius $r$ around Earth with orbital speed $v$. Because $v = \\sqrt{GM/r}$, moving the satellite to a circular orbit of radius $2r$ changes its orbital speed by a factor of ___.",
+    "bank": ["0.71", "1.41", "0.50", "2.0", "1.0"],
+    "answer": ["0.71"],
+    "hint": "$v \\propto r^{-1/2}$, so the factor is $1/\\sqrt{2}$."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.2",
+    "type": "drag-drop",
+    "prompt": "Monochromatic light passes through two slits 1 $\\mu$m apart. On a screen 0.3 m away, the first-order maximum is 0.08 m from the central maximum, as shown. The pattern is analysed with $d \\sin\\theta = \\lambda$. Match each symbol to the value that should be used.",
+    "image_filename": "2019-q15-double-slit.png",
+    "pairs": [
+      { "item": "$d$", "match": "1 $\\mu$m (the slit separation)" },
+      { "item": "$\\theta$", "match": "$\\tan^{-1}\\left(\\dfrac{0.08}{0.3}\\right)$" }
+    ],
+    "answer": { "$d$": "1 $\\mu$m (the slit separation)", "$\\theta$": "$\\tan^{-1}\\left(\\dfrac{0.08}{0.3}\\right)$" },
+    "hint": "$d$ is the slit separation; $\\theta$ is the angle from the central axis to the maximum, found from the screen geometry."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "In the double-slit setup shown, the first-order maximum is 0.08 m from the central maximum on a screen 0.3 m from the slits. Calculate the angle $\\theta$ between the central axis and the first-order maximum.",
+    "image_filename": "2019-q15-double-slit.png",
+    "answer": 14.9,
+    "unit": "degrees",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\theta = \\tan^{-1}(0.08 / 0.3)$."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A particle of charge $q$ and mass $m$ is fired horizontally into an evacuated chamber, entering exactly halfway between the top and bottom walls (10 cm from each). With no field applied, it strikes the bottom wall after a horizontal distance $d$, having fallen 10 cm under gravity. A uniform vertical electric field is then applied so that the particle instead strikes the top wall after the same horizontal distance $d$, rising 10 cm. What is the magnitude of the electric field?",
+    "options": [
+      "$\\dfrac{2mg}{q}$",
+      "$\\dfrac{mg}{q}$",
+      "$\\dfrac{mg}{2q}$",
+      "$\\dfrac{3mg}{q}$"
+    ],
+    "answer": "$\\dfrac{2mg}{q}$",
+    "hint": "Same horizontal distance means the same time of flight. The vertical displacement reverses sign but keeps the same size, so the vertical acceleration must be $g$ upward, requiring $qE - mg = mg$."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "In the apparatus shown, a straight current-carrying conductor QR is connected to a battery and a variable resistor inside an evacuated tube. A cathode ray enters above Q, travelling parallel to QR, and strikes a fluorescent screen making a bright spot. In which direction does the spot move if the resistance is increased?",
+    "image_filename": "2019-q17-cathode-ray-tube.png",
+    "options": ["Towards Z", "Towards W", "Towards X", "Towards Y"],
+    "answer": "Towards Z",
+    "hint": "Increasing the resistance decreases the current in QR, so the magnetic field around QR and the force it exerts on the moving electrons both decrease."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "For the current-carrying conductor QR and cathode ray shown, increasing the resistance of the variable resistor decreases the current in QR, which decreases the magnetic force acting on the cathode ray.",
+    "image_filename": "2019-q17-cathode-ray-tube.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Magnetic field strength around a straight conductor is proportional to the current in it."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Consider the nuclear reaction $W + X \\rightarrow Y + Z$. The total binding energies are: W = 2.22 MeV, X = 8.48 MeV, Y = 28.30 MeV. Which statement about energy in this reaction is correct?",
+    "options": [
+      "Energy is released because the total binding energy of the products is greater than the total binding energy of the reactants.",
+      "Energy is released because the mass defect of Y is greater than that of either W or X.",
+      "It cannot be determined whether energy is released because the properties of Z are not given.",
+      "Energy must be supplied because the total mass defect of the products is greater than that of the reactants."
+    ],
+    "answer": "Energy is released because the total binding energy of the products is greater than the total binding energy of the reactants.",
+    "hint": "A more tightly bound product (higher total binding energy) means energy has been released."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "In a nuclear reaction, energy is released when the total binding energy of the product nuclei is greater than the total binding energy of the reactant nuclei.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Higher binding energy means a lower-energy, more stable state; the difference is released."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "A cube is held against a vertical backboard that rotates in a horizontal circle about the vertical axis X-X', as shown. When the rotation is fast enough, the string holding the cube is cut and the cube stays in the same position relative to the backboard. Which statement correctly describes the forces after the string is cut?",
+    "image_filename": "2019-q20-rotating-backboard.png",
+    "options": [
+      "The horizontal force of the backboard on the cube is equal in magnitude to the horizontal force of the cube on the backboard.",
+      "The sum of the forces on the cube is zero.",
+      "The horizontal force of the backboard on the cube is greater than the horizontal force of the cube on the backboard, giving a net centripetal force.",
+      "The friction force between the cube and the backboard does not depend on the normal force because the two are perpendicular."
+    ],
+    "answer": "The horizontal force of the backboard on the cube is equal in magnitude to the horizontal force of the cube on the backboard.",
+    "hint": "These two forces are a Newton's third law action-reaction pair, so they are always equal in magnitude and opposite in direction."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "5.2",
+    "type": "drag-drop",
+    "prompt": "A cube stays in place against the rotating vertical backboard shown, moving with it in a horizontal circle. Match each force acting on the cube to its role.",
+    "image_filename": "2019-q20-rotating-backboard.png",
+    "pairs": [
+      { "item": "Normal (contact) force from the backboard", "match": "Provides the centripetal force" },
+      { "item": "Friction force from the backboard", "match": "Balances the weight of the cube" }
+    ],
+    "answer": { "Normal (contact) force from the backboard": "Provides the centripetal force", "Friction force from the backboard": "Balances the weight of the cube" },
+    "hint": "The backboard pushes horizontally on the cube (towards the axis); friction acts vertically up the face of the backboard."
+  },
+  {
+    "qsrc": "Q20c",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "A cube moving in a horizontal circle with a rotating backboard, staying in a fixed position relative to the backboard, has zero net force acting on it.",
+    "options": ["True", "False"],
+    "answer": "False",
+    "hint": "It is accelerating (changing direction), so there is a non-zero net force directed towards the centre of the circle."
+  }
+]

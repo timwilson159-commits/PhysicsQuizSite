@@ -1,0 +1,207 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "The dashed line shows the path of a hockey ball scooped into the air, moving from A to D. At which of the labelled positions is the ball's acceleration directed vertically downward?",
+    "image_filename": "ext3-q1-hockey-trajectory.png",
+    "options": [
+      "At all four positions A, B, C and D",
+      "At D only",
+      "At C and D only",
+      "At B, C and D only"
+    ],
+    "answer": "At all four positions A, B, C and D",
+    "hint": "Once the ball leaves the stick, the only force on it is gravity, which acts straight down at every point of the flight."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "The strobe diagram shows a black ball dropped from rest and a white ball projected horizontally, released at the same instant. The diagram shows that at each flash the two balls are at the same height and have fallen the same distance.",
+    "image_filename": "ext3-q2-strobe-balls.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Horizontal and vertical motion are independent; the horizontal launch of the white ball does not change how it falls."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "For the frictionless banked curve shown, calculate the maximum safe speed in m s$^{-1}$. Take $g = 9.8$ m s$^{-2}$.",
+    "image_filename": "ext3-q4-banked-curve.png",
+    "answer": 11.5,
+    "unit": "m s^{-1}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Read the radius (63 m) and banking angle (12 degrees) from the diagram, then use $v = \\sqrt{rg\\tan\\theta}$."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "For the current-carrying loop WXYZ in the magnetic field shown (field lines up the page, current direction marked), what are the directions of the forces on sides WZ and XY?",
+    "image_filename": "ext3-q6-current-loop.png",
+    "options": [
+      "Force on WZ is into the page; force on XY is out of the page",
+      "Force on WZ is out of the page; force on XY is into the page",
+      "Both forces are into the page",
+      "Both forces are out of the page"
+    ],
+    "answer": "Force on WZ is into the page; force on XY is out of the page",
+    "hint": "Apply $F = I\\vec{L} \\times \\vec{B}$ to each side; the currents in WZ and XY run in opposite directions, so the forces are opposite, giving a torque."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The two diagrams contain the same number of magnetic field lines, but the left-hand region is smaller. Which statement is correct?",
+    "image_filename": "ext3-q7-flux-diagrams.png",
+    "options": [
+      "Both show the same magnetic flux, and the smaller region has the greater flux density",
+      "Both show the same flux and the same flux density",
+      "The smaller region shows less flux and a lower flux density",
+      "The smaller region shows more flux and a lower flux density"
+    ],
+    "answer": "Both show the same magnetic flux, and the smaller region has the greater flux density",
+    "hint": "Flux is the total number of field lines; flux density is that number divided by the area they pass through."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "Using the spanner length, force and angle shown in the diagram, calculate the magnitude of the torque applied to the nut.",
+    "image_filename": "ext3-q8-spanner.png",
+    "answer": 32.9,
+    "unit": "N m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\tau = rF\\sin\\theta = 0.500 \\times 70.0 \\times \\sin 70^\\circ$."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "Using the currents and separations shown for the three parallel rods, calculate the magnitude of the net force per unit length on rod C. Use $\\mu_0 = 4\\pi \\times 10^{-7}$ N A$^{-2}$.",
+    "image_filename": "ext3-q9-three-rods.png",
+    "answer": 1.0e-5,
+    "unit": "N m^{-1}",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Rod B carries current the same way as C (attraction, 0.20 m away); rod A carries it the opposite way (repulsion, 0.30 m away). Work out $\\dfrac{\\mu_0 I_1 I_2}{2\\pi r}$ for each and combine."
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "In which direction does the net force per unit length on rod C act?",
+    "image_filename": "ext3-q9-three-rods.png",
+    "options": [
+      "Towards rod B (up the page)",
+      "Towards rod A (down the page)",
+      "Along the length of rod C",
+      "There is no net force on rod C"
+    ],
+    "answer": "Towards rod B (up the page)",
+    "hint": "Rod B attracts C (same current direction) and is closer than rod A, which repels C, so B's pull wins."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "The conducting rod slides to the right along the rails, through a magnetic field directed into the page. Which row is correct?",
+    "image_filename": "ext3-q10-rod-on-rails.png",
+    "options": [
+      "Force on the rod: to the left. Induced current in the rod: upward. Current around the loop: anticlockwise",
+      "Force to the left; current downward in the rod; clockwise around the loop",
+      "Force to the right; current upward in the rod; anticlockwise around the loop",
+      "Force to the right; current downward in the rod; clockwise around the loop"
+    ],
+    "answer": "Force on the rod: to the left. Induced current in the rod: upward. Current around the loop: anticlockwise",
+    "hint": "The area of the loop, and so the flux into the page, is increasing; the induced current opposes that increase, and the force opposes the rod's motion."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.2",
+    "type": "drag-drop",
+    "prompt": "In the apparatus shown, the rubber stopper is swung in a horizontal circle on a string that runs through the tube to a hanging mass. The swing rate is adjusted until the hanging mass neither rises nor falls, then the radius is measured. Match each quantity to its role in the investigation.",
+    "image_filename": "ext3-q11-whirling-stopper.png",
+    "pairs": [
+      { "item": "Rate of rotation of the stopper", "match": "Independent variable" },
+      { "item": "Radius of the circular path", "match": "Dependent variable" },
+      { "item": "Mass of the rubber stopper", "match": "Controlled variable" },
+      { "item": "Length of the string", "match": "Controlled variable" }
+    ],
+    "answer": {
+      "Rate of rotation of the stopper": "Independent variable",
+      "Radius of the circular path": "Dependent variable",
+      "Mass of the rubber stopper": "Controlled variable",
+      "Length of the string": "Controlled variable"
+    },
+    "hint": "The quantity deliberately changed is independent; the one then measured is dependent; anything held fixed is controlled."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In the double-slit set-up shown, the distance between the slits and the screen is increased while everything else stays the same. What happens to the spacing between the bright bands?",
+    "image_filename": "ext3-q13-double-slit.png",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It stays the same",
+      "The bright bands disappear"
+    ],
+    "answer": "It increases",
+    "hint": "Fringe spacing $\\Delta y = \\dfrac{\\lambda L}{d}$ is directly proportional to the slit-to-screen distance $L$."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "If instead the separation between the two slits were increased (with the screen distance unchanged), the spacing between the bright bands would decrease.",
+    "image_filename": "ext3-q13-double-slit.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$\\Delta y = \\dfrac{\\lambda L}{d}$ is inversely proportional to the slit separation $d$."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Unpolarised light of intensity 150 W m$^{-2}$ passes through polariser P1 (axis 30 degrees to the vertical) and then P2 (axis horizontal), as shown. Calculate the intensity transmitted through P2.",
+    "image_filename": "ext3-q15-polarisers.png",
+    "answer": 18.75,
+    "unit": "W m^{-2}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "P1 halves the intensity to 75 W m$^{-2}$; the angle between P1 and P2 is 60 degrees, so $I = 75\\cos^2 60^\\circ$."
+  },
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Using the mercury energy-level diagram, calculate the frequency of the photon emitted when an electron falls from the n = 5 level to the n = 3 level. Use $h = 6.626 \\times 10^{-34}$ J s and $1$ eV $= 1.602 \\times 10^{-19}$ J.",
+    "image_filename": "ext3-q19-mercury-levels.png",
+    "answer": 4.4e14,
+    "unit": "Hz",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Read the two level energies from the diagram ($-3.71$ eV and $-5.52$ eV); the photon energy is their difference, 1.81 eV, then $f = E/h$."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "Model 1 and Model 2 show alpha particles passing through two models of the atom. Which option correctly identifies the models?",
+    "image_filename": "ext3-q20-atomic-models.png",
+    "options": [
+      "Model 1 is Thomson's model (alpha particles barely deflected by the spread-out charge); Model 2 is Rutherford's model (a few alpha particles deflected sharply by a tiny dense nucleus)",
+      "Model 1 is Rutherford's model; Model 2 is Thomson's model",
+      "Both diagrams show Rutherford's nuclear model",
+      "Both diagrams show Thomson's plum-pudding model"
+    ],
+    "answer": "Model 1 is Thomson's model (alpha particles barely deflected by the spread-out charge); Model 2 is Rutherford's model (a few alpha particles deflected sharply by a tiny dense nucleus)",
+    "hint": "Only a small, dense, concentrated positive charge can push an alpha particle through a large angle."
+  }
+]

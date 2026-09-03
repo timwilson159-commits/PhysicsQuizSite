@@ -1,0 +1,452 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "An object P undergoes uniform circular motion. In the diagram, P is at the left of the circle and its centre is to the right of P; arrow W points left, X points up, Y points right (towards the centre) and Z points down. Which arrow shows the direction of the net force acting on P?",
+    "image_filename": "2024-q1-circular-motion.png",
+    "options": [
+      "Y",
+      "W",
+      "X",
+      "Z"
+    ],
+    "answer": "Y",
+    "hint": "For uniform circular motion the net force is centripetal: directed towards the centre of the circle."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "For an object in uniform circular motion, the net force is always directed towards the centre of the circle and is perpendicular to the object's velocity.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The speed is constant, so the net force does no work; it only changes the direction of the velocity."
+  },
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Which of the following provides evidence for the wave model of light proposed by Huygens?",
+    "options": [
+      "Diffraction of light",
+      "Emission spectra",
+      "Black body radiation",
+      "The photoelectric effect"
+    ],
+    "answer": "Diffraction of light",
+    "hint": "Diffraction (bending of light around edges and through gaps) is a wave behaviour; the other three are explained by treating light as photons."
+  },
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "Which of the following is a fundamental particle in the Standard Model of matter?",
+    "options": [
+      "Photon",
+      "Hadron",
+      "Neutron",
+      "Proton"
+    ],
+    "answer": "Photon",
+    "hint": "The photon is a fundamental force-carrying particle. Hadrons (including the proton and neutron) are made of quarks."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "8.5",
+    "type": "true-false",
+    "prompt": "A photon is a fundamental particle, but a proton is not, because a proton is made of quarks.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "A proton is two up quarks and one down quark held together by gluons."
+  },
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "6.4",
+    "type": "word-bank",
+    "prompt": "A coil mounted on an axle in a uniform magnetic field rotates continuously (acts as a motor) when it is connected to a ___ supply through a ___.",
+    "bank": [
+      "DC",
+      "AC",
+      "split-ring commutator",
+      "pair of slip rings"
+    ],
+    "answer": [
+      "DC",
+      "split-ring commutator"
+    ],
+    "hint": "The commutator reverses the current in the coil every half turn so the torque keeps acting the same way around."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "Without a split-ring commutator, a coil carrying a steady direct current in a uniform magnetic field would turn only until its plane is perpendicular to the field, then stop (or oscillate), rather than rotating continuously.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The torque drops to zero when the coil's plane is perpendicular to the field, and would then act to push it back."
+  },
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "8.1",
+    "type": "ordering",
+    "prompt": "Three star clusters X, Y and Z are shown as Hertzsprung-Russell diagrams. Cluster Y's main sequence still reaches the hot, luminous end; cluster X's main sequence turns off at a moderate point; cluster Z's turns off low, with a large giant branch. Order the three clusters from youngest to oldest.",
+    "image_filename": "2024-q5-cluster-hr-diagrams.png",
+    "items": [
+      "Cluster Y",
+      "Cluster X",
+      "Cluster Z"
+    ],
+    "answer": [
+      "Cluster Y",
+      "Cluster X",
+      "Cluster Z"
+    ],
+    "hint": "The lower on the main sequence a cluster's turnoff point is, the older the cluster, because the most massive stars have already evolved off the main sequence."
+  },
+  {
+    "qsrc": "Q5b",
+    "inquiry_id": "8.1",
+    "type": "true-false",
+    "prompt": "The 'main-sequence turnoff' point on a star cluster's Hertzsprung-Russell diagram moves to lower luminosity and cooler temperature as the cluster ages.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "More massive (hotter, brighter) stars run out of fuel first and leave the main sequence, so the turnoff creeps down over time."
+  },
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "7.3",
+    "type": "word-bank",
+    "prompt": "The photoelectric effect is modelled by $K_{max} = hf - \\phi$. In this equation the symbol $\\phi$ represents the energy ___.",
+    "bank": [
+      "required to release an electron from the material",
+      "supplied by a photon to an electron",
+      "retained by an electron after it is hit",
+      "left over after a photon-electron collision"
+    ],
+    "answer": [
+      "required to release an electron from the material"
+    ],
+    "hint": "$\\phi$ is the work function: the minimum energy needed to free an electron from the metal's surface."
+  },
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "8.4",
+    "type": "word-bank",
+    "prompt": "A pure sample of polonium-210 (half-life 138 days) decays by alpha emission to the stable isotope lead-206. After 276 days (two half-lives), the ratio of polonium-210 atoms to lead-206 atoms in the sample is ___.",
+    "bank": [
+      "1 : 3",
+      "1 : 1",
+      "1 : 2",
+      "1 : 4"
+    ],
+    "answer": [
+      "1 : 3"
+    ],
+    "hint": "After two half-lives, one quarter of the polonium remains and three quarters has become lead."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A sample of polonium-210 has a half-life of 138 days. Calculate the fraction of the original polonium-210 that remains after 276 days.",
+    "answer": 0.25,
+    "unit": "",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "276 days is two half-lives."
+  },
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "6.3",
+    "type": "word-bank",
+    "prompt": "An ideal transformer gives an output of 6 V for an input of 240 V. To get an output of 12 V from the same 240 V input, you would ___ the number of turns on the primary coil (changing the load resistance would not work).",
+    "bank": [
+      "decrease",
+      "increase",
+      "double",
+      "not change"
+    ],
+    "answer": [
+      "decrease"
+    ],
+    "hint": "The output voltage must double, so the secondary-to-primary turns ratio must double; halving the primary turns achieves this."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "An ideal transformer steps 240 V down to 6 V. If the primary coil has 800 turns, calculate the number of turns on the secondary coil.",
+    "answer": 20,
+    "unit": "turns",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$\\dfrac{N_s}{N_p} = \\dfrac{V_s}{V_p} = \\dfrac{6}{240}$."
+  },
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "Object P is dropped from rest and object Q is launched horizontally from the same height at the same instant. Air resistance is negligible. Which statement correctly compares their motion?",
+    "options": [
+      "The final speed of Q is greater than the final speed of P",
+      "The acceleration of P is less than the acceleration of Q",
+      "The time of flight of Q is greater than the time of flight of P",
+      "The initial vertical velocity of P is less than the initial vertical velocity of Q"
+    ],
+    "answer": "The final speed of Q is greater than the final speed of P",
+    "hint": "Both have acceleration g downward, the same time of flight and the same vertical velocity at landing; but Q also has a horizontal velocity component, so its final speed is larger."
+  },
+  {
+    "qsrc": "Q9b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "An object dropped from rest and an object launched horizontally from the same height reach the ground at the same time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "The vertical motion (free fall from the same height) is identical for both; the horizontal motion does not affect the fall time."
+  },
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.2",
+    "type": "numeric-entry",
+    "prompt": "A current-carrying rod is perpendicular to a uniform magnetic field and feels the maximum force F. Using $F = BIL\\sin\\theta$, through what angle must the rod be rotated so that the force becomes $\\dfrac{F}{2}$?",
+    "answer": 60,
+    "unit": "degrees",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "Half the maximum force needs $\\sin\\theta = 0.5$, so $\\theta = 30^{\\circ}$ from the field; that is a rotation of $60^{\\circ}$ from the perpendicular position."
+  },
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "For a satellite in a circular orbit, the orbital speed v is ___ proportional to the square root of the orbital radius r.",
+    "bank": [
+      "inversely",
+      "directly",
+      "not",
+      "exponentially"
+    ],
+    "answer": [
+      "inversely"
+    ],
+    "hint": "$v = \\sqrt{\\dfrac{GM}{r}}$, so $v \\propto r^{-1/2}$: a larger orbit means a slower satellite."
+  },
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "A rod has proper length $L_0$ (measured in its own frame). It travels past a stationary observer at speed v. On a graph of measured length against speed, four curves W, X, Y and Z all start at $L_0$ when v = 0. Which curve correctly shows how the observer's measured length depends on v?",
+    "image_filename": "2024-q12-length-contraction.png",
+    "options": [
+      "X (length decreases, slowly at first then steeply as v approaches c)",
+      "W (length increases with speed)",
+      "Y (length decreases roughly in a straight line)",
+      "Z (length decreases steeply at first then levels off)"
+    ],
+    "answer": "X (length decreases, slowly at first then steeply as v approaches c)",
+    "hint": "$L = L_0\\sqrt{1 - v^2/c^2}$: near v = 0 the effect is tiny, but the length falls sharply towards zero as v approaches c."
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "7.4",
+    "type": "numeric-entry",
+    "prompt": "A rod of proper length 2.0 m travels past an observer at 0.6c. Calculate the length the observer measures. Use $L = L_0\\sqrt{1 - v^2/c^2}$.",
+    "answer": 1.6,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\sqrt{1 - 0.6^2} = 0.8$."
+  },
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Two identical satellites A and B orbit a planet. A is in the outer (larger) circular orbit and B is in the inner (smaller) orbit. Which row correctly compares their gravitational potential energy U and kinetic energy K?",
+    "image_filename": "2024-q13-two-satellites.png",
+    "options": [
+      "$U_A > U_B$ and $K_A < K_B$",
+      "$U_A < U_B$ and $K_A > K_B$",
+      "$U_A > U_B$ and $K_A > K_B$",
+      "$U_A < U_B$ and $K_A < K_B$"
+    ],
+    "answer": "$U_A > U_B$ and $K_A < K_B$",
+    "hint": "$U = -\\dfrac{GMm}{r}$ (less negative, so larger, for the outer satellite) and $K = \\dfrac{GMm}{2r}$ (smaller for the outer satellite)."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "A satellite in a higher circular orbit has a greater (less negative) gravitational potential energy but a smaller kinetic energy than an identical satellite in a lower orbit.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Its total energy is also greater (less negative) than that of the lower satellite."
+  },
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "8.3",
+    "type": "word-bank",
+    "prompt": "A proton travels at twice the speed of an alpha particle. The alpha particle has about 4 times the mass of the proton. If the proton's de Broglie wavelength is $\\lambda$, the alpha particle's de Broglie wavelength is ___.",
+    "bank": [
+      "$\\dfrac{\\lambda}{2}$",
+      "$\\dfrac{\\lambda}{8}$",
+      "$2\\lambda$",
+      "$8\\lambda$"
+    ],
+    "answer": [
+      "$\\dfrac{\\lambda}{2}$"
+    ],
+    "hint": "$\\lambda = \\dfrac{h}{mv}$. The alpha particle's $mv$ is $4 \\times \\tfrac{1}{2} = 2$ times the proton's, so its wavelength is half."
+  },
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "6.3",
+    "type": "word-bank",
+    "prompt": "A straight conductor rotates at a constant rate about one end, in the plane of the page, with a uniform magnetic field directed into the page (perpendicular to the plane of rotation). Over one revolution the EMF induced between its ends is ___.",
+    "bank": [
+      "constant and non-zero",
+      "sinusoidal, one cycle per revolution",
+      "zero at all times",
+      "alternating between positive and negative peaks"
+    ],
+    "answer": [
+      "constant and non-zero"
+    ],
+    "hint": "Every part of the rod sweeps area at the same steady rate, so the rate of change of flux does not change: $\u000barepsilon = \tfrac{1}{2}B\\omega L^2$."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A rod of length 0.30 m rotates at an angular velocity of 20 rad s$^{-1}$ about one end, in a uniform magnetic field of 0.50 T directed perpendicular to the plane of rotation. Calculate the EMF induced between the ends of the rod, using $\\varepsilon = \\tfrac{1}{2}B\\omega L^2$.",
+    "answer": 0.45,
+    "unit": "V",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\varepsilon = 0.5 \\times 0.50 \\times 20 \\times 0.30^2$."
+  },
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "The graph shows maximum photoelectron kinetic energy against incident photon energy for four metals, with threshold (x-intercept) values of about: K 2.1 eV, Li 2.4 eV, Mg 3.6 eV, Ag 4.5 eV. Light of frequency $7 \\times 10^{14}$ Hz (photon energy about 2.9 eV) shines on all four metals. From which metals are photoelectrons emitted?",
+    "image_filename": "2024-q16-photoelectric-metals.png",
+    "options": [
+      "K and Li only",
+      "Mg and Ag only",
+      "All four metals",
+      "None of the metals"
+    ],
+    "answer": "K and Li only",
+    "hint": "A metal emits photoelectrons only if the photon energy exceeds its work function (threshold energy)."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the energy, in electronvolts, of a photon of light with frequency $7 \\times 10^{14}$ Hz. Use $h = 6.63 \\times 10^{-34}$ J s and $1$ eV $= 1.60 \\times 10^{-19}$ J.",
+    "answer": 2.9,
+    "unit": "eV",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$E = hf$, then divide by $1.60 \\times 10^{-19}$ to convert joules to eV."
+  },
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "In a cyclotron, a charged particle spirals outward, gaining speed. An electric field acts across the gap between the two D-shaped electrodes (dees), and a strong magnetic field is present everywhere. Which statement about the particle is true?",
+    "options": [
+      "It undergoes acceleration both inside the dees and in the gap between them",
+      "It increases speed while inside the dees",
+      "It only accelerates while in the gap between the dees",
+      "It slows down inside the dees and speeds up in the gap"
+    ],
+    "answer": "It undergoes acceleration both inside the dees and in the gap between them",
+    "hint": "In the gap the electric field speeds it up (linear acceleration); inside the dees the magnetic field bends its path in a circle (centripetal acceleration) at constant speed."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "Inside the dees of a cyclotron the particle's speed does not change, but it is still accelerating because its direction of motion is continuously changing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "Circular motion is accelerated motion even at constant speed."
+  },
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "A vacuum chamber contains a uniform electric field and a uniform magnetic field. A proton entering with velocity v travels straight through without any change in velocity. A second proton then enters at the same point, in the same direction, but with velocity 2v. In the chamber, the acceleration of the second proton:",
+    "options": [
+      "changes in both magnitude and direction",
+      "is zero",
+      "is constant in magnitude and direction",
+      "is constant in magnitude but not in direction"
+    ],
+    "answer": "changes in both magnitude and direction",
+    "hint": "The first proton is at the velocity-selector speed (electric and magnetic forces balance). The second, being faster, feels a larger magnetic force than electric force, so there is a net force; as its path curves, the magnetic force changes direction too."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "In a region with crossed electric and magnetic fields (a velocity selector), only a charged particle moving at the speed $v = \\dfrac{E}{B}$ passes straight through; a faster particle is deflected.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "At $v = E/B$ the electric and magnetic forces are equal and opposite; at any other speed they do not balance."
+  },
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Three identical atomic clocks tick at the same rate when at rest. One stays in a laboratory X on Earth's equator (moving with Earth's rotation). One is on a satellite Y in a 12-hour circular orbit; one is on a satellite Z in a geostationary orbit. Considering only the effects of special relativity, and as measured by the observer at X, which statement is correct?",
+    "image_filename": "",
+    "options": [
+      "The clock at Y ticks slower than either the clock at X or the clock at Z",
+      "The clock at Y ticks faster than either the clock at X or the clock at Z",
+      "The clocks tick at different rates, with X the fastest and Y the slowest",
+      "The clocks tick at different rates, with Z the slowest and X the fastest"
+    ],
+    "answer": "The clock at Y ticks slower than either the clock at X or the clock at Z",
+    "hint": "The satellite in the lower (12-hour) orbit moves fastest of the three, and the faster a clock moves relative to the observer, the more slowly it ticks."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "According to special relativity, a clock moving relative to an observer runs slow compared with the observer's own clock, and the faster it moves the greater the effect.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "hint": "This is time dilation, described by the Lorentz factor."
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "A train safely takes a curve of radius 200 m at 60 km h$^{-1}$ (the maximum safe speed, set by the largest sideways force the rails can provide). Calculate the minimum radius of curve that would allow a safe speed of 120 km h$^{-1}$.",
+    "answer": 800,
+    "unit": "m",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "The maximum available force gives $F = \\dfrac{mv^2}{r}$; with $F$ fixed, $r$ is proportional to $v^2$, and the speed has doubled."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "For a vehicle rounding a level curve at the maximum speed the available friction allows, doubling the speed requires the radius of the curve to be four times as large.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The required centripetal force scales with $v^2$, so for a fixed maximum force the radius must scale with $v^2$ too."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "For a mass $m$ at Earth's surface, Newton's law of gravitation reduces to $F = gm$. Which statement does NOT correctly describe the term $g$?",
+    "options": [
+      "$g$ is the force that a mass $m$ feels at Earth's surface",
+      "$g$ is the gravitational field strength at Earth's surface",
+      "$g$ is the acceleration of a freely falling body at Earth's surface",
+      "$g$ is the force experienced by a 1 kg mass at Earth's surface"
+    ],
+    "answer": "$g$ is the force that a mass $m$ feels at Earth's surface",
+    "hint": "$g$ is force per unit mass (or, equivalently, an acceleration); the force on a mass $m$ is $gm$, not $g$."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "In a Young's double-slit demonstration the laser is changed from green (532 nm) to red (633 nm), with the slits and screen unchanged. What happens to the interference pattern on the screen?",
+    "options": [
+      "The bright fringes move further apart",
+      "The bright fringes move closer together",
+      "The bright fringes become brighter but keep the same spacing",
+      "The pattern stays exactly the same"
+    ],
+    "answer": "The bright fringes move further apart",
+    "hint": "Fringe spacing is $\\Delta y = \\dfrac{\\lambda L}{d}$, directly proportional to the wavelength."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "In a double-slit experiment the green laser (532 nm) produces a fringe spacing of 4.0 mm on the screen. If it is replaced by a red laser (633 nm) with everything else unchanged, calculate the new fringe spacing.",
+    "answer": 4.76,
+    "unit": "mm",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Fringe spacing is proportional to wavelength: multiply by $\\dfrac{633}{532}$."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A stone is thrown horizontally at 8 m s$^{-1}$ from the top of a 10 m high cliff. Calculate the time it takes to reach the ground. Take $g = 9.8$ m s$^{-2}$.",
+    "answer": 1.43,
+    "unit": "s",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The horizontal velocity does not affect the fall; use $h = \\tfrac{1}{2}gt^2$."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "Earth completes one rotation about its axis every 24 hours. Calculate its angular speed.",
+    "answer": 7.27e-5,
+    "unit": "rad s^{-1}",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "$\\omega = \\dfrac{2\\pi}{T}$, with $T = 24 \\times 3600$ s."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "Two long parallel wires 4 cm apart each carry a current of 2 A in the same direction. What is the net magnetic field strength at the point midway between the two wires?",
+    "options": [
+      "Zero",
+      "$1 \\times 10^{-5}$ T",
+      "$4.8 \\times 10^{-5}$ T",
+      "$4.8 \\times 10^{-3}$ T"
+    ],
+    "answer": "Zero",
+    "hint": "Each wire produces a field of the same magnitude at the midpoint, but for currents in the same direction those two fields point in opposite directions there, so they cancel."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "Midway between two parallel wires carrying equal currents in the same direction, the magnetic field is zero because the field from each wire is equal in magnitude and opposite in direction at that point.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Reverse one current and the two fields would instead add."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "6.1",
+    "type": "multiple-choice",
+    "prompt": "A charged particle moves through a magnetic field $B$ with velocity $v$. In what direction is the magnetic force on the particle?",
+    "options": [
+      "Perpendicular to both $v$ and $B$",
+      "In the direction of $v$ and perpendicular to $B$",
+      "In the direction of $B$ and perpendicular to $v$",
+      "Opposite to $v$"
+    ],
+    "answer": "Perpendicular to both $v$ and $B$",
+    "hint": "$\\vec{F} = q\\vec{v} \\times \\vec{B}$: the cross product is perpendicular to both vectors."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "6.1",
+    "type": "true-false",
+    "prompt": "Because the magnetic force on a moving charge is always perpendicular to its velocity, a magnetic field cannot change the speed (or kinetic energy) of a charged particle.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Force perpendicular to motion does no work."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "An electron travelling at $6.5 \\times 10^3$ m s$^{-1}$ enters a magnetic field of $2.4 \\times 10^{-3}$ T at right angles to the field, and follows a circular path. Calculate the radius of the path. Use electron mass $9.11 \\times 10^{-31}$ kg and charge $1.6 \\times 10^{-19}$ C.",
+    "answer": 1.54e-5,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "The magnetic force provides the centripetal force: $qvB = \\dfrac{mv^2}{r}$, so $r = \\dfrac{mv}{qB}$."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "A long air-filled solenoid has 4000 turns per metre and carries a current of 6 A. Each turn has a cross-sectional area of 0.01 m$^2$. Calculate the magnetic flux through one cross-section of the solenoid. Use $\\mu_0 = 4\\pi \\times 10^{-7}$ T m A$^{-1}$.",
+    "answer": 3.02e-4,
+    "unit": "Wb",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Inside a long solenoid $B = \\mu_0 n I$, then flux $\\Phi = BA$."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.1",
+    "type": "numeric-entry",
+    "prompt": "A ball is kicked from ground level at 28 m s$^{-1}$ at 30$^{\\circ}$ above the horizontal and lands at the same height. Calculate its time of flight. Take $g = 9.8$ m s$^{-2}$.",
+    "answer": 2.86,
+    "unit": "s",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Time of flight $= \\dfrac{2u\\sin\\theta}{g}$. The ball's mass is irrelevant."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "A positron and an electron, both with negligible kinetic energy, annihilate to produce two identical photons. Calculate the wavelength of each photon. Use electron rest energy $8.19 \\times 10^{-14}$ J, $h = 6.63 \\times 10^{-34}$ J s and $c = 3.00 \\times 10^8$ m s$^{-1}$.",
+    "answer": 2.43e-12,
+    "unit": "m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Each photon carries away the rest energy of one particle; then $\\lambda = \\dfrac{hc}{E}$."
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "When an electron and a positron at rest annihilate, they must produce at least two photons (not one), so that both momentum and energy can be conserved.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "A single photon could not have zero total momentum, but the initial system does."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "A rectangular container inside a rocket moving at 0.2c is observed from outside. In the rocket's frame the container has proper length $L_0$ (along the direction of motion), proper width $W_0$ and proper height $H_0$ (both perpendicular to the motion). How do the outside observer's measurements compare?",
+    "options": [
+      "$L < L_0$, $W = W_0$, $H = H_0$",
+      "$L < L_0$, $W < W_0$, $H < H_0$",
+      "$L < L_0$, $W < W_0$, $H = H_0$",
+      "$L > L_0$, $W = W_0$, $H = H_0$"
+    ],
+    "answer": "$L < L_0$, $W = W_0$, $H = H_0$",
+    "hint": "Length contraction acts only along the direction of relative motion; dimensions perpendicular to the motion are unchanged."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "Relativistic length contraction affects only the dimension of an object measured along the direction of its motion relative to the observer.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Perpendicular measurements are agreed on by both observers."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "A charge is accelerated through a potential difference of 2000 V, and its kinetic energy increases from $2.0 \\times 10^{-5}$ J to $6.0 \\times 10^{-5}$ J. Calculate the magnitude of the charge.",
+    "answer": 2.0e-8,
+    "unit": "C",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "The work done on the charge is $qV$, which equals the gain in kinetic energy."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Light above the threshold frequency shines on a metal in a vacuum, and the stopping voltage is $V_0$. The wavelength of the light is then decreased and its intensity is increased. What happens to the photoelectron current and the stopping voltage?",
+    "options": [
+      "The current increases and the stopping voltage increases",
+      "The current increases and the stopping voltage decreases",
+      "The current decreases and the stopping voltage increases",
+      "The current decreases and the stopping voltage decreases"
+    ],
+    "answer": "The current increases and the stopping voltage increases",
+    "hint": "More intensity means more photons per second (more current); a shorter wavelength means more energetic photons, so higher maximum photoelectron kinetic energy and a larger stopping voltage."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "In the photoelectric effect, the stopping voltage depends on the frequency (or wavelength) of the light but not on its intensity.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Stopping voltage is set by the maximum photoelectron kinetic energy, $eV_0 = hf - \\phi$."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.4",
+    "type": "numeric-entry",
+    "prompt": "In a rock sample, 99.609375% of the original uranium-235 has decayed to lead-207. The half-life of uranium-235 is $7.10 \\times 10^8$ years. Estimate the age of the sample, in billions of years.",
+    "answer": 5.68,
+    "unit": "billion years",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "The fraction remaining is $0.390625\\% = \\dfrac{1}{256} = \\left(\\dfrac{1}{2}\\right)^{8}$, so 8 half-lives have passed."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Unpolarised light of intensity $I_1$ passes through two polarisers whose transmission axes are 30$^{\\circ}$ apart, giving final intensity $I_2$. Calculate the ratio $\\dfrac{I_2}{I_1}$. Take $\\cos 30^{\\circ} = \\dfrac{\\sqrt{3}}{2}$.",
+    "answer": 0.375,
+    "unit": "",
+    "tolerance": 2,
+    "tolerance_mode": "relative",
+    "hint": "The first polariser halves the intensity of unpolarised light; the second then applies Malus's law: $\\tfrac{1}{2}\\cos^2 30^{\\circ}$."
+  }
+]

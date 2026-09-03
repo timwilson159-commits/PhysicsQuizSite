@@ -1,0 +1,335 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "For a projectile launched at a fixed initial speed, the time of flight increases steadily as the launch angle is increased from 0 degrees towards 90 degrees.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Time of flight is $t = \\dfrac{2u\\sin\\theta}{g}$, which grows with $\\sin\\theta$."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "A homemade projectile launcher that produces a different initial velocity each time it is fired, with no consistent pattern to the variation, is introducing random error into the investigation.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Random error scatters results unpredictably about the true value; systematic error shifts them all the same way."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "For a cyclist rounding a banked track at a steady speed, the forces acting on the cyclist are not balanced: their vector sum is a net force directed horizontally towards the centre of the turn, providing the centripetal force.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Circular motion always needs an unbalanced force pointing towards the centre."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "In a centripetal-force experiment, students plotted two measured quantities against each other and obtained a smooth curve that starts at the origin and rises more and more steeply (concave up). Which pair of variables was most likely plotted (vertical axis vs horizontal axis)?",
+    "options": [
+      "Centripetal force vs speed",
+      "Centripetal force vs radius",
+      "Speed vs radius",
+      "Acceleration vs (speed divided by radius)"
+    ],
+    "answer": "Centripetal force vs speed",
+    "hint": "$F = \\dfrac{mv^2}{r}$, so plotting $F$ against $v$ (at fixed $r$) gives a parabola through the origin."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "J.J. Thomson's charge-to-mass ratio experiment provided evidence that cathode rays are made of particles that have mass, rather than being a form of electromagnetic radiation.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The beam's deflection by electric and magnetic fields let Thomson find a fixed charge-to-mass ratio for the particles."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "A trolley moving at constant speed through a dip in a track follows a circular arc. At the bottom of the dip, the upward normal force minus the downward weight equals the net centripetal force, which points upward towards the centre of the arc.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Take up as positive towards the centre: $N - mg = \\dfrac{mv^2}{r}$."
+  },
+  {
+    "qsrc": "Q6b",
+    "inquiry_id": "5.2",
+    "type": "true-false",
+    "prompt": "As the trolley passes through the bottom of the dip, the normal force on it is greater than its weight.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The net upward force must be non-zero to curve the path upward, so $N$ must exceed $mg$."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "The force between two parallel current-carrying wires is weakest when:",
+    "options": [
+      "The wires are far apart and each carries a small current",
+      "The wires are close together and each carries a large current",
+      "The wires carry equal currents",
+      "The wires are exactly parallel to each other"
+    ],
+    "answer": "The wires are far apart and each carries a small current",
+    "hint": "$\\dfrac{F}{l} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi r}$: the force grows with the currents and shrinks as the separation grows."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "The magnetic flux through a spinning generator coil varies sinusoidally with time. How does the induced emf vary?",
+    "options": [
+      "Sinusoidally, but 90 degrees out of phase with the flux, so the emf is largest when the flux is momentarily zero",
+      "Sinusoidally and in phase with the flux, so the emf is largest when the flux is largest",
+      "It stays constant throughout the rotation",
+      "It is zero at all times"
+    ],
+    "answer": "Sinusoidally, but 90 degrees out of phase with the flux, so the emf is largest when the flux is momentarily zero",
+    "hint": "The emf is proportional to minus the rate of change of flux; a sine wave changes fastest as it crosses zero."
+  },
+  {
+    "qsrc": "Q8b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "The induced emf in a rotating generator coil is greatest at the instant the magnetic flux through the coil is changing most rapidly.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Faraday's law makes the emf depend on the rate of change of flux, not on the flux value itself."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A generator's flux-time graph starts at zero and is increasing most steeply at time zero. At that instant, how is the plane of the coil oriented relative to the magnetic field?",
+    "options": [
+      "Parallel to the field, so the coil is edge-on and the flux through it is zero",
+      "Perpendicular to the field, so the coil is face-on and the flux is maximum",
+      "At 45 degrees to the field",
+      "The orientation cannot be worked out from the graph"
+    ],
+    "answer": "Parallel to the field, so the coil is edge-on and the flux through it is zero",
+    "hint": "Flux is $\\Phi = BA\\cos\\theta$ between the field and the coil's normal; it is zero, and changing fastest, when the coil's plane contains the field lines."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "8.4",
+    "type": "word-bank",
+    "prompt": "The difference between a controlled and an uncontrolled fission chain reaction is the ___ at which the fission reactions occur. In a reactor this is regulated by inserting neutron-absorbing control ___.",
+    "bank": ["rate", "rods", "energy", "mass", "number", "neutrons"],
+    "answer": ["rate", "rods"],
+    "hint": "Each individual fission releases about the same energy either way; what changes is how quickly the reactions multiply."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "Cobalt-60 (atomic number 27) decays to nickel-60 (atomic number 28). Which statement correctly describes this decay?",
+    "options": [
+      "Beta-minus decay: a neutron becomes a proton, emitting an electron and an antineutrino; the mass number stays 60 and the atomic number rises from 27 to 28",
+      "Alpha decay: the nucleus emits a helium-4 nucleus",
+      "Beta-plus decay: the nucleus emits a positron and the atomic number falls to 26",
+      "Gamma decay only: no change to the atomic number or mass number"
+    ],
+    "answer": "Beta-minus decay: a neutron becomes a proton, emitting an electron and an antineutrino; the mass number stays 60 and the atomic number rises from 27 to 28",
+    "hint": "Going from Z = 27 to Z = 28 with the same mass number is a neutron turning into a proton, which is beta-minus decay."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "In the beta-minus decay of cobalt-60, the mass number is unchanged and the atomic number increases by one.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Beta-minus decay converts a neutron to a proton, so Z goes up by 1 while A stays the same."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A straight conducting rod is held vertically, with end X at the bottom and end Y at the top, and is moved steadily to the right through a uniform magnetic field. Which field direction drives a conventional (positive) current from X to Y within the rod?",
+    "options": [
+      "Into the page",
+      "Out of the page",
+      "To the right, parallel to the rod's motion",
+      "Vertically upward, along the rod"
+    ],
+    "answer": "Into the page",
+    "hint": "The force on a positive charge in the rod is $q\\vec{v} \\times \\vec{B}$; for that to point up the rod (X to Y) with $\\vec{v}$ to the right, $\\vec{B}$ must be into the page."
+  },
+
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "7.1",
+    "type": "multiple-choice",
+    "prompt": "In Foucault's rotating-mirror method for measuring the speed of light, the deflection angle of the returning beam is small, which limits the precision. Which change most easily increases that angle and reduces the measurement uncertainty?",
+    "options": [
+      "Increase the rotational speed of the rotating mirror",
+      "Decrease the rotational speed of the rotating mirror",
+      "Decrease the distance between the rotating mirror and the fixed mirror",
+      "Use a dimmer light source"
+    ],
+    "answer": "Increase the rotational speed of the rotating mirror",
+    "hint": "The mirror turns through a larger angle during the light's round trip if it spins faster."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "In Foucault's method, increasing the distance between the rotating mirror and the fixed mirror also increases the deflection angle of the returning beam.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "A longer round trip gives the rotating mirror more time to turn before the light gets back."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "8.5",
+    "type": "numeric-entry",
+    "prompt": "Calculate the total energy released when an electron and a positron annihilate each other. Give your answer in MeV. Take the rest energy of an electron (and of a positron) as 0.511 MeV.",
+    "answer": 1.02,
+    "unit": "MeV",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Both particles are completely converted to energy: $E = 2 \\times 0.511$ MeV."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "8.5",
+    "type": "true-false",
+    "prompt": "Electron-positron annihilation typically produces two gamma-ray photons of equal energy travelling in opposite directions.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Two photons are needed so that both energy and momentum are conserved."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Polarised light passes through a polarising filter, and the transmitted intensity is currently high. Which single change reduces the transmitted intensity by the greatest amount?",
+    "options": [
+      "Rotating the filter so the angle between its transmission axis and the light's polarisation direction becomes close to 90 degrees",
+      "Rotating the filter so that angle becomes close to 0 degrees",
+      "Rotating the filter so that angle becomes close to 45 degrees",
+      "Moving the filter further away from the light source"
+    ],
+    "answer": "Rotating the filter so the angle between its transmission axis and the light's polarisation direction becomes close to 90 degrees",
+    "hint": "Malus's law: $I = I_0\\cos^2\\theta$, which falls to zero as $\\theta \\to 90^\\circ$."
+  },
+  {
+    "qsrc": "Q15b",
+    "inquiry_id": "7.2",
+    "type": "numeric-entry",
+    "prompt": "Polarised light of intensity 12 W m$^{-2}$ passes through a polarising filter whose transmission axis is at 60 degrees to the light's polarisation direction. Calculate the transmitted intensity.",
+    "answer": 3,
+    "unit": "W m^{-2}",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$I = I_0\\cos^2\\theta = 12 \\times \\cos^2 60^\\circ$."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Copper has a threshold frequency of $1.0 \\times 10^{15}$ Hz for the photoelectric effect. Calculate its work function in electronvolts. Use $h = 6.626 \\times 10^{-34}$ J s and $1$ eV $= 1.602 \\times 10^{-19}$ J.",
+    "answer": 4.1,
+    "unit": "eV",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\phi = hf_0$; divide the result in joules by $1.602 \\times 10^{-19}$ to get electronvolts."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "Light with a frequency below copper's threshold frequency of $1.0 \\times 10^{15}$ Hz cannot eject photoelectrons from copper, no matter how intense the light is.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Each photon must carry at least the work function energy; more low-energy photons still cannot free an electron."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "In a hydrogen atom, which electron transition emits the photon with the shortest wavelength?",
+    "options": [
+      "n = 5 to n = 1",
+      "n = 3 to n = 2",
+      "n = 4 to n = 3",
+      "n = 2 to n = 1"
+    ],
+    "answer": "n = 5 to n = 1",
+    "hint": "Shortest wavelength means highest photon energy, so look for the transition with the largest energy gap."
+  },
+  {
+    "qsrc": "Q17b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "The larger the energy gap in an electron transition, the shorter the wavelength of the emitted photon.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$E = hf = \\dfrac{hc}{\\lambda}$, so a bigger energy gap means a smaller wavelength."
+  },
+
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "8.2",
+    "type": "true-false",
+    "prompt": "The main conclusion drawn from the gold foil (Geiger-Marsden) experiment was that the atom is mostly empty space, with its positive charge and nearly all of its mass concentrated in a tiny central nucleus.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Most alpha particles passed straight through, but a few bounced back sharply off something small and dense."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the de Broglie wavelength of a tennis ball of mass 59.4 g moving at 170 km h$^{-1}$. Use $h = 6.626 \\times 10^{-34}$ J s.",
+    "answer": 2.36e-34,
+    "unit": "m",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Convert the speed to m s$^{-1}$ ($170 / 3.6$), then use $\\lambda = \\dfrac{h}{mv}$."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "8.3",
+    "type": "true-false",
+    "prompt": "The de Broglie wavelength of an everyday object such as a moving tennis ball is far too small to produce any observable diffraction or interference effects.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "A wavelength around $10^{-34}$ m is vastly smaller than any gap or obstacle the ball could meet."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.2",
+    "type": "true-false",
+    "prompt": "In a ripple tank, two sources vibrating in step produce a fixed pattern of alternating regions of large disturbance and regions of near-calm water spreading outwards. This is a demonstration of wave interference.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The still regions are where crests from one source keep meeting troughs from the other (destructive interference)."
+  }
+]

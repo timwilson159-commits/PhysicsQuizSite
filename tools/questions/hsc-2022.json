@@ -1,0 +1,417 @@
+[
+  {
+    "qsrc": "Q1",
+    "inquiry_id": "6.3",
+    "type": "numeric-entry",
+    "prompt": "An ideal transformer has 20 turns on the primary coil and an input (primary) voltage of 100 V. Calculate the number of turns on the secondary coil that would give an output voltage of 400 V.",
+    "answer": 80,
+    "unit": "turns",
+    "tolerance": 1,
+    "tolerance_mode": "relative",
+    "hint": "For an ideal transformer $\\dfrac{N_s}{N_p} = \\dfrac{V_s}{V_p}$."
+  },
+  {
+    "qsrc": "Q1b",
+    "inquiry_id": "6.3",
+    "type": "true-false",
+    "prompt": "A transformer with more turns on the secondary coil than on the primary coil is a step-up transformer.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "More secondary turns gives a larger secondary voltage."
+  },
+
+  {
+    "qsrc": "Q2",
+    "inquiry_id": "7.1",
+    "type": "word-bank",
+    "prompt": "A star's spectrum shows dark absorption lines at particular wavelengths. The feature of the star directly responsible for these lines is its ___.",
+    "bank": ["chemical composition", "size", "colour", "distance from Earth", "rotation"],
+    "answer": ["chemical composition"],
+    "hint": "Each element in the star's cooler outer layers absorbs its own characteristic set of wavelengths."
+  },
+  {
+    "qsrc": "Q2b",
+    "inquiry_id": "7.1",
+    "type": "true-false",
+    "prompt": "The set of wavelengths at which a star's spectrum shows absorption lines acts as a fingerprint that identifies which elements are present in the star.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Every element has its own unique pattern of absorption wavelengths."
+  },
+
+  {
+    "qsrc": "Q3",
+    "inquiry_id": "8.4",
+    "type": "multiple-choice",
+    "prompt": "A radioisotope emits radiation into the region between two charged plates (positive plate on top, negative on the bottom, so the electric field points downwards). The radiation is deflected strongly upwards, towards the positive plate, as shown. What type of radiation is it?",
+    "image_filename": "2022-q3-radiation-deflection.png",
+    "options": [
+      "Beta negative (electrons)",
+      "Alpha",
+      "Gamma",
+      "Beta positive (positrons)"
+    ],
+    "answer": "Beta negative (electrons)",
+    "hint": "A large deflection towards the positive plate means a light, negatively charged particle."
+  },
+  {
+    "qsrc": "Q3b",
+    "inquiry_id": "8.4",
+    "type": "drag-drop",
+    "prompt": "Match each type of nuclear radiation to how it behaves when it passes between two charged plates (positive plate on top).",
+    "pairs": [
+      { "item": "Alpha radiation", "match": "Deflected slightly towards the negative (bottom) plate" },
+      { "item": "Beta-minus radiation", "match": "Deflected strongly towards the positive (top) plate" },
+      { "item": "Gamma radiation", "match": "Not deflected at all" }
+    ],
+    "answer": {
+      "Alpha radiation": "Deflected slightly towards the negative (bottom) plate",
+      "Beta-minus radiation": "Deflected strongly towards the positive (top) plate",
+      "Gamma radiation": "Not deflected at all"
+    },
+    "hint": "Alpha is heavy and positive (small deflection); beta-minus is light and negative (large deflection the other way); gamma is uncharged."
+  },
+
+  {
+    "qsrc": "Q4",
+    "inquiry_id": "6.2",
+    "type": "multiple-choice",
+    "prompt": "A straight wire carries a current I directed downwards, in the magnetic field between the poles of two magnets as shown. The field at the wire points to the left. What is the direction of the force on the wire?",
+    "image_filename": "2022-q4-wire-in-field.png",
+    "options": ["Into the page", "Out of the page", "To the left", "To the right"],
+    "answer": "Into the page",
+    "hint": "Use $\\vec{F} = I\\vec{L} \\times \\vec{B}$ (or the right-hand slap rule) with the current down and the field to the left."
+  },
+  {
+    "qsrc": "Q4b",
+    "inquiry_id": "6.2",
+    "type": "true-false",
+    "prompt": "The force on a current-carrying wire in a magnetic field is a maximum when the wire is perpendicular to the field, and zero when the wire is parallel to the field.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "$F = BIL\\sin\\theta$, where $\\theta$ is the angle between the wire and the field."
+  },
+
+  {
+    "qsrc": "Q5",
+    "inquiry_id": "8.5",
+    "type": "word-bank",
+    "prompt": "The up quark has charge $+\\tfrac{2}{3}e$ and the down quark has charge $-\\tfrac{1}{3}e$. A neutron, which has zero net charge, is made up of ___.",
+    "bank": ["1 up and 2 down quarks", "2 up and 1 down quarks", "1 up and 1 down quark", "2 up and 2 down quarks"],
+    "answer": ["1 up and 2 down quarks"],
+    "hint": "$\\tfrac{2}{3} - \\tfrac{1}{3} - \\tfrac{1}{3} = 0$."
+  },
+  {
+    "qsrc": "Q5b",
+    "inquiry_id": "8.5",
+    "type": "word-bank",
+    "prompt": "Using the same quark charges (up $+\\tfrac{2}{3}e$, down $-\\tfrac{1}{3}e$), a proton, which has charge $+e$, is made up of ___.",
+    "bank": ["2 up and 1 down quarks", "1 up and 2 down quarks", "1 up and 1 down quark", "3 up quarks"],
+    "answer": ["2 up and 1 down quarks"],
+    "hint": "$\\tfrac{2}{3} + \\tfrac{2}{3} - \\tfrac{1}{3} = +1$."
+  },
+
+  {
+    "qsrc": "Q6",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "A planet moves in the elliptical orbit shown, with position P close to the star and position Q far from it. Which type of energy is greater at P than at Q?",
+    "image_filename": "2022-q6-elliptical-orbit.png",
+    "options": ["Kinetic", "Nuclear", "Potential", "Total"],
+    "answer": "Kinetic",
+    "hint": "The planet moves fastest when it is closest to the star; its total energy is constant and its gravitational potential energy is lowest (most negative) at P."
+  },
+  {
+    "qsrc": "Q6b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "As the planet in the elliptical orbit shown moves from P (closest to the star) to Q (farthest), its kinetic energy decreases and its gravitational potential energy increases, while its total mechanical energy stays constant.",
+    "image_filename": "2022-q6-elliptical-orbit.png",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Energy is conserved: KE is traded for gravitational PE as the planet climbs away from the star."
+  },
+
+  {
+    "qsrc": "Q7",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A photon has an energy of $9.0 \\times 10^{-24}$ J. Calculate its frequency. Use $h = 6.63 \\times 10^{-34}$ J s.",
+    "answer": 1.36e10,
+    "unit": "Hz",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$f = E / h$."
+  },
+  {
+    "qsrc": "Q7b",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "Calculate the energy of a photon of light with frequency $5.0 \\times 10^{14}$ Hz. Use $h = 6.63 \\times 10^{-34}$ J s.",
+    "answer": 3.32e-19,
+    "unit": "J",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$E = hf$."
+  },
+
+  {
+    "qsrc": "Q8",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A projectile is launched with velocity u and strikes a vertical wall with velocity v while it is still travelling upwards (it has not yet reached the top of its arc). Air resistance is negligible. Which statement correctly compares the components of u and v?",
+    "image_filename": "2022-q8-projectile-wall.png",
+    "options": [
+      "The vertical component of v is less than the vertical component of u",
+      "The vertical component of v is greater than the vertical component of u",
+      "The horizontal component of v is less than the horizontal component of u",
+      "The horizontal component of v is greater than the horizontal component of u"
+    ],
+    "answer": "The vertical component of v is less than the vertical component of u",
+    "hint": "The horizontal component is unchanged; gravity has reduced the upward vertical component by the time it reaches the wall."
+  },
+
+  {
+    "qsrc": "Q9",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "A black body has a peak emission wavelength of $5.8 \\times 10^{-7}$ m. Calculate its temperature. Use Wien's displacement law $\\lambda_{max} T = b$ with $b = 2.90 \\times 10^{-3}$ m K.",
+    "answer": 5000,
+    "unit": "K",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$T = b / \\lambda_{max}$."
+  },
+
+  {
+    "qsrc": "Q10",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "The orbital speed of a satellite is $v = \\sqrt{\\dfrac{GM}{r}}$. A plot of ___ against ___ would give a straight line through the origin.",
+    "bank": ["$v^2$", "$v$", "$r$", "$\\dfrac{1}{r}$"],
+    "answer": ["$v^2$", "$\\dfrac{1}{r}$"],
+    "hint": "Squaring gives $v^2 = GM \\times \\dfrac{1}{r}$, which is linear in $\\dfrac{1}{r}$."
+  },
+  {
+    "qsrc": "Q10b",
+    "inquiry_id": "5.3",
+    "type": "word-bank",
+    "prompt": "From $v = \\sqrt{\\dfrac{GM}{r}}$, the orbital speed is proportional to $r$ raised to the power ___.",
+    "bank": ["$-\\tfrac{1}{2}$", "$\\tfrac{1}{2}$", "$-1$", "$-2$"],
+    "answer": ["$-\\tfrac{1}{2}$"],
+    "hint": "$v \\propto r^{-1/2}$, so a larger orbit means a slower satellite."
+  },
+
+  {
+    "qsrc": "Q11",
+    "inquiry_id": "5.1",
+    "type": "multiple-choice",
+    "prompt": "A projectile is launched vertically upwards. Which best describes its velocity-time graph from launch until it returns to its starting height (taking upward as positive, air resistance negligible)?",
+    "options": [
+      "A straight line with constant negative slope, starting positive and passing through zero at the highest point",
+      "A horizontal line at a constant positive value",
+      "A curve that rises and then levels off",
+      "A straight line with constant positive slope"
+    ],
+    "answer": "A straight line with constant negative slope, starting positive and passing through zero at the highest point",
+    "hint": "The acceleration is a constant g downwards, so the velocity changes at a constant rate."
+  },
+  {
+    "qsrc": "Q11b",
+    "inquiry_id": "5.1",
+    "type": "true-false",
+    "prompt": "For a projectile launched vertically upwards, the acceleration is g downwards for the whole flight, including at the highest point where the velocity is momentarily zero.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Zero velocity does not mean zero acceleration; gravity acts the whole time."
+  },
+
+  {
+    "qsrc": "Q12",
+    "inquiry_id": "6.1",
+    "type": "word-bank",
+    "prompt": "In the region shown there is a downward electric field (positive plate on top) and a magnetic field directed into the page. A positive charge passes through at constant velocity. The charge must be moving to the ___.",
+    "image_filename": "2022-q12-velocity-selector.png",
+    "bank": ["right", "left", "top of the page", "bottom of the page"],
+    "answer": ["right"],
+    "hint": "The electric force on the positive charge is downwards, so the magnetic force must be upwards; $q\\vec{v} \\times \\vec{B}$ points up only when v points to the right."
+  },
+  {
+    "qsrc": "Q12b",
+    "inquiry_id": "6.1",
+    "type": "true-false",
+    "prompt": "A crossed-field (velocity selector) arrangement like this one lets only charged particles with one particular speed pass straight through; particles moving faster or slower are deflected.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The electric force is fixed, but the magnetic force depends on speed, so balance occurs at only one speed."
+  },
+
+  {
+    "qsrc": "Q13",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "Two satellites share the same circular orbit around a planet. One satellite has twice the mass of the other. Which quantity is different for the two satellites?",
+    "options": ["Momentum", "Speed", "Orbital period", "Centripetal acceleration"],
+    "answer": "Momentum",
+    "hint": "Speed, period and centripetal acceleration depend only on the orbital radius and the planet's mass; momentum ($p = mv$) also depends on the satellite's mass."
+  },
+  {
+    "qsrc": "Q13b",
+    "inquiry_id": "5.3",
+    "type": "true-false",
+    "prompt": "Two satellites in the same circular orbit around a planet have the same orbital speed and the same orbital period, regardless of their masses.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The satellite's mass cancels out of the equation for orbital speed."
+  },
+
+  {
+    "qsrc": "Q14",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "Line X on the graph shows the results of a photoelectric-effect experiment (maximum photoelectron kinetic energy against light frequency). Line Y is parallel to X but has a higher frequency intercept. What change to the experiment would produce the results shown by line Y?",
+    "image_filename": "2022-q14-photoelectric-lines.png",
+    "options": [
+      "Using a metal that has a greater work function",
+      "Increasing the frequency of the radiation",
+      "Decreasing the intensity of the incident radiation",
+      "Decreasing the maximum energy of the photoelectrons"
+    ],
+    "answer": "Using a metal that has a greater work function",
+    "hint": "The two lines have the same gradient (h), so only the metal has changed; a higher threshold frequency means a larger work function."
+  },
+  {
+    "qsrc": "Q14b",
+    "inquiry_id": "7.3",
+    "type": "true-false",
+    "prompt": "On a graph of maximum photoelectron kinetic energy against light frequency, using a different metal shifts the line sideways (changing the threshold frequency) but does not change the gradient of the line.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The gradient is Planck's constant, which is the same for every metal."
+  },
+
+  {
+    "qsrc": "Q15",
+    "inquiry_id": "6.2",
+    "type": "word-bank",
+    "prompt": "The magnetic force per unit length between two parallel wires is proportional to the product of their currents divided by their separation. Two wires a distance d apart carry equal currents and feel a force F. If the separation is increased to 4d and each current is doubled, the new force is ___.",
+    "bank": ["F (unchanged)", "4F", "F/4", "F/8"],
+    "answer": ["F (unchanged)"],
+    "hint": "Doubling both currents multiplies the force by 4; quadrupling the separation divides it by 4; the two effects cancel."
+  },
+
+  {
+    "qsrc": "Q16",
+    "inquiry_id": "8.4",
+    "type": "drag-drop",
+    "prompt": "The binding energy of helium-4 is 28.3 MeV and the binding energy of beryllium-6 is 26.9 MeV. Match each comparison to the correct answer.",
+    "pairs": [
+      { "item": "Energy needed to separate a He-4 nucleus into its individual protons and neutrons, compared with Be-6", "match": "More" },
+      { "item": "Mass of a He-4 atom, compared with a Be-6 atom", "match": "Less" }
+    ],
+    "answer": {
+      "Energy needed to separate a He-4 nucleus into its individual protons and neutrons, compared with Be-6": "More",
+      "Mass of a He-4 atom, compared with a Be-6 atom": "Less"
+    },
+    "hint": "Total binding energy is the energy needed to pull a nucleus apart (He-4's is larger). He-4 has only 4 nucleons versus Be-6's 6, so it is less massive overall."
+  },
+  {
+    "qsrc": "Q16b",
+    "inquiry_id": "8.4",
+    "type": "true-false",
+    "prompt": "A nucleus with a higher total binding energy is more tightly bound and needs more energy supplied to separate it into its individual protons and neutrons.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Total binding energy is, by definition, the energy needed to completely separate the nucleons."
+  },
+
+  {
+    "qsrc": "Q17",
+    "inquiry_id": "7.2",
+    "type": "multiple-choice",
+    "prompt": "Unpolarised light of intensity $I_0$ passes through a polarising filter that is slowly rotated through a full 360 degrees, then reaches a pair of glasses: one lens transmits vertically polarised light (giving intensity $I_y$) and the other transmits horizontally polarised light (giving intensity $I_z$). As the filter rotates, which statement is correct?",
+    "image_filename": "2022-q17-polariser-glasses.png",
+    "options": [
+      "$I_y$ is sometimes equal to $I_z$",
+      "$I_y$ is never equal to $I_z$",
+      "$I_y$ is sometimes equal to $I_0$",
+      "$I_y$ is never equal to the intensity of the light leaving the rotating filter"
+    ],
+    "answer": "$I_y$ is sometimes equal to $I_z$",
+    "hint": "After the rotating filter the light has intensity $I_0/2$ polarised at the filter's angle. Then $I_y = \\tfrac{I_0}{2}\\cos^2\\theta$ and $I_z = \\tfrac{I_0}{2}\\sin^2\\theta$, which are equal when the filter is at 45 degrees."
+  },
+
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "6.1",
+    "type": "drag-drop",
+    "prompt": "A charged oil droplet in Millikan's apparatus falls at a constant speed while the switch is open, then rises at the same constant speed once the switch is closed. The possible forces are gravity ($F_G$, down), the electric force ($F_E$) and air friction ($F_F$, always opposing the motion). Match each stage to the correct force balance.",
+    "pairs": [
+      { "item": "Switch open (droplet falling at constant speed)", "match": "$F_G = F_F$" },
+      { "item": "Switch closed (droplet rising at constant speed)", "match": "$F_E = F_G + F_F$" }
+    ],
+    "answer": {
+      "Switch open (droplet falling at constant speed)": "$F_G = F_F$",
+      "Switch closed (droplet rising at constant speed)": "$F_E = F_G + F_F$"
+    },
+    "hint": "Constant speed means zero net force. When falling, friction acts up against gravity. When rising, friction acts down, so the upward electric force must balance both gravity and friction."
+  },
+  {
+    "qsrc": "Q18b",
+    "inquiry_id": "6.1",
+    "type": "true-false",
+    "prompt": "While the oil droplet moves at a constant speed (whether falling or rising), the net force acting on it is zero.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Constant velocity means zero acceleration, so the forces are balanced."
+  },
+
+  {
+    "qsrc": "Q19",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "An AC generator is turned at constant speed to light a globe (Circuit 1). A second identical globe is then connected in series with the first, and the handle is turned at the same speed (Circuit 2). How does the effort needed to turn the handle in Circuit 2 compare with Circuit 1, and why?",
+    "options": [
+      "Easier, because the extra globe in series reduces the current, which produces less opposing torque",
+      "Easier, because the output voltage is now shared across two globes",
+      "Harder, because the larger current in Circuit 2 produces more opposing torque",
+      "Harder, because it takes more power to run two globes than one"
+    ],
+    "answer": "Easier, because the extra globe in series reduces the current, which produces less opposing torque",
+    "hint": "Adding resistance in series lowers the current; the opposing (back) torque on the coil is proportional to that current."
+  },
+  {
+    "qsrc": "Q19b",
+    "inquiry_id": "6.4",
+    "type": "true-false",
+    "prompt": "Adding more resistance in series with an AC generator's output reduces the current it delivers, which reduces the torque opposing the rotation and makes the handle easier to turn.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "Less current means a weaker interaction between the coil and the field, so less opposing torque."
+  },
+
+  {
+    "qsrc": "Q20",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "A car travels at a uniform 0.4c past a stationary observer. Consider the instantaneous speeds of three points on one wheel relative to the ground, at the instant the wheel's centre (Q) passes the observer: P is the point touching the road, Q is the centre, R is the top. Assuming the tyre does not slip, how does the relativistic length contraction compare at P, Q and R?",
+    "image_filename": "2022-q20-rolling-wheel.png",
+    "options": [
+      "It is zero at P and greatest at R",
+      "It is the same at P, Q and R",
+      "It is equal at P and R, and least at Q",
+      "It is zero at P and the same value at Q and R"
+    ],
+    "answer": "It is zero at P and greatest at R",
+    "hint": "For rolling without slipping, the contact point P is instantaneously at rest, the centre Q moves at 0.4c, and the top R moves at 0.8c relative to the ground; more speed means more contraction."
+  },
+  {
+    "qsrc": "Q20b",
+    "inquiry_id": "7.4",
+    "type": "true-false",
+    "prompt": "For a wheel rolling without slipping, the point touching the ground is instantaneously at rest relative to the ground, while the top of the wheel moves at twice the speed of the wheel's centre.",
+    "options": ["True", "False"],
+    "answer": "True",
+    "hint": "The velocity of any point is the sum of the centre's velocity and the rotational velocity about the centre; these cancel at the bottom and add at the top."
+  }
+]

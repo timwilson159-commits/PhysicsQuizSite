@@ -1,0 +1,247 @@
+[
+  {
+    "qsrc": "Q21a",
+    "inquiry_id": "5.2",
+    "type": "numeric-entry",
+    "prompt": "A force of 75 N is applied to a spanner at a point 18 cm from the nut, at an angle of 40 degrees to the spanner. Calculate the magnitude of the torque produced about the nut.",
+    "answer": 8.7,
+    "unit": "N m",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$\\tau = rF\\sin\\theta = 0.18 \\times 75 \\times \\sin40^\\circ$."
+  },
+  {
+    "qsrc": "Q21b",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "Which change would increase the torque produced by a simple DC motor?",
+    "options": [
+      "Increasing the current through the coil (or adding more turns to the coil)",
+      "Using a weaker permanent magnet",
+      "Reducing the area of the coil",
+      "Adding resistance in series with the coil"
+    ],
+    "answer": "Increasing the current through the coil (or adding more turns to the coil)",
+    "hint": "$\\tau = nBIA\\sin\\theta$: more current, more turns, a stronger field or a larger coil area all increase the torque."
+  },
+  {
+    "qsrc": "Q22a",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "Hubble's graph shows that the recessional velocity of a galaxy is proportional to its distance from Earth. What does this tell us about the Universe?",
+    "options": [
+      "The Universe is expanding, with every galaxy moving away from every other, faster the further apart they are",
+      "The Universe is contracting towards a single point",
+      "The Universe is static and unchanging",
+      "The Earth is at the exact centre of the Universe"
+    ],
+    "answer": "The Universe is expanding, with every galaxy moving away from every other, faster the further apart they are",
+    "hint": "A velocity that grows in proportion to distance is exactly what a uniform expansion produces."
+  },
+  {
+    "qsrc": "Q22b",
+    "inquiry_id": "8.1",
+    "type": "multiple-choice",
+    "prompt": "How were the recessional velocities of galaxies determined for Hubble's graph?",
+    "options": [
+      "From the redshift of known spectral lines in each galaxy's light, using the Doppler effect",
+      "By timing how long the galaxies took to cross the field of view",
+      "From how quickly each galaxy faded over several years",
+      "By measuring the total brightness of each galaxy"
+    ],
+    "answer": "From the redshift of known spectral lines in each galaxy's light, using the Doppler effect",
+    "hint": "A line whose wavelength is shifted towards the red end indicates a source moving away, and the size of the shift gives the speed."
+  },
+  {
+    "qsrc": "Q23ai",
+    "inquiry_id": "8.2",
+    "type": "multiple-choice",
+    "prompt": "In Chadwick's 1932 experiment, alpha particles struck beryllium and produced an unknown radiation that was then directed at paraffin. What was the role of the paraffin?",
+    "options": [
+      "The unknown radiation knocked protons out of the hydrogen-rich paraffin; measuring the energy and momentum of those protons showed the radiation was a neutral particle with a mass close to the proton's",
+      "The paraffin absorbed all the radiation, proving it was gamma rays",
+      "The paraffin deflected the radiation in a magnetic field, revealing its charge",
+      "The paraffin slowed the alpha particles before they reached the beryllium"
+    ],
+    "answer": "The unknown radiation knocked protons out of the hydrogen-rich paraffin; measuring the energy and momentum of those protons showed the radiation was a neutral particle with a mass close to the proton's",
+    "hint": "Only a particle with mass similar to the proton's could transfer so much energy to a proton in a collision; a photon could not."
+  },
+  {
+    "qsrc": "Q23b",
+    "inquiry_id": "8.3",
+    "type": "multiple-choice",
+    "prompt": "How did de Broglie's hypothesis address a limitation of the Bohr-Rutherford model of the atom?",
+    "options": [
+      "Bohr simply assumed that only certain orbits were allowed; de Broglie explained this by treating the electron as a wave, so an allowed orbit is one whose circumference fits a whole number of electron wavelengths (a standing wave)",
+      "de Broglie showed the nucleus was positively charged",
+      "de Broglie proved that electrons do not orbit the nucleus at all",
+      "de Broglie calculated the exact mass of the electron for the first time"
+    ],
+    "answer": "Bohr simply assumed that only certain orbits were allowed; de Broglie explained this by treating the electron as a wave, so an allowed orbit is one whose circumference fits a whole number of electron wavelengths (a standing wave)",
+    "hint": "Bohr's quantisation condition was a postulate with no justification; de Broglie's standing-wave picture gave it a physical reason."
+  },
+  {
+    "qsrc": "Q24a",
+    "inquiry_id": "7.3",
+    "type": "numeric-entry",
+    "prompt": "The continuous spectrum from a star's surface peaks at a wavelength of 500 nm. Calculate the star's surface temperature. Use Wien's displacement constant $b = 2.898 \\times 10^{-3}$ m K.",
+    "answer": 5800,
+    "unit": "K",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "$T = \\dfrac{b}{\\lambda_{max}}$ with $\\lambda_{max} = 5.0 \\times 10^{-7}$ m."
+  },
+  {
+    "qsrc": "Q24b",
+    "inquiry_id": "8.3",
+    "type": "numeric-entry",
+    "prompt": "Absorption line W is produced by an electron transition between the second and sixth energy levels of hydrogen. Using $\\dfrac{1}{\\lambda} = R\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ with $R = 1.097 \\times 10^{7}$ m$^{-1}$, calculate the frequency of the absorbed light. Use $c = 3.0 \\times 10^{8}$ m s$^{-1}$.",
+    "answer": 7.3e14,
+    "unit": "Hz",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "Use $n_f = 2$ and $n_i = 6$ to get $\\lambda$, then $f = \\dfrac{c}{\\lambda}$."
+  },
+  {
+    "qsrc": "Q24c",
+    "inquiry_id": "7.3",
+    "type": "multiple-choice",
+    "prompt": "What physical processes produce a stellar absorption spectrum?",
+    "options": [
+      "The hot, dense surface of the star emits a continuous spectrum; as this light passes through the star's cooler outer gas, atoms absorb photons of exactly the energies matching their electron transitions, leaving dark lines at those wavelengths",
+      "The star emits only a few wavelengths, which appear as bright lines",
+      "The star's magnetic field removes certain colours from the light",
+      "Dust between the star and Earth scatters away random wavelengths"
+    ],
+    "answer": "The hot, dense surface of the star emits a continuous spectrum; as this light passes through the star's cooler outer gas, atoms absorb photons of exactly the energies matching their electron transitions, leaving dark lines at those wavelengths",
+    "hint": "Absorption lines appear at the same wavelengths the same gas would emit if it were excited."
+  },
+  {
+    "qsrc": "Q25a",
+    "inquiry_id": "5.3",
+    "type": "multiple-choice",
+    "prompt": "The relationship $\\dfrac{r^3}{T^2} = \\dfrac{GM}{4\\pi^2}$ for a satellite orbit is derived by:",
+    "options": [
+      "Setting the gravitational force $\\dfrac{GMm}{r^2}$ equal to the centripetal force $\\dfrac{mv^2}{r}$, and substituting $v = \\dfrac{2\\pi r}{T}$",
+      "Equating the satellite's kinetic energy to its gravitational potential energy",
+      "Setting the gravitational force equal to the satellite's weight at Earth's surface",
+      "Using $v = u + at$ with $a = g$"
+    ],
+    "answer": "Setting the gravitational force $\\dfrac{GMm}{r^2}$ equal to the centripetal force $\\dfrac{mv^2}{r}$, and substituting $v = \\dfrac{2\\pi r}{T}$",
+    "hint": "Gravity supplies exactly the centripetal force needed for the circular orbit."
+  },
+  {
+    "qsrc": "Q26",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "Muons produced high in the atmosphere reach the ground even though, classically, they should decay first. How does relativity explain this from each frame of reference?",
+    "options": [
+      "From Earth's frame, the fast muon's lifetime is dilated (stretched), so it lasts long enough to reach the ground; from the muon's frame, the distance to the ground is length-contracted (shortened), so it covers it in time",
+      "From both frames, the muons simply travel faster than light",
+      "The muons are replaced by new muons continuously, so some always reach the ground",
+      "Earth's magnetic field speeds the muons up as they fall"
+    ],
+    "answer": "From Earth's frame, the fast muon's lifetime is dilated (stretched), so it lasts long enough to reach the ground; from the muon's frame, the distance to the ground is length-contracted (shortened), so it covers it in time",
+    "hint": "Time dilation and length contraction are two views of the same result: the muon makes the trip within its lifetime."
+  },
+  {
+    "qsrc": "Q27a",
+    "inquiry_id": "8.5",
+    "type": "multiple-choice",
+    "prompt": "Each pion is made of one quark and one antiquark. Which is the correct quark content?",
+    "options": [
+      "$\\pi^+$ = up + anti-down; $\\pi^-$ = down + anti-up; $\\pi^0$ = up + anti-up",
+      "$\\pi^+$ = up + up; $\\pi^-$ = down + down; $\\pi^0$ = up + down",
+      "$\\pi^+$ = down + anti-up; $\\pi^-$ = up + anti-down; $\\pi^0$ = down + anti-down",
+      "All three pions are made of three quarks, like a proton"
+    ],
+    "answer": "$\\pi^+$ = up + anti-down; $\\pi^-$ = down + anti-up; $\\pi^0$ = up + anti-up",
+    "hint": "Check the charges add up: up is $+\\tfrac{2}{3}$, anti-down is $+\\tfrac{1}{3}$, so $\\pi^+$ is $+1$."
+  },
+  {
+    "qsrc": "Q27b",
+    "inquiry_id": "8.5",
+    "type": "numeric-entry",
+    "prompt": "A proton (rest mass 940 MeV/c$^2$) and an antiproton (940 MeV/c$^2$), both essentially at rest, annihilate to produce three pions, each of rest mass 140 MeV/c$^2$. The leftover energy is shared equally as kinetic energy among the three pions. Calculate the kinetic energy given to each pion.",
+    "answer": 487,
+    "unit": "MeV",
+    "tolerance": 3,
+    "tolerance_mode": "relative",
+    "hint": "Energy released = (940 + 940) - 3 x 140 = 1460 MeV; divide by 3."
+  },
+  {
+    "qsrc": "Q27c",
+    "inquiry_id": "7.4",
+    "type": "multiple-choice",
+    "prompt": "A classical calculation gives each pion a speed greater than $3 \\times 10^{8}$ m s$^{-1}$. What is the problem, and how is it resolved?",
+    "options": [
+      "Nothing with mass can reach or exceed the speed of light; using relativistic mechanics, the released energy goes into relativistic momentum (relativistic mass), so the actual speed stays just below c",
+      "The calculation is fine; pions really do travel faster than light because they are so light",
+      "The problem is solved by ignoring the kinetic energy of the pions",
+      "The pions must actually be photons, which travel at exactly c"
+    ],
+    "answer": "Nothing with mass can reach or exceed the speed of light; using relativistic mechanics, the released energy goes into relativistic momentum (relativistic mass), so the actual speed stays just below c",
+    "hint": "The classical formula $KE = \\tfrac{1}{2}mv^2$ fails near c; the relativistic version keeps $v < c$ no matter how much energy is added."
+  },
+  {
+    "qsrc": "Q28a",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "An electron travels through a uniform electric field of $1.5 \\times 10^{4}$ N C$^{-1}$ between parallel plates. Calculate the acceleration of the electron. Use electron charge $1.602 \\times 10^{-19}$ C and mass $9.109 \\times 10^{-31}$ kg.",
+    "answer": 2.6e15,
+    "unit": "m s^{-2}",
+    "tolerance": 4,
+    "tolerance_mode": "relative",
+    "hint": "$a = \\dfrac{F}{m} = \\dfrac{qE}{m}$."
+  },
+  {
+    "qsrc": "Q28b",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "The electron beam enters the plates at $2.0 \\times 10^{6}$ m s$^{-1}$ and the plates are 5.0 mm long. With a vertical acceleration of $2.6 \\times 10^{15}$ m s$^{-2}$, calculate the vertical displacement of the beam by the time it leaves the plates.",
+    "answer": 8.1,
+    "unit": "mm",
+    "tolerance": 5,
+    "tolerance_mode": "relative",
+    "hint": "Time between the plates $t = \\dfrac{5.0 \\times 10^{-3}}{2.0 \\times 10^{6}}$; then $y = \\tfrac{1}{2}at^2$."
+  },
+  {
+    "qsrc": "Q28c",
+    "inquiry_id": "6.1",
+    "type": "numeric-entry",
+    "prompt": "After leaving the plates (with a vertical displacement of 8.1 mm and a vertical velocity of about $6.6 \\times 10^{6}$ m s$^{-1}$), the electron beam travels a further 30 mm horizontally to a screen at $2.0 \\times 10^{6}$ m s$^{-1}$. Calculate how far from the undeflected point X the beam strikes the screen.",
+    "answer": 107,
+    "unit": "mm",
+    "tolerance": 6,
+    "tolerance_mode": "relative",
+    "hint": "Time from plates to screen $= \\dfrac{30 \\times 10^{-3}}{2.0 \\times 10^{6}}$; extra drop $= v_y t$; add the 8.1 mm from inside the plates."
+  },
+  {
+    "qsrc": "Q30",
+    "inquiry_id": "5.2",
+    "type": "multiple-choice",
+    "prompt": "An object rides on the floor of a rotating hollow cylinder, undergoing uniform circular motion. If the rotation period is halved, what happens to the forces on the object (ignore friction)?",
+    "options": [
+      "The angular velocity doubles, so the centripetal acceleration ($\\omega^2 r$) quadruples; the inward normal force from the wall, which supplies it, also quadruples, while the object's weight and the floor's support force are unchanged",
+      "All the forces on the object double",
+      "The centripetal force halves, because the period halved",
+      "None of the forces change, because the object's mass and radius are the same"
+    ],
+    "answer": "The angular velocity doubles, so the centripetal acceleration ($\\omega^2 r$) quadruples; the inward normal force from the wall, which supplies it, also quadruples, while the object's weight and the floor's support force are unchanged",
+    "hint": "Centripetal acceleration is $\\dfrac{4\\pi^2 r}{T^2}$, so halving T multiplies it by 4."
+  },
+  {
+    "qsrc": "Q33",
+    "inquiry_id": "6.3",
+    "type": "multiple-choice",
+    "prompt": "A magnet swings as a pendulum just above a freely rotating aluminium can. What happens to the can and the magnet?",
+    "options": [
+      "The moving magnet induces eddy currents in the can; by Lenz's law these drag the can into rotation, following the magnet. The magnet loses mechanical energy (transformed into electrical energy and then heat in the can), so its swing is damped",
+      "The can is unaffected because aluminium is not magnetic, and the magnet swings forever",
+      "The can spins up while the magnet's swing grows larger and larger",
+      "The magnet is repelled straight upward and never swings back"
+    ],
+    "answer": "The moving magnet induces eddy currents in the can; by Lenz's law these drag the can into rotation, following the magnet. The magnet loses mechanical energy (transformed into electrical energy and then heat in the can), so its swing is damped",
+    "hint": "Eddy-current coupling transfers energy from the magnet's motion to the can and then to heat, so total energy is conserved while the magnet slows."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "qsrc": "Q18",
+    "inquiry_id": "6.4",
+    "type": "multiple-choice",
+    "prompt": "A circular loop of wire connected to a battery and a lamp is moved at constant velocity from P (outside a uniform magnetic field region) through the field to Q (outside it again), along the path shown. Which graph shows the brightness of the lamp as the apparatus moves from P to Q?",
+    "image_filename": "",
+    "options": ["Graph A", "Graph B", "Graph C", "Graph D"],
+    "answer": "Graph B",
+    "hint": "An EMF is induced only while the loop is entering or leaving the field; while it is fully inside there is no change in flux.",
+    "quarantine_reason": "The original question needs TWO figures at once: the moving-loop stimulus (2019_img16) AND the four brightness-vs-time option graphs (2019_img17). The platform allows only one image per question, and the answer is graph-shape dependent (cannot be reworded to text without losing the point). Options for resolution: (a) supply a single combined image with both the setup and the four labelled graphs, and keep it as a Graph A/B/C/D MCQ; (b) approve dropping this question; (c) approve an ordering-type reword such as: order the brightness stages 'normal (fully outside) -> changed (entering) -> normal (fully inside) -> changed the other way (leaving) -> normal (fully outside)' -- but this needs confirmation of whether the lamp brightens or dims on entry, which depends on the battery orientation and field direction shown in img16."
+  }
+]
