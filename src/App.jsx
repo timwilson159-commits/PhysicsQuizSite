@@ -167,10 +167,13 @@ Notes:
 - Wrap maths in $...$ (inline) or $$...$$ (display) LaTeX anywhere in prompt,
   options, bank, items, unit or hint. Plain Unicode (v², ω, Δt, ×) also renders.
   A unit written as bare LaTeX (m s^{-1}) is auto-detected, but $...$ is clearer.
-- numeric-entry: "answer" is the expected number. "tolerance" is optional
-  (default 2, treated as a percent); "tolerance_mode" is "relative" (percent) or
-  "absolute" (± value in the answer's units). "unit" is shown beside the input,
-  not typed by the student. Use "absolute" whenever the expected answer is 0.`;
+- numeric-entry: "answer" is the expected number (a plain JSON number, e.g. 19.6
+  or 5.83e24). "tolerance" is optional (default 2, treated as a percent);
+  "tolerance_mode" is "relative" (percent) or "absolute" (± value in the answer's
+  units). "unit" is shown beside the input, not typed by the student. Use
+  "absolute" whenever the expected answer is 0. Students may enter the value as a
+  plain decimal or in scientific notation (5.6e-3, 5.6 x 10^-3, 5.6 × 10⁻³);
+  grading is on the numeric value, so every equivalent form scores the same.`;
 
 const BULK_STUDENT_GUIDE = `Smith, John, 12PHYS1, 12, STU-AB12
 Jones, Emily, 12PHYS1, 12, STU-CD34
@@ -365,9 +368,62 @@ function calcScore(questions, answers) {
 
 // numeric-entry: a null tolerance means "use the default" -- 2, read as a percent.
 const NUMERIC_DEFAULT_TOLERANCE = 2;
+
+// Turn whatever a student typed into a Number. Accepts a plain decimal
+// (0.0056, -2.5, .5, 4250), native exponent form (5.6e-3, 6.02E23) and
+// scientific notation written out with x / * / unicode times and an optional
+// caret: "5.6 x 10^-3", "5.6*10**-3", "5.6 x 10 -3", "5.6 × 10⁻³", "10^5".
+// The exact numeric value is what gets graded, so 0.0056 and 5.6e-3 and
+// 5.6×10⁻³ all score identically. Anything ambiguous or incomplete returns
+// NaN -- callers treat that as "no valid answer" and the field says so rather
+// than guessing.
+const SUPERSCRIPTS = {
+  "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
+  "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
+  "⁺": "+", "⁻": "-",
+};
+function parseNumericInput(raw) {
+  if (raw == null) return NaN;
+  let s = String(raw).trim();
+  if (!s) return NaN;
+  s = s
+    .replace(/[   ]/g, " ")                       // odd spaces -> space
+    .replace(/[−–—]/g, "-")                       // minus / dashes -> hyphen
+    .replace(/[×✕✖∗⋅∙]/g, "x")     // ×, ✕, ∗, ⋅, ∙ -> x
+    .replace(/,/g, "");                                          // strip thousands separators
+  // Superscript exponent digits:  10⁻³ -> 10^-3
+  s = s.replace(/[⁰¹²³⁴-⁹⁺⁻]+/g, m =>
+    "^" + m.split("").map(ch => SUPERSCRIPTS[ch] || "").join(""));
+  s = s.replace(/\^\s*\^/g, "^").replace(/\s*([-+x*^e])\s*/gi, "$1");
+  if (/\d\s+\d/.test(s)) return NaN;   // a stray gap between digits is a typo, not notation
+  s = s.replace(/\s+/g, "");
+  if (!s) return NaN;
+  // Plain decimal, optionally with a native exponent.
+  if (/^[+-]?(\d+\.?\d*|\.\d+)(e[+-]?\d+)?$/i.test(s)) return Number(s);
+  // Mantissa, then x or *, then 10, then an optional ^ / ** / e, then the exponent.
+  let m = s.match(/^([+-]?(?:\d+\.?\d*|\.\d+))(?:x|\*)10(?:\^|\*\*|e)?([+-]?\d+)$/i);
+  if (m) return Number(m[1]) * Math.pow(10, Number(m[2]));
+  // Bare power of ten, mantissa 1 implied:  10^5,  x10^-3
+  m = s.match(/^(?:x|\*)?10(?:\^|\*\*|e)?([+-]?\d+)$/i);
+  if (m) return Math.pow(10, Number(m[1]));
+  return NaN;
+}
+
+// A tidy, faithful readout of a parsed value for the "Interpreted as" echo:
+// plain decimal for human-sized numbers, m x 10^n (as LaTeX) for the extremes.
+function formatParsedEcho(n) {
+  if (!isFinite(n)) return null;
+  if (n === 0) return "0";
+  const abs = Math.abs(n);
+  if (abs >= 1e-4 && abs < 1e7) return Number(n.toPrecision(12)).toString();
+  const exp = Math.floor(Math.log10(abs));
+  const mant = Number((n / Math.pow(10, exp)).toPrecision(12)).toString();
+  return `$${mant} \\times 10^{${exp}}$`;
+}
+
 function numericMatches(q, ans) {
   const target = Number(q.answer);
-  const val = Number(String(ans).trim());
+  const val = parseNumericInput(ans);
   if (!isFinite(target) || !isFinite(val)) return false;
   const mode = q.tolerance_mode === "absolute" ? "absolute" : "relative";
   const tol = q.tolerance == null || q.tolerance === "" ? NUMERIC_DEFAULT_TOLERANCE : Number(q.tolerance);
@@ -401,7 +457,7 @@ function hasAnswer(q, ans) {
   }
   if (q.type === "drag-drop") return q.pairs && q.pairs.some(p => ans[p.item]);
   if (q.type === "ordering") return Array.isArray(ans) && ans.length > 0;
-  if (q.type === "numeric-entry") return String(ans).trim() !== "" && isFinite(Number(String(ans).trim()));
+  if (q.type === "numeric-entry") return String(ans).trim() !== "" && isFinite(parseNumericInput(ans));
   return true;
 }
 
@@ -1303,6 +1359,10 @@ function Ordering({ q, ans, setAns, revealed }) {
 
 // Student types a number; the unit sits beside the field as a fixed label and is
 // never typed. Scored by numericMatches() with the question's own tolerance.
+// The field accepts a plain decimal or scientific notation in any common style
+// (5.6e-3, 5.6 x 10^-3, 5.6 × 10⁻³); parseNumericInput() normalises it and an
+// "Interpreted as" line echoes the exact value that will be graded, so a student
+// can catch a mistyped exponent before pressing Check Answer.
 // Not an auto-reveal type -- the student presses "Check Answer" so a mid-typing
 // pause is never marked.
 function NumericEntry({ q, ans, setAns, revealed }) {
@@ -1313,6 +1373,8 @@ function NumericEntry({ q, ans, setAns, revealed }) {
   const tolText = mode === "absolute"
     ? `±${tol}${q.unit ? " " + q.unit : ""}`
     : `±${tol}%`;
+  const typed = value.trim() !== "";
+  const echoText = typed ? formatParsedEcho(parseNumericInput(value)) : null;
   return (
     <div>
       <QuestionImage src={q.image} />
@@ -1320,8 +1382,8 @@ function NumericEntry({ q, ans, setAns, revealed }) {
         <input
           type="text" inputMode="decimal" autoComplete="off" spellCheck={false}
           value={value} disabled={revealed}
-          onChange={e => setAns(e.target.value.replace(/[^0-9eE.,+\-\s]/g, "").replace(/,/g, ""))}
-          placeholder="Enter a value"
+          onChange={e => setAns(e.target.value.replace(/[^0-9eExX.,+\-*^\s×⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻−–—]/g, ""))}
+          placeholder="e.g. 0.0056 or 5.6e-3"
           style={{
             ...S.input, flex: "1 1 200px", fontSize: 18, fontWeight: 700, fontFamily: MONO,
             borderColor: revealed ? (correct ? C.good : C.bad) : C.line,
@@ -1336,9 +1398,30 @@ function NumericEntry({ q, ans, setAns, revealed }) {
           }}>{renderRich(q.unit)}</span>
         ) : null}
       </div>
+      {!revealed && typed && (
+        echoText != null ? (
+          <div style={{
+            display: "inline-flex", alignItems: "baseline", gap: 8, flexWrap: "wrap",
+            marginTop: 10, padding: "6px 12px", borderRadius: 9, background: C.lineSoft,
+          }}>
+            <span style={{ fontSize: 12.5, fontWeight: 600, color: C.muted }}>Interpreted as</span>
+            <span style={{ fontSize: 14, fontWeight: 700, fontFamily: MONO, color: C.ink }}>
+              {renderRich(echoText)}{q.unit ? <> {renderRich(q.unit)}</> : null}
+            </span>
+          </div>
+        ) : (
+          <div style={{
+            marginTop: 10, padding: "6px 12px", borderRadius: 9,
+            background: "rgba(245,158,11,.14)", color: "#B45309",
+            fontSize: 12.5, fontWeight: 700, maxWidth: 440,
+          }}>
+            Can't read that value yet. Enter a plain decimal (0.0056) or scientific notation (5.6e-3 or 5.6×10^-3).
+          </div>
+        )
+      )}
       {!revealed && (
-        <p style={{ fontSize: 12.5, color: C.muted, marginTop: 10, fontWeight: 600 }}>
-          Accepted within {tolText} of the correct value. Press "Check Answer" when you're ready.
+        <p style={{ fontSize: 12.5, color: C.muted, marginTop: 8, fontWeight: 600 }}>
+          Accepted within {tolText} of the correct value. Plain decimals and scientific notation (5.6e-3, 5.6×10^-3) are both fine. Press "Check Answer" when you're ready.
         </p>
       )}
       {revealed && (
